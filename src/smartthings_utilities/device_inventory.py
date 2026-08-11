@@ -18,11 +18,12 @@ from .zwave_inventory import _firmware, _hex16, _manufacturer_code, _atomic_writ
 ZWAVE_FIRMWARE_URL = "https://firmware.zwave-js.io/api/v4/updates"
 ZIGBEE_OTA_URL = "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/index.json"
 CATALOG_URL = "https://github.com/SmartThingsCommunity/SmartThingsEdgeDrivers"
-USER_AGENT = "SmartThingsUtilities/0.2 (+https://github.com/delphimon/SmartThingsUtilities)"
+USER_AGENT = "SmartThingsUtilities/0.2.1 (+https://github.com/delphimon/SmartThingsUtilities)"
 
 CSV_FIELDS = [
     "label", "protocol", "resolved_device_name", "device_name_status",
-    "manufacturer", "model", "manufacturer_code", "manufacturer_id",
+    "manufacturer", "manufacturer_status", "model", "model_status",
+    "reported_manufacturer", "reported_model", "manufacturer_code", "manufacturer_id",
     "product_type", "product_id", "matter_vendor_id", "matter_product_id",
     "current_firmware", "current_firmware_status", "latest_firmware",
     "latest_firmware_status", "update_status", "firmware_source",
@@ -57,9 +58,50 @@ def _protocol_block(device: dict[str, Any], protocol: str) -> dict[str, Any]:
 def _catalog_name(device: dict[str, Any], catalog: dict[str, Any]) -> dict[str, Any]:
     protocol = _protocol(device)
     candidates: list[str] = []
+    resolved_manufacturer: str | None = None
+    resolved_model: str | None = None
+    manufacturer_status = "UNKNOWN"
+    model_status = "UNKNOWN"
+    if protocol != "ZWAVE":
+        if isinstance(device.get("deviceManufacturerCode"), str):
+            resolved_manufacturer = device["deviceManufacturerCode"]
+            manufacturer_status = "SMARTTHINGS_METADATA"
+        if isinstance(device.get("deviceModel"), str):
+            resolved_model = device["deviceModel"]
+            model_status = "SMARTTHINGS_METADATA"
     if protocol == "ZWAVE":
         block = _protocol_block(device, protocol)
         code = _manufacturer_code(device, block)
+        manufacturer_id = block.get("manufacturerId")
+        if isinstance(manufacturer_id, int) and not isinstance(manufacturer_id, bool):
+            resolved_manufacturer = catalog.get("zwaveManufacturers", {}).get(f"{manufacturer_id:04X}")
+            if resolved_manufacturer:
+                manufacturer_status = "EXACT_MANUFACTURER_ID_MATCH"
+        records = catalog.get("zwaveJs", {}).get(code, []) if code else []
+        identities = {
+            (
+                str(record.get("manufacturer") or "").strip(),
+                str(record.get("model") or "").strip(),
+                str(record.get("description") or "").strip(),
+            )
+            for record in records if isinstance(record, dict)
+        }
+        identities.discard(("", "", ""))
+        if len(identities) == 1:
+            manufacturer, model, description = identities.pop()
+            resolved_manufacturer = manufacturer or resolved_manufacturer
+            resolved_model = model or None
+            display = " ".join(value for value in (resolved_manufacturer, resolved_model) if value)
+            if description:
+                display = f"{display} — {description}"
+            return {
+                "name": display, "status": "EXACT_FINGERPRINT_MATCH",
+                "source": "ZWAVE_JS_CONFIG_DATABASE",
+                "sourceUrl": "https://github.com/zwave-js/zwave-js/tree/master/packages/config/config/devices",
+                "candidates": [display], "manufacturer": resolved_manufacturer,
+                "manufacturerStatus": "EXACT_MANUFACTURER_ID_MATCH",
+                "model": resolved_model, "modelStatus": "EXACT_FINGERPRINT_MATCH",
+            }
         if code:
             candidates = catalog.get("zwave", {}).get(code, [])
     elif protocol == "ZIGBEE":
@@ -78,22 +120,37 @@ def _catalog_name(device: dict[str, Any], catalog: dict[str, Any]) -> dict[str, 
         return {
             "name": unique[0], "status": "EXACT_FINGERPRINT_MATCH",
             "source": "SMARTTHINGS_EDGE_FINGERPRINTS", "sourceUrl": CATALOG_URL,
-            "candidates": unique,
+            "candidates": unique, "manufacturer": resolved_manufacturer,
+            "manufacturerStatus": manufacturer_status, "model": resolved_model or unique[0],
+            "modelStatus": model_status if resolved_model else "EXACT_FINGERPRINT_MATCH",
         }
 
-    manufacturer = device.get("deviceManufacturerCode")
+    manufacturer = resolved_manufacturer or device.get("deviceManufacturerCode")
     model = device.get("deviceModel")
+    if protocol == "ZWAVE":
+        # SmartThings commonly puts the numeric fingerprint in
+        # deviceManufacturerCode. It is an identifier, never a company name.
+        if resolved_manufacturer:
+            manufacturer = resolved_manufacturer
+        elif isinstance(manufacturer, str) and re.fullmatch(
+            r"[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}", manufacturer
+        ):
+            manufacturer = None
     parts = [value.strip() for value in (manufacturer, model) if isinstance(value, str) and value.strip()]
     if parts:
         return {
             "name": " ".join(dict.fromkeys(parts)),
             "status": "CATALOG_AMBIGUOUS" if len(unique) > 1 else "SMARTTHINGS_METADATA",
             "source": "SMARTTHINGS_DEVICE_METADATA", "sourceUrl": None,
-            "candidates": unique,
+            "candidates": unique, "manufacturer": manufacturer,
+            "manufacturerStatus": manufacturer_status if resolved_manufacturer else "SMARTTHINGS_METADATA",
+            "model": model, "modelStatus": "SMARTTHINGS_METADATA" if model else "UNKNOWN",
         }
     return {
         "name": None, "status": "CATALOG_AMBIGUOUS" if len(unique) > 1 else "UNKNOWN",
         "source": None, "sourceUrl": CATALOG_URL if unique else None, "candidates": unique,
+        "manufacturer": resolved_manufacturer, "manufacturerStatus": manufacturer_status,
+        "model": None, "modelStatus": "UNKNOWN",
     }
 
 
@@ -317,7 +374,10 @@ def normalize_device(
         "resolvedDeviceName": name["name"], "deviceNameStatus": name["status"],
         "deviceNameSource": name["source"], "deviceNameSourceUrl": name["sourceUrl"],
         "catalogNameCandidates": name["candidates"],
-        "manufacturer": device.get("deviceManufacturerCode"), "model": device.get("deviceModel"),
+        "manufacturer": name["manufacturer"], "manufacturerStatus": name["manufacturerStatus"],
+        "model": name["model"], "modelStatus": name["modelStatus"],
+        "reportedManufacturer": device.get("deviceManufacturerCode"),
+        "reportedModel": device.get("deviceModel"),
         "manufacturerCode": _manufacturer_code(device, zwave) if protocol == "ZWAVE" else device.get("deviceManufacturerCode"),
         "manufacturerId": _hex16(zwave.get("manufacturerId")),
         "productType": _hex16(zwave.get("productType")), "productId": _hex16(zwave.get("productId")),
@@ -361,7 +421,12 @@ def build_inventory(
         "source": source, "readOnly": True,
         "summary": {"totalDevices": len(normalized), "byProtocol": dict(sorted(protocol_counts.items())), "updatesAvailable": updates},
         "catalogs": {
-            "deviceNames": {key: catalog.get(key) for key in ("source", "sourceRevision", "generatedAt")},
+            "deviceNames": {
+                key: catalog.get(key) for key in (
+                    "source", "sourceRevision", "zwaveJsSource",
+                    "zwaveJsSourceRevision", "generatedAt",
+                )
+            },
             "zwaveFirmware": ZWAVE_FIRMWARE_URL, "zigbeeFirmware": ZIGBEE_OTA_URL,
         },
         "lookupWarnings": errors, "devices": normalized,
@@ -371,6 +436,8 @@ def build_inventory(
 def _csv_row(device: dict[str, Any]) -> dict[str, Any]:
     mapping = {
         "resolved_device_name": "resolvedDeviceName", "device_name_status": "deviceNameStatus",
+        "manufacturer_status": "manufacturerStatus", "model_status": "modelStatus",
+        "reported_manufacturer": "reportedManufacturer", "reported_model": "reportedModel",
         "manufacturer_code": "manufacturerCode", "manufacturer_id": "manufacturerId",
         "product_type": "productType", "product_id": "productId",
         "matter_vendor_id": "matterVendorId", "matter_product_id": "matterProductId",

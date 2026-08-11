@@ -6,16 +6,17 @@
     "type": "ZWAVE",
     "location": "Test Home",
     "room": "Kitchen",
-    "deviceManufacturerCode": "027A-A000-A002",
+    "deviceManufacturerCode": "027A-B112-1F1C",
+    "deviceModel": "B112-1F1C",
     "healthState": {"state": "ONLINE"},
     "zwave": {
       "networkId": "0A", "driverId": "driver-z", "hubId": "hub-1",
       "executingLocally": true, "manufacturerId": 634,
-      "productType": 40960, "productId": 40962
+      "productType": 45330, "productId": 7964
     },
     "components": [{"id": "main", "capabilities": [{
       "id": "firmwareUpdate", "status": {
-        "currentVersion": {"value": "3.40"},
+        "currentVersion": {"value": "20.15"},
         "availableVersion": {"value": null}, "updateAvailable": {"value": null}
       }
     }]}]

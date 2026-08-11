@@ -16,8 +16,9 @@ Run exactly one command:
 That single process:
 
 1. asks the authenticated SmartThings CLI for all devices, status, and health;
-2. resolves Z-Wave, Zigbee, and Matter product names only when their identifiers
-   exactly match the bundled official Edge-driver fingerprint catalog;
+2. resolves Z-Wave manufacturer/model names from the bundled Z-Wave JS database,
+   with official Edge-driver fingerprints as a fallback, and resolves Zigbee and
+   Matter names from exact Edge-driver fingerprints;
 3. checks every eligible Z-Wave device in one batched request to the
    [Z-Wave JS Firmware Update Service](https://github.com/zwave-js/firmware-updates);
 4. checks exact Zigbee model matches in the
@@ -36,7 +37,8 @@ several types, or omit it for all types.
 ### Name and firmware evidence
 
 - `EXACT_FINGERPRINT_MATCH` means the complete protocol identifier matched one
-  unambiguous name in the official SmartThings Edge fingerprints.
+  unambiguous model. For Z-Wave, the manufacturer ID, model, and description come
+  from the revision-pinned Z-Wave JS configuration database.
 - `SMARTTHINGS_METADATA` uses manufacturer/model text already reported by
   SmartThings. It is useful identification evidence but is not a catalog match.
 - `CATALOG_AMBIGUOUS` and `UNKNOWN` deliberately avoid choosing among multiple
@@ -47,6 +49,13 @@ several types, or omit it for all types.
 - `NOT_IN_CATALOG`, `CURRENT_VERSION_OR_FINGERPRINT_REQUIRED`,
   `NO_SUPPORTED_PUBLIC_CATALOG`, and `LOOKUP_FAILED` are unknown outcomes—not
   proof that a device cannot be updated.
+
+The `manufacturer` and `model` columns contain resolved values. The original
+SmartThings strings remain available as `reported_manufacturer` and
+`reported_model`, while `manufacturer_code` preserves the complete Z-Wave
+fingerprint. A Z-Wave fingerprint such as `027A-B112-1F1C` therefore produces
+manufacturer `Zooz`, model `ZEN22`, and the descriptive device name rather than
+presenting the numeric identifier as a company name.
 
 The Z-Wave service requires both the exact three-part fingerprint and the current
 firmware version. The Zigbee public index is safe to use only when SmartThings
@@ -94,7 +103,9 @@ was generated. Maintainers can rebuild it from an Edge-driver checkout with:
 python3 scripts/build_device_catalog.py \
   /path/to/SmartThingsEdgeDrivers \
   src/smartthings_utilities/data/device_catalog.json \
-  --source-revision COMMIT_SHA
+  --source-revision EDGE_COMMIT_SHA \
+  --zwave-js-root /path/to/zwave-js \
+  --zwave-js-revision ZWAVE_JS_COMMIT_SHA
 ```
 
 ## Z-Wave firmware inventory
