@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Local inventories contain device labels, rooms, UUIDs, and driver IDs.
+zwave-firmware-inventory-*.csv
+zwave-firmware-inventory-*.json
+smartthings-inventory/
