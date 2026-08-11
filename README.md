@@ -2,10 +2,100 @@
 
 Read-only command-line utilities for SmartThings inventory and diagnostics.
 
-The first utility creates a complete inventory of every Z-Wave device returned
-by SmartThings and records the firmware version exposed by each device's current
-Edge driver. It performs one bulk SmartThings request, sends no device commands,
-changes no drivers, and does not require a live log process.
+The utilities create local device and firmware inventories without sending device
+commands, changing Edge drivers, or requiring a live log process.
+
+## Enriched inventory for every device type
+
+Run exactly one command:
+
+```bash
+./smartthings-utils device-inventory
+```
+
+That single process:
+
+1. asks the authenticated SmartThings CLI for all devices, status, and health;
+2. resolves Z-Wave, Zigbee, and Matter product names only when their identifiers
+   exactly match the bundled official Edge-driver fingerprint catalog;
+3. checks every eligible Z-Wave device in one batched request to the
+   [Z-Wave JS Firmware Update Service](https://github.com/zwave-js/firmware-updates);
+4. checks exact Zigbee model matches in the
+   [zigbee-OTA index](https://github.com/Koenkk/zigbee-OTA); and
+5. writes timestamped CSV and JSON files, then exits.
+
+```text
+device-inventory-YYYYMMDD-HHMMSS.csv
+device-inventory-YYYYMMDD-HHMMSS.json
+```
+
+The result includes Z-Wave, Zigbee, Matter, LAN, OCF, virtual, hub, mobile, and
+other types returned by SmartThings. Use `--type zwave`, repeat `--type` for
+several types, or omit it for all types.
+
+### Name and firmware evidence
+
+- `EXACT_FINGERPRINT_MATCH` means the complete protocol identifier matched one
+  unambiguous name in the official SmartThings Edge fingerprints.
+- `SMARTTHINGS_METADATA` uses manufacturer/model text already reported by
+  SmartThings. It is useful identification evidence but is not a catalog match.
+- `CATALOG_AMBIGUOUS` and `UNKNOWN` deliberately avoid choosing among multiple
+  products or inventing a name.
+- `SMARTTHINGS_REPORTED` is an available version exposed by the existing driver.
+- `CATALOG_UPDATE_AVAILABLE` or `CATALOG_LATEST` comes from the named online
+  catalog and includes its URL in each row.
+- `NOT_IN_CATALOG`, `CURRENT_VERSION_OR_FINGERPRINT_REQUIRED`,
+  `NO_SUPPORTED_PUBLIC_CATALOG`, and `LOOKUP_FAILED` are unknown outcomes—not
+  proof that a device cannot be updated.
+
+The Z-Wave service requires both the exact three-part fingerprint and the current
+firmware version. The Zigbee public index is safe to use only when SmartThings
+exposes an exact model identifier covered by that index; the Zigbee manufacturer
+name alone is insufficient. Matter and vendor-cloud/LAN devices have no single
+public, cross-vendor latest-firmware catalog, so the utility uses SmartThings'
+`firmwareUpdate.availableVersion` when present and otherwise reports unknown.
+
+The public catalogs are discovery evidence, not an instruction to flash a file.
+An entry does not prove that SmartThings can install it, that the hardware revision
+is compatible, or that installing it is safe. The utility downloads metadata only.
+
+For the online check, the process sends each eligible Z-Wave fingerprint and its
+current firmware version to `firmware.zwave-js.io`; it downloads the public Zigbee
+OTA index without sending Zigbee device details to that server. It does not send
+device labels, rooms, SmartThings UUIDs, hub IDs, or network IDs to either catalog.
+Use `--offline` if you do not want those external requests.
+
+### Options
+
+```bash
+# Only Z-Wave and Zigbee rows.
+./smartthings-utils device-inventory --type zwave --type zigbee
+
+# Use cached catalog responses and make no internet requests.
+./smartthings-utils device-inventory --offline
+
+# Normalize an existing SmartThings response.
+./smartthings-utils device-inventory --input devices.json
+
+# Put output somewhere specific.
+./smartthings-utils device-inventory --output-dir ~/Documents
+```
+
+The live SmartThings request performed internally is equivalent to:
+
+```bash
+smartthings devices --verbose --status --health --json
+```
+
+The bundled name catalog records the official repository revision from which it
+was generated. Maintainers can rebuild it from an Edge-driver checkout with:
+
+```bash
+python3 scripts/build_device_catalog.py \
+  /path/to/SmartThingsEdgeDrivers \
+  src/smartthings_utilities/data/device_catalog.json \
+  --source-revision COMMIT_SHA
+```
 
 ## Z-Wave firmware inventory
 
@@ -14,7 +104,7 @@ Prerequisites:
 - Python 3.10 or newer.
 - The current [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli), already authenticated.
 
-Run exactly one command from this repository:
+The original Z-Wave-only command remains available:
 
 ```bash
 ./smartthings-utils zwave-firmware-inventory

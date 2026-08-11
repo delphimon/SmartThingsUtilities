@@ -1,0 +1,6505 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-11T22:13:27.166874Z",
+  "source": "https://github.com/SmartThingsCommunity/SmartThingsEdgeDrivers",
+  "sourceRevision": "e666b3e335ddee032211baa72f40d70c93d883af",
+  "matching": "Exact identifiers only; multiple names are retained as ambiguous.",
+  "zwave": {
+    "0002-0115-A010": [
+      "POPP Thermostat"
+    ],
+    "000C-0201-000A": [
+      "HomeSeer Water Leak Sensor"
+    ],
+    "0014-5246-3133": [
+      "Linear Switch"
+    ],
+    "001A-4243-0000": [
+      "Eaton Anyplace Switch"
+    ],
+    "001A-4441-0000": [
+      "Eaton Dimmer Switch"
+    ],
+    "001A-534C-0000": [
+      "Eaton Outlet"
+    ],
+    "001A-5352-0000": [
+      "Eaton Switch"
+    ],
+    "001A-5354-0003": [
+      "Eaton Outlet"
+    ],
+    "001A-574D-0000": [
+      "Eaton 5-Scene Keypad"
+    ],
+    "001D-0037-0002": [
+      "Leviton Outlet"
+    ],
+    "001D-0038-0002": [
+      "Leviton Fan 4 speed"
+    ],
+    "001D-0041-0002": [
+      "Leviton ZW6HD In-wall Dimmer"
+    ],
+    "001D-0042-0002": [
+      "Leviton ZW15S In-wall Switch"
+    ],
+    "001D-0301-0334": [
+      "Leviton Switch"
+    ],
+    "001D-0401-0334": [
+      "Leviton Dimmer Switch"
+    ],
+    "001D-0F01-0334": [
+      "Leviton Switch"
+    ],
+    "001D-1001-0334": [
+      "Leviton Fan 3 speed"
+    ],
+    "001D-1603-0334": [
+      "Leviton Outlet"
+    ],
+    "001D-1A02-0334": [
+      "Leviton Outlet"
+    ],
+    "001D-1C02-0334": [
+      "Leviton Switch"
+    ],
+    "001D-1D04-0334": [
+      "Leviton Outlet"
+    ],
+    "001D-3201-0001": [
+      "Leviton Dimmer Switch"
+    ],
+    "001D-3301-0001": [
+      "Leviton Dimmer Switch"
+    ],
+    "001D-3401-0001": [
+      "Leviton Switch"
+    ],
+    "001D-3601-0001": [
+      "Leviton Plug-in Outlet"
+    ],
+    "001E-0002-0001": [
+      "Homeseer Multi Sensor HSM100"
+    ],
+    "001E-0004-0001": [
+      "EZmultiPli multipurpose sensor"
+    ],
+    "0039-0011-0001": [
+      "Honeywell Thermostat"
+    ],
+    "0039-0011-0008": [
+      "Honeywell Thermostat"
+    ],
+    "0039-4944-3131": [
+      "Honeywell Fan"
+    ],
+    "0039-4F50-3032": [
+      "Honeywell Outlet"
+    ],
+    "003B-0001-0468": [
+      "Schlage Door Lock"
+    ],
+    "003B-0001-0469": [
+      "Schlage Door Lock"
+    ],
+    "003B-0004-2109": [
+      "Schlage Door Lock"
+    ],
+    "003B-0004-6109": [
+      "Schlage Door Lock"
+    ],
+    "003B-6341-5044": [
+      "Schlage Door Lock"
+    ],
+    "003B-6349-5044": [
+      "Schlage Door Lock"
+    ],
+    "003B-634B-504C": [
+      "Schlage Door Lock"
+    ],
+    "0060-0000-0001": [
+      "Everspring Water Sensor"
+    ],
+    "0060-0001-0004": [
+      "Everspring Immune Pet PIR Sensor SP815"
+    ],
+    "0060-0001-0006": [
+      "Everspring Motion Sensor"
+    ],
+    "0060-0002-0003": [
+      "Everspring Open/Closed Sensor"
+    ],
+    "0060-0004-000B": [
+      "Everspring Outlet"
+    ],
+    "0060-0004-000C": [
+      "Everspring Outlet"
+    ],
+    "0060-0006-0001": [
+      "Everspring ST814"
+    ],
+    "0060-0007-0001": [
+      "Everspring Illuminance Sensor"
+    ],
+    "0060-000B-0001": [
+      "Everspring Water Sensor"
+    ],
+    "0060-000C-0001": [
+      "Utilitech Siren"
+    ],
+    "0060-000C-0002": [
+      "Everspring Siren"
+    ],
+    "0060-000C-0003": [
+      "Everspring Siren"
+    ],
+    "0060-0012-0001": [
+      "Everspring Light"
+    ],
+    "0060-0015-0001": [
+      "Everspring Thermostat"
+    ],
+    "0063-4944-3034": [
+      "GE Fan"
+    ],
+    "0063-4944-3131": [
+      "GE Fan"
+    ],
+    "0063-4944-3337": [
+      "GE Fan"
+    ],
+    "0063-4953-3031": [
+      "Jasco Open/Closed Sensor"
+    ],
+    "0063-4953-3133": [
+      "GE Motion Sensor"
+    ],
+    "0063-4F44-3031": [
+      "GE Switch"
+    ],
+    "0063-4F50-3031": [
+      "GE Switch 01"
+    ],
+    "0063-4F50-3032": [
+      "GE Switch 02"
+    ],
+    "0063-5250-3130": [
+      "GE Switch 03"
+    ],
+    "0072-0501-0F06": [
+      "Fibaro Outlet"
+    ],
+    "0084-0053-0216": [
+      "FortrezZ Water Leak Sensor"
+    ],
+    "0084-0063-010C": [
+      "SmartThings Water Leak Sensor"
+    ],
+    "0084-0093-0114": [
+      "Glentronics Water Leak Sensor"
+    ],
+    "0084-0313-010B": [
+      "FortrezZ Siren"
+    ],
+    "0086-0001-0003": [
+      "Aeon Minimote"
+    ],
+    "0086-0002-0001": [
+      "Aeon Energy Monitor"
+    ],
+    "0086-0002-0004": [
+      "Door/Window Sensor"
+    ],
+    "0086-0002-0009": [
+      "Aeon Energy Monitor"
+    ],
+    "0086-0002-001D": [
+      "Aeotec Open/Closed Sensor"
+    ],
+    "0086-0002-005F": [
+      "Aeotec Energy Monitor"
+    ],
+    "0086-0002-0078": [
+      "Aeotec Open/Closed Sensor"
+    ],
+    "0086-0003-000B": [
+      "Aeon Smart Strip"
+    ],
+    "0086-0003-0012": [
+      "Aeotec Switch"
+    ],
+    "0086-0003-0062": [
+      "Aeotec Light"
+    ],
+    "0086-0003-0079": [
+      "Aeotec Light"
+    ],
+    "0086-0003-008C": [
+      "Aeotec Switch 1"
+    ],
+    "0086-0102-005F": [
+      "Aeotec Energy Monitor"
+    ],
+    "0086-0102-0061": [
+      "Aeotec Door/Window Sensor"
+    ],
+    "0086-0103-0062": [
+      "Aeotec Light"
+    ],
+    "0086-0103-0079": [
+      "Aeotec Light"
+    ],
+    "0086-0103-008C": [
+      "Aeotec Switch 1"
+    ],
+    "0090-0001-0001": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0001-0236": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0001-0642": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0238": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0339": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0440": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0446": [
+      "Kwikset Door Lock"
+    ],
+    "0090-0003-0541": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0642": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-0742": [
+      "KwikSet Door Lock"
+    ],
+    "0090-0003-4006": [
+      "KwikSet Door Lock"
+    ],
+    "0098-6401-0107": [
+      "2Gig CT100 Programmable Thermostat"
+    ],
+    "0098-6501-000B": [
+      "Iris Thermostat"
+    ],
+    "0098-6501-000C": [
+      "Iris Thermostat"
+    ],
+    "0109-2001-0106": [
+      "Open/Closed Sensor"
+    ],
+    "0109-2002-0205": [
+      "Vision Motion Detector ZP3102"
+    ],
+    "0109-2005-0518": [
+      "Vision Siren"
+    ],
+    "0109-2009-0908": [
+      "Vision Siren"
+    ],
+    "0109-200A-0A02": [
+      "Vision Door/Window Sensor"
+    ],
+    "0109-2021-2101": [
+      "ZP3111US 4-in-1 Motion"
+    ],
+    "0109-2022-2201": [
+      "Vision Open/Closed Sensor"
+    ],
+    "010E-0008-0002": [
+      "Danalock Door Lock"
+    ],
+    "010E-0009-0001": [
+      "Danalock Door Lock"
+    ],
+    "010F-0501-1002": [
+      "Fibaro Door/Window Sensor"
+    ],
+    "010F-0701-1001": [
+      "Fibaro Door/Window Sensor"
+    ],
+    "010F-0701-2001": [
+      "Fibaro Open/Closed Sensor with temperature"
+    ],
+    "010F-1801-1000": [
+      "Fibaro Outlet"
+    ],
+    "010F-1B01-1000": [
+      "Fibaro Walli Double Switch"
+    ],
+    "010F-1C01-1000": [
+      "Fibaro Walli Dimmer Switch"
+    ],
+    "010F-1D01-1000": [
+      "Fibaro Window Treatment"
+    ],
+    "010F-1F01-1000": [
+      "Fibaro Outlet"
+    ],
+    "0111-8200-0200": [
+      "Remotec Dimmer Switch"
+    ],
+    "0113-5246-3133": [
+      "Evolve Switch"
+    ],
+    "0115-0211-0010": [
+      "RYSE SmartShades"
+    ],
+    "011A-0101-0102": [
+      "Enerwave Switch"
+    ],
+    "011A-0101-0603": [
+      "Enerwave Outlet"
+    ],
+    "011A-0102-0201": [
+      "Enerwave Dimmer Switch"
+    ],
+    "011A-0102-0202": [
+      "Enerwave Dimmer Switch"
+    ],
+    "011A-0601-0901": [
+      "Enerwave Motion Sensor"
+    ],
+    "011A-0601-0903": [
+      "Enerwave Open/Closed Sensor"
+    ],
+    "011F-0001-0001": [
+      "Schlage Motion Sensor"
+    ],
+    "0129-0001-0000": [
+      "Yale Door Lock"
+    ],
+    "0129-0001-0409": [
+      "Yale Door Lock"
+    ],
+    "0129-0002-0000": [
+      "Yale Door Lock"
+    ],
+    "0129-0002-0800": [
+      "Yale Door Lock"
+    ],
+    "0129-0002-FFFF": [
+      "Yale Door Lock"
+    ],
+    "0129-0004-0000": [
+      "Yale Door Lock"
+    ],
+    "0129-0004-0800": [
+      "Yale Door Lock"
+    ],
+    "0129-0007-0001": [
+      "Yale Door Lock"
+    ],
+    "0129-6600-0002": [
+      "Yale Door Lock"
+    ],
+    "0129-6F01-0001": [
+      "Yale Siren"
+    ],
+    "0129-8002-0600": [
+      "Yale Door Lock"
+    ],
+    "0129-8002-1000": [
+      "Yale Door Lock"
+    ],
+    "0129-8004-0600": [
+      "Yale Door Lock"
+    ],
+    "0129-800B-0F00": [
+      "Yale Door Lock"
+    ],
+    "0129-800C-0F00": [
+      "Yale Door Lock"
+    ],
+    "0129-803A-0508": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-05D1": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-05D2": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-05D3": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-05D4": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-45D1": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-45D2": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-45D3": [
+      "Yale Door Lock"
+    ],
+    "0129-8104-45D5": [
+      "Yale Door Lock"
+    ],
+    "0129-8107-49D1": [
+      "Assure 2 Biometric 410"
+    ],
+    "0129-8107-49D2": [
+      "Yale Assure 2 Biometric"
+    ],
+    "0129-8107-49D3": [
+      "Assure 2 Bio 430"
+    ],
+    "0129-8107-49D5": [
+      "Assure 2 Bio 450"
+    ],
+    "0131-0003-1083": [
+      "Zipato Siren"
+    ],
+    "0138-0001-0001": [
+      "First Alert Smoke Detector"
+    ],
+    "0138-0001-0002": [
+      "First Alert Smoke Detector"
+    ],
+    "0138-0001-0003": [
+      "First Alert Smoke Detector"
+    ],
+    "013C-0002-001E": [
+      "Philio Smoke Detector"
+    ],
+    "013C-0004-000A": [
+      "Philio Siren"
+    ],
+    "013C-0005-008A": [
+      "Philio Dimmer Switch PAD19"
+    ],
+    "014A-0001-0002": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "014A-0001-0003": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "014A-0004-0002": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "014A-0004-0003": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "014A-0005-000A": [
+      "Ecolink Siren"
+    ],
+    "014A-0005-000F": [
+      "Ecolink Firefighter"
+    ],
+    "014A-0005-0010": [
+      "Ecolink Water Leak Sensor"
+    ],
+    "014A-0007-4731": [
+      "Ecolink Garage Door Controller"
+    ],
+    "014F-2001-0102": [
+      "Nortek Open/Closed Sensor"
+    ],
+    "014F-4744-3030": [
+      "Linear Garage Door"
+    ],
+    "014F-4744-3530": [
+      "GoControl Garage Door"
+    ],
+    "014F-5044-3533": [
+      "GoControl Dimmer Switch"
+    ],
+    "014F-5053-3531": [
+      "GoControl Outlet"
+    ],
+    "014F-5257-3033": [
+      "GoControl Switch"
+    ],
+    "014F-5442-5431": [
+      "Linear Thermostat"
+    ],
+    "014F-5442-5436": [
+      "GoControl Thermostat"
+    ],
+    "014F-5744-3530": [
+      "GoControl Dimmer Switch"
+    ],
+    "014F-574F-3535": [
+      "GoControl Outlet"
+    ],
+    "014F-5753-3535": [
+      "GoControl Switch"
+    ],
+    "0152-0003-0512": [
+      "POPP Valve"
+    ],
+    "0152-A003-A002": [
+      "iTec Switch"
+    ],
+    "0154-0003-000A": [
+      "POPP Outlet"
+    ],
+    "0154-0004-0002": [
+      "POPP Siren"
+    ],
+    "0154-0004-0003": [
+      "POPP Carbon Monoxide Sensor"
+    ],
+    "0154-0004-0010": [
+      "POPP Smoke Detector"
+    ],
+    "0154-0004-0014": [
+      "POPP Multipurpose Sensor"
+    ],
+    "0154-0005-0001": [
+      "POPP Door Lock"
+    ],
+    "0154-0100-0201": [
+      "POPP Smoke Detector"
+    ],
+    "0157-0003-0002": [
+      "EcoNet Valve"
+    ],
+    "0157-0100-0100": [
+      "EcoNet Vent"
+    ],
+    "0159-0001-0051": [
+      "Qubino Dimmer"
+    ],
+    "0159-0001-0052": [
+      "Qubino Dimmer"
+    ],
+    "0159-0001-0053": [
+      "Qubino Dimmer"
+    ],
+    "0159-0001-0055": [
+      "Qubino Dimmer"
+    ],
+    "0159-0002-0051": [
+      "Qubino Switch 1"
+    ],
+    "0159-0002-0052": [
+      "Qubino Switch"
+    ],
+    "0159-0002-0053": [
+      "Qubino Switch"
+    ],
+    "0159-0002-0054": [
+      "Qubino Outlet"
+    ],
+    "0159-0003-0052": [
+      "Qubino Window Treatment"
+    ],
+    "0159-0003-0053": [
+      "Qubino Window Treatment"
+    ],
+    "0159-0005-0054": [
+      "Qubino Thermostat"
+    ],
+    "0159-0007-0052": [
+      "Qubino Energy Monitor"
+    ],
+    "0159-0007-0054": [
+      "Qubino Energy Monitor"
+    ],
+    "015D-0221-251C": [
+      "Show Home Outlet"
+    ],
+    "015D-0221-611C": [
+      "Inovelli Outlet"
+    ],
+    "015D-0651-F51C": [
+      "Zooz ZEN 20 Power Strip"
+    ],
+    "015D-2500-2500": [
+      "Inovelli Outlet"
+    ],
+    "015D-6100-6100": [
+      "Inovelli Outlet"
+    ],
+    "015D-C100-C100": [
+      "Inovelli Open/Closed Sensor"
+    ],
+    "015F-3102-0201": [
+      "WYFY Switch 1"
+    ],
+    "015F-3102-0202": [
+      "WYFY Switch 1"
+    ],
+    "015F-3102-0204": [
+      "WYFY Switch 1"
+    ],
+    "015F-3111-5102": [
+      "WYFY Switch 1"
+    ],
+    "015F-3121-5102": [
+      "WYFY Switch 1"
+    ],
+    "015F-3141-5102": [
+      "WYFY Switch 1"
+    ],
+    "0173-0003-0002": [
+      "Leak Gopher Valve"
+    ],
+    "0173-4C47-4C44": [
+      "Leak Gopher Water Leak Sensor"
+    ],
+    "017F-0100-0001": [
+      "Wink Door/Window Sensor"
+    ],
+    "017F-0101-0001": [
+      "Wink Motion Sensor"
+    ],
+    "0184-4744-3032": [
+      "Satco Dimmer Switch"
+    ],
+    "018C-0061-0001": [
+      "Dawon Wall Smart Switch"
+    ],
+    "018C-0062-0001": [
+      "Dawon Wall Smart Switch"
+    ],
+    "018C-0063-0001": [
+      "Dawon Wall Smart Switch"
+    ],
+    "018C-0064-0001": [
+      "Dawon Wall Smart Switch"
+    ],
+    "018C-0065-0001": [
+      "Dawon Wall Smart Switch"
+    ],
+    "018C-0066-0001": [
+      "Dawon Wall Smart Switchs"
+    ],
+    "019A-0003-0003": [
+      "Sensative Open/Closed Sensor"
+    ],
+    "019A-0003-000A": [
+      "Sensative Water Leak Sensor"
+    ],
+    "0214-0002-0001": [
+      "BeSense Open/Closed Sensor"
+    ],
+    "0214-0003-0002": [
+      "BeSense Motion Sensor"
+    ],
+    "021D-0003-0001": [
+      "Alfred Door Lock"
+    ],
+    "021D-0103-00C7": [
+      "Kaadas Z-Wave Lock"
+    ],
+    "021D-0103-00C8": [
+      "Kaadas Z-Wave Lock"
+    ],
+    "021D-0103-00C9": [
+      "Kaadas Z-Wave Lock"
+    ],
+    "021D-0103-00CD": [
+      "Kaadas Z-Wave Lock"
+    ],
+    "021D-0903-00D4": [
+      "Philips Lock"
+    ],
+    "021F-0003-0002": [
+      "Dome Valve"
+    ],
+    "021F-0003-0083": [
+      "Dome Motion/Light Sensor"
+    ],
+    "021F-0003-0085": [
+      "Dome Water Leak Sensor"
+    ],
+    "021F-0003-0087": [
+      "Dome Outlet"
+    ],
+    "021F-0003-0088": [
+      "Dome Siren"
+    ],
+    "021F-0003-0101": [
+      "Dome Open/Closed Sensor"
+    ],
+    "021F-0003-0104": [
+      "Dome Pest Control"
+    ],
+    "021F-0003-0108": [
+      "Dome Repeater/Extender"
+    ],
+    "022E-0001-0001": [
+      "Samsung Door Lock"
+    ],
+    "0239-0001-0001": [
+      "Stelpro Ki Thermostat"
+    ],
+    "0246-0001-0001": [
+      "Iris Repeater/Extender"
+    ],
+    "0258-0003-0082": [
+      "NEO Coolcam Open/Closed Sensor"
+    ],
+    "0258-0003-0085": [
+      "NEO Coolcam Water Leak Sensor"
+    ],
+    "0258-0003-0087": [
+      "NEO Coolcam Outlet"
+    ],
+    "0258-0003-0088": [
+      "NEO Coolcam Siren"
+    ],
+    "0258-0003-008B": [
+      "NEO Coolcam Switch 1"
+    ],
+    "0258-0003-008D": [
+      "NEO Coolcam Motion/Light Sensor"
+    ],
+    "0258-0003-1082": [
+      "NEO Coolcam Open/Closed Sensor"
+    ],
+    "0258-0003-1085": [
+      "NEO Coolcam Water Leak Sensor"
+    ],
+    "0258-0003-1087": [
+      "NEO Coolcam Outlet"
+    ],
+    "0258-0003-1088": [
+      "NEO Coolcam Siren"
+    ],
+    "0258-0003-108B": [
+      "NEO Coolcam Switch 1"
+    ],
+    "0258-0003-108D": [
+      "NEO Coolcam Motion/Light Sensor"
+    ],
+    "0258-0003-2085": [
+      "NEO Coolcam Water Leak Sensor"
+    ],
+    "0258-0003-6088": [
+      "NEO Coolcam Siren"
+    ],
+    "0258-0600-1028": [
+      "NEO Coolcam Siren"
+    ],
+    "026E-4252-5A31": [
+      "3 Button Window Remote"
+    ],
+    "026E-4353-5A31": [
+      "Springs Window Shade"
+    ],
+    "026E-5253-5A31": [
+      "Springs Roller Shade"
+    ],
+    "026E-5643-5A31": [
+      "2 Button Window Remote"
+    ],
+    "026F-0001-0001": [
+      "FireAngel Smoke Detector"
+    ],
+    "026F-0001-0002": [
+      "FireAngel Smoke Detector"
+    ],
+    "027A-0001-0005": [
+      "Zooz Motion Sensor"
+    ],
+    "027A-0004-0369": [
+      "Zooz ZSE50 Siren and Chime"
+    ],
+    "027A-000C-0003": [
+      "Zooz Multisiren"
+    ],
+    "027A-0101-000D": [
+      "Zooz Switch"
+    ],
+    "027A-0101-0036": [
+      "Zooz Valve"
+    ],
+    "027A-0201-0006": [
+      "Q Sensor"
+    ],
+    "027A-0301-0012": [
+      "Zooz Motion Sensor"
+    ],
+    "027A-2021-2101": [
+      "Zooz 4-in-1 sensor"
+    ],
+    "027A-7000-B001": [
+      "Zooz Outdoor Plug ZEN05"
+    ],
+    "027A-7000-E001": [
+      "Open Close XS Sensor"
+    ],
+    "027A-7000-E002": [
+      "Zooz ZSE42 XS Water Leak Sensor"
+    ],
+    "027A-7000-E004": [
+      "Temperature  Humidity XS Sensor"
+    ],
+    "027A-A000-A001": [
+      "Zooz Switch"
+    ],
+    "027A-A000-A002": [
+      "Zooz Dimmer Switch"
+    ],
+    "027A-A000-A003": [
+      "Zooz Switch"
+    ],
+    "027A-A000-A004": [
+      "Zooz Power Strip 1"
+    ],
+    "027A-A000-A008": [
+      "Zooz Switch"
+    ],
+    "0287-0003-000D": [
+      "iBlinds Window Treatment"
+    ],
+    "0287-0004-0071": [
+      "iBlinds Window Treatment v3"
+    ],
+    "0287-0004-0072": [
+      "iBlinds Window Treatment v3"
+    ],
+    "0300-0003-0003": [
+      "ilumin Light"
+    ],
+    "0300-0003-0004": [
+      "ilumin Light"
+    ],
+    "0300-0003-0005": [
+      "ilumin Light"
+    ],
+    "0307-4447-3031": [
+      "Satco Outlet"
+    ],
+    "0307-4447-3033": [
+      "Satco Switch"
+    ],
+    "0307-4447-3034": [
+      "Satco Dimmer Switch"
+    ],
+    "0312-2003-C11C": [
+      "Inovelli Open/Closed Sensor"
+    ],
+    "0312-6100-6100": [
+      "Inovelli Outlet"
+    ],
+    "0312-AA00-AA02": [
+      "Evalogik Dimmer Switch"
+    ],
+    "0312-B221-251C": [
+      "Inovelli Outlet"
+    ],
+    "0312-C000-C001": [
+      "EVA Outlet"
+    ],
+    "0312-C000-C002": [
+      "Evalogik Dimmer Switch"
+    ],
+    "0312-C000-C003": [
+      "Evalogik Outlet"
+    ],
+    "0312-C000-C004": [
+      "EVA Switch 1"
+    ],
+    "0312-C000-C005": [
+      "Evalogik Outlet"
+    ],
+    "0312-C000-C007": [
+      "Evalogik Switch 1"
+    ],
+    "0312-C100-C100": [
+      "Inovelli Open/Closed Sensor"
+    ],
+    "0312-FF00-FF01": [
+      "Minoston Outlet"
+    ],
+    "0312-FF00-FF02": [
+      "Minoston Dimmer Switch"
+    ],
+    "0312-FF00-FF03": [
+      "Minoston Switch"
+    ],
+    "0312-FF00-FF04": [
+      "Minoston Dimmer Switch"
+    ],
+    "0312-FF00-FF05": [
+      "Minoston Switch 1"
+    ],
+    "0312-FF00-FF06": [
+      "Minoston Outlet"
+    ],
+    "0312-FF00-FF07": [
+      "Smart Plug"
+    ],
+    "0312-FF00-FF0E": [
+      "Minoston Outlet"
+    ],
+    "031E-0001-0001": [
+      "Inovelli Dimmer Red Series"
+    ],
+    "031E-0002-0001": [
+      "Inovelli Switch"
+    ],
+    "031E-0003-0001": [
+      "Inovelli Dimmer Black Series"
+    ],
+    "031E-0004-0001": [
+      "Inovelli Switch"
+    ],
+    "031E-0005-0001": [
+      "ilumin Light"
+    ],
+    "031E-0015-0001": [
+      "Inovelli Dimmer Red Series"
+    ],
+    "031E-0017-0001": [
+      "Inovelli mmWave Dimmer Red Series"
+    ],
+    "0330-0201-D002": [
+      "RGBgenie Dimmer Switch"
+    ],
+    "033F-0001-0001": [
+      "August Door Lock"
+    ],
+    "0366-0001-0001": [
+      "Philia Door Lock"
+    ],
+    "0371-0002-0005": [
+      "Aeotec Multipurpose Sensor"
+    ],
+    "0371-0002-000B": [
+      "Aeotec Open/Closed Sensor"
+    ],
+    "0371-0002-0015": [
+      "Aeotec Thermostat"
+    ],
+    "0371-0003-0002": [
+      "Aeotec Light"
+    ],
+    "0371-0003-00AF": [
+      "Aeotec Smart Switch 7 EU"
+    ],
+    "0371-0102-0005": [
+      "Aeotec Multipurpose Sensor"
+    ],
+    "0371-0102-000B": [
+      "Aeotec Open/Closed Sensor"
+    ],
+    "0371-0103-0002": [
+      "Aeotec Light"
+    ],
+    "0371-0103-0017": [
+      "Aeotec Smart Switch 7 US"
+    ],
+    "0371-0103-0025": [
+      "Aeotec Dimmer Switch"
+    ],
+    "0371-0103-0026": [
+      "Aeotec Switch"
+    ],
+    "0371-0103-002E": [
+      "Aeotec Home Energy Meter Gen8 Consumption"
+    ],
+    "0371-0202-0005": [
+      "Aeotec Multipurpose Sensor"
+    ],
+    "037B-0002-0001": [
+      "KeyWe Door Lock"
+    ],
+    "037B-0003-0001": [
+      "KeyWe Door Lock"
+    ],
+    "041B-0001-0410": [
+      "SMCO410"
+    ],
+    "0449-0004-0001": [
+      "TLJ Door Lock"
+    ],
+    "0452-0004-0002": [
+      "ULTRALOQ Bolt Z-Wave Smart Deadbolt"
+    ],
+    "0460-0002-0081": [
+      "Wave 2PM 1"
+    ],
+    "0460-0002-0083": [
+      "Wave 1"
+    ],
+    "0460-0002-0084": [
+      "Wave 1PM"
+    ],
+    "0460-0002-0087": [
+      "Shelly Wave Plug S"
+    ],
+    "0460-0002-0088": [
+      "Wave Plug US"
+    ],
+    "0460-0002-0089": [
+      "Wave Plug UK"
+    ],
+    "0460-0002-008A": [
+      "Wave Pro 1"
+    ],
+    "0460-0002-008B": [
+      "Wave Pro 1PM"
+    ],
+    "0460-0002-008C": [
+      "Wave Pro 2 1"
+    ],
+    "0460-0002-008D": [
+      "Wave Pro 2PM 1"
+    ],
+    "0460-0002-008E": [
+      "Wave 1 Mini"
+    ],
+    "0460-0002-008F": [
+      "Wave 1PM Mini"
+    ],
+    "0460-0009-0081": [
+      "Wave i4"
+    ],
+    "0460-0009-0082": [
+      "Wave i4 DC"
+    ],
+    "0460-0100-0082": [
+      "Shelly Wave Motion"
+    ],
+    "1104-001D-0501": [
+      "Leviton Dimmer Switch"
+    ],
+    "5254-8000-0002": [
+      "Remotec Switch"
+    ]
+  },
+  "zigbee": {
+    "\u0000e210-kr210z1-ha": [
+      "eZEX Switch"
+    ],
+    "\u0000e261-kr0b0z0-ha": [
+      "C2O Door Lock"
+    ],
+    "\u0000pan18-v1.0.7": [
+      "Philio Outlet"
+    ],
+    "\u0000terncy-ls01": [
+      "Terncy Switch"
+    ],
+    "\\x02ke\u0000tradfri open/close remote": [
+      "IKEA Remote Control"
+    ],
+    "_tz3000_8rppvwda\u0000ts0041": [
+      "Tuya Button"
+    ],
+    "_tz3000_ja5osu5g\u0000ts004f": [
+      "Tuya Button"
+    ],
+    "_tz3000_pkfazisv\u0000ts0215a": [
+      "Tuya Button"
+    ],
+    "_tze200_ioxkjvuz\u0000ts0601": [
+      "Tuya Gas Sensor"
+    ],
+    "_tze200_mgxy2d9f\u0000ts0601": [
+      "Tuya Motion Sensor"
+    ],
+    "_tze200_uebojraa\u0000ts0601": [
+      "Tuya Smoke Detector"
+    ],
+    "_tze204_fzbskaga\u0000ts0601": [
+      "Window Treatment"
+    ],
+    "_tze204_h2rctifa\u0000ts0601": [
+      "Tuya Switch 1"
+    ],
+    "_tze204_mby4kbtq\u0000ts0601": [
+      "Tuya Gas Sensor"
+    ],
+    "_tze284_fziifcxj\u0000ts0601": [
+      "Tuya Thermostat"
+    ],
+    "_tze284_nladmfvf\u0000ts0601": [
+      "Tuya Curtain"
+    ],
+    "adurolight\u0000adurolight_csc": [
+      "Eria Remote Control"
+    ],
+    "adurolight\u0000adurolight_ncc": [
+      "Eria Remote Control"
+    ],
+    "adurolight\u0000csw_adurolight": [
+      "ERIA Open/Closed Sensor"
+    ],
+    "adurolight\u0000vms_adurolight": [
+      "ERIA Motion Sensor"
+    ],
+    "adurosmart eria\u0000ad-colortemperature3001": [
+      "Eria Light"
+    ],
+    "adurosmart eria\u0000ad-dimmablelight3001": [
+      "Eria Light"
+    ],
+    "adurosmart eria\u0000ad-rgbw3001": [
+      "Eria Light"
+    ],
+    "adurosmart eria\u0000ad-smartplug3001": [
+      "Eria Switch"
+    ],
+    "adurosmart eria\u0000adurolight_csc": [
+      "Eria Remote Control"
+    ],
+    "adurosmart eria\u0000adurolight_ncc": [
+      "Eria Remote Control"
+    ],
+    "adurosmart eria\u0000bdp3001": [
+      "Eria Switch"
+    ],
+    "adurosmart eria\u0000bpu3": [
+      "Eria Switch"
+    ],
+    "adurosmart eria\u0000csw_adurolight": [
+      "ERIA Open/Closed Sensor"
+    ],
+    "adurosmart eria\u0000vms_adurolight": [
+      "ERIA Motion Sensor"
+    ],
+    "adurosmart eria\u0000zll-colortemperature": [
+      "Eria Light"
+    ],
+    "adurosmart eria\u0000zll-dimmablelight": [
+      "Eria Light"
+    ],
+    "adurosmart eria\u0000zll-extendedcolor": [
+      "Eria Light"
+    ],
+    "ajax online\u0000cct": [
+      "Ajax Light"
+    ],
+    "ajax online ltd\u0000aj_zb30_gu10": [
+      "Ajax Light"
+    ],
+    "ajaxonline\u0000aj-rgbcct 5 in 1": [
+      "Ajax Light"
+    ],
+    "al001\u0000wg001-z01": [
+      "Aeotec Range Extender Zi"
+    ],
+    "aqara\u0000lumi.bhf_light.acn001": [
+      "Aqara Bath Heater T1"
+    ],
+    "aqara\u0000lumi.light.acn014": [
+      "Aqara LED Light Bulb T1 (Tunable White)"
+    ],
+    "aqara\u0000lumi.motion.ac01": [
+      "Aqara Presence Sensor FP1"
+    ],
+    "assa abloy irevo\u000006ffff2027": [
+      "Yale Door Lock"
+    ],
+    "assa abloy irevo\u00000700000001": [
+      "Yale Door Lock"
+    ],
+    "assa abloy irevo\u0000c700000202": [
+      "Yale Door Lock"
+    ],
+    "assa abloy irevo\u0000izbmodule01": [
+      "Yale Door Lock"
+    ],
+    "aug. winkhaus se\u0000fm.v.zb": [
+      "Funkkontakt FM.V.ZB"
+    ],
+    "aurora\u0000dimmer": [
+      "AOne Dimmer Switch"
+    ],
+    "aurora\u0000doorsensor50au": [
+      "Aurora Open/Closed Sensor"
+    ],
+    "aurora\u0000doublesocket50au": [
+      "AURORA Outlet 1"
+    ],
+    "aurora\u0000fwa60bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwbulb51au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwg125bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwgu10bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwmprozxbulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwst64bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000fwstrip50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000lcbulb01uk": [
+      "AOne Dimmer Switch"
+    ],
+    "aurora\u0000motionsensor51au": [
+      "Aurora Motion Sensor"
+    ],
+    "aurora\u0000npd3032": [
+      "Aurora Dimmer Switch"
+    ],
+    "aurora\u0000remote50au": [
+      "Aurora Dimmer Switch"
+    ],
+    "aurora\u0000rgbbulb51au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000rgbcxstrip50au": [
+      "AOne Light"
+    ],
+    "aurora\u0000rgbgu10bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000singlesocket50au": [
+      "Aurora Outlet"
+    ],
+    "aurora\u0000smart16arelay51au": [
+      "Aurora Switch"
+    ],
+    "aurora\u0000smartplug51au": [
+      "Aurora Outlet"
+    ],
+    "aurora\u0000twbulb51au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000twclbulb50au": [
+      "AOne Light"
+    ],
+    "aurora\u0000twgu10bulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000twmprozxbulb50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000twstrip50au": [
+      "Aurora Light"
+    ],
+    "aurora\u0000walldimmermaster": [
+      "Aurora Dimmer Switch"
+    ],
+    "aurora\u0000windowsensor51au": [
+      "Aurora Open/Closed Sensor"
+    ],
+    "axis\u0000gear": [
+      "AXIS Window Treatment"
+    ],
+    "bituo technik\u0000sdm01b": [
+      "Energy Monitor 1PN"
+    ],
+    "bituo technik\u0000sdm01w": [
+      "Energy Monitor 3PN"
+    ],
+    "bituo technik\u0000sdm02-e0": [
+      "Energy Monitor 2PN"
+    ],
+    "bituo technik\u0000sdm02x": [
+      "Energy Monitor 2PN"
+    ],
+    "bituo technik\u0000spm01-e0": [
+      "Energy Monitor 1PN"
+    ],
+    "bituo technik\u0000spm01x": [
+      "Energy Monitor 1PN"
+    ],
+    "bituo technik\u0000spm02-e0": [
+      "Energy Monitor 3PN"
+    ],
+    "bituo technik\u0000spm02x": [
+      "Energy Monitor 3PN"
+    ],
+    "bosch\u0000rfdl-zb-ms": [
+      "Bosch Motion Sensor"
+    ],
+    "bosch\u0000rfms-zbms": [
+      "Bosch Open/Closed Sensor"
+    ],
+    "bosch\u0000rfpr-zb": [
+      "Bosch Motion Sensor"
+    ],
+    "centralite\u00003157100-e": [
+      "Centralite Thermostat"
+    ],
+    "centralite\u00003200-sgb": [
+      "SmartThings Outlet"
+    ],
+    "centralite\u00003210-l": [
+      "Iris Outlet"
+    ],
+    "centralite\u00003300-s": [
+      "Open/Closed Sensor"
+    ],
+    "centralite\u00003305-s": [
+      "Motion Sensor"
+    ],
+    "centralite\u00003310-g": [
+      "Centralite Multipurpose Sensor"
+    ],
+    "centralite\u00003310-s": [
+      "Multipurpose Sensor"
+    ],
+    "centralite\u00003315-g": [
+      "Centralite Water Leak Sensor"
+    ],
+    "centralite\u00003315-l": [
+      "Iris Water Leak Sensor"
+    ],
+    "centralite\u00003315-s": [
+      "Water Leak Sensor"
+    ],
+    "centralite\u00003315-seu": [
+      "Water Leak Sensor"
+    ],
+    "centralite\u00003320-l": [
+      "Iris Open/Closed Sensor"
+    ],
+    "centralite\u00003321-s": [
+      "Multipurpose Sensor"
+    ],
+    "centralite\u00003323-g": [
+      "Centralite Open/Closed Sensor"
+    ],
+    "centralite\u00003325-s": [
+      "Motion Sensor"
+    ],
+    "centralite\u00003326-l": [
+      "Iris Motion Sensor"
+    ],
+    "centralite\u00003328-g": [
+      "Centralite Motion Sensor"
+    ],
+    "centralite\u00003450-l": [
+      "Iris Remote Control"
+    ],
+    "centralite\u00003450-l2": [
+      "Iris Remote Control"
+    ],
+    "centralite\u00003455-l": [
+      "Iris Button"
+    ],
+    "centralite\u00003460-l": [
+      "Iris Button"
+    ],
+    "centralite\u00004257050-rzhac": [
+      "Centralite Outlet"
+    ],
+    "centralite\u00004257050-zhac": [
+      "Centralite Dimmer Switch"
+    ],
+    "centralite\u0000contact sensor-a": [
+      "SYLVANIA Open/Closed Sensor"
+    ],
+    "centralite\u0000motion sensor-a": [
+      "SYLVANIA Motion Sensor"
+    ],
+    "centralite systems\u00003131-g": [
+      "Centralite Dimmer Switch"
+    ],
+    "centralite systems\u00004200-c": [
+      "Centralite Outlet"
+    ],
+    "climaxtechnology\u0000co_00.00.00.15tc": [
+      "Ozom Carbon Monoxide Sensor"
+    ],
+    "climaxtechnology\u0000co_00.00.00.22tc": [
+      "Ozom Carbon Monoxide Sensor"
+    ],
+    "climaxtechnology\u0000psm_00.00.00.35tc": [
+      "Ozom Outlet"
+    ],
+    "compacta\u0000zbms3-1": [
+      "Smartenit Motion Sensor"
+    ],
+    "compacta\u0000zbms3\ue01f\ue01f\ue01f-1": [
+      "Smartenit Motion Sensor"
+    ],
+    "compacta\u0000zbwds": [
+      "Smartenit Open/Closed Sensor"
+    ],
+    "compacta international, ltd\u0000zbmplug15": [
+      "Smartenit Outlet"
+    ],
+    "cree\u0000connected a-19 60w equivalent": [
+      "CREE Bulb"
+    ],
+    "cwd\u0000zb.a806bcct-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.a806bdim-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.a806brgbw-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.a806ecct-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.a806edim-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.a806ergbw-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.m350cct-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.m350dim-a001": [
+      "CWD Light"
+    ],
+    "cwd\u0000zb.m350rgbw-a001": [
+      "CWD Light"
+    ],
+    "d5x84yu\u0000et093wrg": [
+      "POPP Smart Thermostat (Zigbee)"
+    ],
+    "d5x84yu\u0000et093wro": [
+      "POPP Smart Thermostat (Zigbee)"
+    ],
+    "danalock\u0000v3-btzb": [
+      "Danalock Door Lock"
+    ],
+    "danfoss\u0000etrv0100": [
+      "Danfoss Thermostat"
+    ],
+    "dawon_dns\u0000pm-b430-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-b440-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-b530-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-b540-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-c140-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-c150-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-c250-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000pm-s140-zb": [
+      "Dawon Switch"
+    ],
+    "dawon_dns\u0000pm-s140r-zb": [
+      "Dawon Switch"
+    ],
+    "dawon_dns\u0000pm-s150-zb": [
+      "Dawon Switch"
+    ],
+    "dawon_dns\u0000pm-s240-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000pm-s240r-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000pm-s250-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000pm-s340-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000pm-s340r-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000pm-s350-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000ss-b100-zb": [
+      "Dawon Signal Interlock"
+    ],
+    "dawon_dns\u0000st-b550-zb": [
+      "Dawon Outlet"
+    ],
+    "dawon_dns\u0000st-s150-zb": [
+      "Dawon Switch"
+    ],
+    "dawon_dns\u0000st-s250-zb": [
+      "Dawon Switch 1"
+    ],
+    "dawon_dns\u0000st-s350-zb": [
+      "Dawon Switch 1"
+    ],
+    "develco\u0000zhemi101": [
+      "frient Energy Monitor"
+    ],
+    "develco products a/s\u0000emizb-132": [
+      "frient Energy Monitor"
+    ],
+    "develco products a/s\u0000smart16arelay51au": [
+      "Aurora Switch"
+    ],
+    "duragreen\u0000dg-cct-01": [
+      "DG Light"
+    ],
+    "duragreen\u0000dg-cw-01": [
+      "DG Light"
+    ],
+    "duragreen\u0000dg-cw-02": [
+      "DG Light"
+    ],
+    "eaton\u0000halo_rl5601": [
+      "Halo Light"
+    ],
+    "ecolink\u00004655bc0-r": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "ecolink\u0000dwzb1-eco": [
+      "Ecolink Open/Closed Sensor"
+    ],
+    "ecolink\u0000flzb1-eco": [
+      "Ecolink Water Leak Sensor"
+    ],
+    "ecolink\u0000pirzb1-eco": [
+      "Ecolink Motion Sensor"
+    ],
+    "eti\u0000zigbee cct downlight": [
+      "Commercial Light"
+    ],
+    "ewelight\u0000zb-cl01": [
+      "easyiot Light"
+    ],
+    "ewelink\u0000ds01": [
+      "eWeLink Open/Closed Sensor"
+    ],
+    "ewelink\u0000ms01": [
+      "eWeLink Motion Sensor"
+    ],
+    "ewelink\u0000mso1": [
+      "eWeLink Motion Sensor"
+    ],
+    "ewelink\u0000sa-003-zigbee": [
+      "eWeLink Outlet"
+    ],
+    "ewelink\u0000snzb-01p": [
+      "Zigbee Wireless Switch"
+    ],
+    "ewelink\u0000snzb-02p": [
+      "SONOFF Zigbee Temperature and Humidity Sensor"
+    ],
+    "ewelink\u0000snzb-03p": [
+      "Zigbee Motion Sensor"
+    ],
+    "ewelink\u0000snzb-04p": [
+      "SONOFF Contact Sensor"
+    ],
+    "ewelink\u0000th01": [
+      "eWeLink Multipurpose Sensor"
+    ],
+    "ewelink\u0000wb01": [
+      "eWeLink Button"
+    ],
+    "ewelink\u0000zb-sw01": [
+      "eWeLink Switch"
+    ],
+    "ewelink\u0000zb-sw02": [
+      "eWeLink Switch 1"
+    ],
+    "ewelink\u0000zb-sw03": [
+      "eWeLink Switch 1"
+    ],
+    "ewelink\u0000zb-sw04": [
+      "eWeLink Switch 1"
+    ],
+    "feibit co.ltd\u0000ftb56-zt218ak1.6": [
+      "Wistar Window Treatment"
+    ],
+    "feibit co.ltd\u0000ftb56-zt218ak1.8": [
+      "Wistar Window Treatment"
+    ],
+    "fidure\u0000a1732r3": [
+      "Fidure Thermostat"
+    ],
+    "firstled\u0000dc2dc12miv1": [
+      "Easy-Fit Driver"
+    ],
+    "firstled\u0000dl1s1bac": [
+      "Dynamic Lite Series 1x1 1"
+    ],
+    "firstled\u0000dl2s2bac": [
+      "Dynamic Lite Series 2x2 1"
+    ],
+    "firstled\u0000dl3s3bac": [
+      "Dynamic Lite Series 3x3 1"
+    ],
+    "firstled\u0000dl4s4bac": [
+      "Dynamic Lite Series 4x4 1"
+    ],
+    "firstled\u0000g1s1bac": [
+      "Guanzhi Series 1x1 1"
+    ],
+    "firstled\u0000g2s2bac": [
+      "Guanzhi Series 2x2 1"
+    ],
+    "firstled\u0000g3s3bac": [
+      "Guanzhi Series 3x3 1"
+    ],
+    "firstled\u0000m1s1bac": [
+      "Mirror Series 1x1 1"
+    ],
+    "firstled\u0000m2s2bac": [
+      "Mirror Series 2x2 1"
+    ],
+    "firstled\u0000m3s3bac": [
+      "Mirror Series 3x3 1"
+    ],
+    "firstled\u0000m4s4bac": [
+      "Mirror Series 4x4 1"
+    ],
+    "firstled\u0000mx1s2bac": [
+      "Matrix X Series 1x2 1"
+    ],
+    "firstled\u0000mx2s2bac": [
+      "Matrix X Series 2x2 1"
+    ],
+    "firstled\u0000mx3s2bac": [
+      "Matrix X Series 3x2 1"
+    ],
+    "firstled\u0000mx4s2bac": [
+      "Matrix X Series 4x2 1"
+    ],
+    "firstled\u0000p1s1bac": [
+      "Punk Series 1x1 1"
+    ],
+    "firstled\u0000p2s2bac": [
+      "Punk Series 2x2 1"
+    ],
+    "firstled\u0000p3s3bac": [
+      "Punk Series 3x3 1"
+    ],
+    "focalcrest\u0000srb01": [
+      "Focalcrest Switch"
+    ],
+    "frient a/s\u0000aqszb-110": [
+      "Air Quality Sensor"
+    ],
+    "frient a/s\u0000emizb-132": [
+      "frient Energy Monitor"
+    ],
+    "frient a/s\u0000emizb-141": [
+      "frient EMI 2 LED"
+    ],
+    "frient a/s\u0000emizb-151": [
+      "frient EMI 2 P1"
+    ],
+    "frient a/s\u0000flszb-110": [
+      "frient Water Leak Sensor"
+    ],
+    "frient a/s\u0000heszb-120": [
+      "frient Heat Detector"
+    ],
+    "frient a/s\u0000hmszb-110": [
+      "frient Humidity Sensor"
+    ],
+    "frient a/s\u0000hmszb-120": [
+      "frient Humidity Sensor"
+    ],
+    "frient a/s\u0000iomzb-110": [
+      "frient IO Module"
+    ],
+    "frient a/s\u0000mbtzb-110": [
+      "frient Button"
+    ],
+    "frient a/s\u0000moszb-140": [
+      "frient Motion Sensor Pro"
+    ],
+    "frient a/s\u0000moszb-141": [
+      "frient Motion Sensor"
+    ],
+    "frient a/s\u0000moszb-153": [
+      "frient Motion Sensor 2 Pet"
+    ],
+    "frient a/s\u0000rexzb-111": [
+      "frient Zigbee Range Extender"
+    ],
+    "frient a/s\u0000sbtzb-110": [
+      "frient Button"
+    ],
+    "frient a/s\u0000scazb-141": [
+      "Frient Carbon Monoxide Detector"
+    ],
+    "frient a/s\u0000scazb-143": [
+      "Frient Carbon Monoxide Detector"
+    ],
+    "frient a/s\u0000smrzb-143": [
+      "Smart Cable"
+    ],
+    "frient a/s\u0000smrzb-153": [
+      "Smart Cable 2"
+    ],
+    "frient a/s\u0000smrzb-332": [
+      "Smart Din Relay"
+    ],
+    "frient a/s\u0000smrzb-342": [
+      "Smart DIN Relay 2"
+    ],
+    "frient a/s\u0000smszb-120": [
+      "frient Smoke Detector"
+    ],
+    "frient a/s\u0000splzb-131": [
+      "Smart Plug Mini"
+    ],
+    "frient a/s\u0000splzb-132": [
+      "Smart Plug Mini"
+    ],
+    "frient a/s\u0000splzb-134": [
+      "Smart Plug Mini UK"
+    ],
+    "frient a/s\u0000splzb-137": [
+      "Smart Plug Mini"
+    ],
+    "frient a/s\u0000splzb-141": [
+      "Smart Plug Mini 2"
+    ],
+    "frient a/s\u0000splzb-142": [
+      "Smart Plug Mini 2"
+    ],
+    "frient a/s\u0000splzb-144": [
+      "Smart Plug Mini UK 2"
+    ],
+    "frient a/s\u0000splzb-147": [
+      "Smart Plug Mini 2"
+    ],
+    "frient a/s\u0000wiszb-120": [
+      "frient Entry Sensor Pro"
+    ],
+    "frient a/s\u0000wiszb-121": [
+      "frient Entry Sensor"
+    ],
+    "frient a/s\u0000wiszb-131": [
+      "frient Entry Sensor 2 Pro"
+    ],
+    "frient a/s\u0000wiszb-137": [
+      "frient Vibration Sensor"
+    ],
+    "gatorsystem\u0000gshw01": [
+      "GatorSystem Multipurpose Sensor"
+    ],
+    "ge\u0000daylight": [
+      "GE Light"
+    ],
+    "ge\u0000softwhite": [
+      "GE Light"
+    ],
+    "ge_appliances\u0000zll light": [
+      "GE Light"
+    ],
+    "gelubu\u0000g30": [
+      "GELUBU Door Lock G30"
+    ],
+    "gelubu\u0000p90": [
+      "GELUBU Door Lock P90"
+    ],
+    "gelubu\u0000r50": [
+      "GELUBU Door Lock R50"
+    ],
+    "gelubu\u0000r60": [
+      "GELUBU Door Lock R60"
+    ],
+    "gelubu\u0000r71": [
+      "GELUBU Door Lock R71"
+    ],
+    "gelubu\u0000s93": [
+      "GELUBU Door Lock S93"
+    ],
+    "gledopto\u0000gl-b-001z": [
+      "XLSmart Light"
+    ],
+    "gledopto\u0000gl-c-008": [
+      "Gledopto Switch"
+    ],
+    "hai\u000065a01-1": [
+      "Leviton RC Series Thermostat"
+    ],
+    "hai\u000065a21-1": [
+      "Leviton Switch"
+    ],
+    "heiman\u00002f077707a13f4120846e0775df7e2efe": [
+      "Orvibo Water Leak Sensor"
+    ],
+    "heiman\u0000358e4e3e03c644709905034dae81433e": [
+      "Orvibo Gas Detector"
+    ],
+    "heiman\u0000888a434f3cfc47f29ec4a3a03e9fc442": [
+      "Orvibo Multipurpose Sensor"
+    ],
+    "heiman\u000098293058552c49f38ad0748541ee96ba": [
+      "Orvibo Smoke Detector"
+    ],
+    "heiman\u0000b467083cfc864f5e826459e5d8ea6079": [
+      "Orvibo Multipurpose Sensor"
+    ],
+    "heiman\u0000b5db59bfd81e4f1f95dc57fdbba17931": [
+      "Orvibo Smoke Detector"
+    ],
+    "heiman\u0000cosensor-em": [
+      "HEIMAN Carbon Monoxide Sensor"
+    ],
+    "heiman\u0000d0e857bfd54f4a12816295db3945a421": [
+      "Orvibo Gas Detector"
+    ],
+    "heiman\u0000da2edf1ded0d44e1815d06f45ce02029": [
+      "Orvibo Water Leak Sensor"
+    ],
+    "heiman\u0000doorsensor-n": [
+      "HEIMAN Open/Closed Sensor"
+    ],
+    "heiman\u0000e_socket": [
+      "HEIMAN Outlet"
+    ],
+    "heiman\u0000gassensor-n": [
+      "HEIMAN Gas Detector"
+    ],
+    "heiman\u0000hs2sw1l-efr-3.0": [
+      "HEIMAN Switch"
+    ],
+    "heiman\u0000hs2sw2l-efr-3.0": [
+      "HEIMAN Switch 1"
+    ],
+    "heiman\u0000hs2sw3l-efr-3.0": [
+      "HEIMAN Switch 1"
+    ],
+    "heiman\u0000hs6esk-w-ef-3.0": [
+      "HEIMAN Outlet"
+    ],
+    "heiman\u0000hs6ssa-w-ef-3.0": [
+      "HEIMAN Scene Panel"
+    ],
+    "heiman\u0000hs6ssb-w-ef-3.0": [
+      "HEIMAN Scene Panel"
+    ],
+    "heiman\u0000hs6sw1a-w-ef-3.0": [
+      "HEIMAN Switch 1"
+    ],
+    "heiman\u0000hs6sw2a-w-ef-3.0": [
+      "HEIMAN Switch 1"
+    ],
+    "heiman\u0000hs6sw3a-w-ef-3.0": [
+      "HEIMAN Switch 1"
+    ],
+    "heiman\u0000ht-ef-3.0": [
+      "HEIMAN Multipurpose Sensor"
+    ],
+    "heiman\u0000ht-em": [
+      "HEIMAN Multipurpose Sensor"
+    ],
+    "heiman\u0000pirsensor-n": [
+      "HEIMAN Motion Sensor"
+    ],
+    "heiman\u0000sceneswitch-em-3.0": [
+      "HEIMAN Remote Control"
+    ],
+    "heiman\u0000smokesensor-em": [
+      "HEIMAN Smoke Detector"
+    ],
+    "heiman\u0000smokesensor-n-3.0": [
+      "HEIMAN Smoke Detector"
+    ],
+    "heiman\u0000sos-em": [
+      "HEIMAN Button"
+    ],
+    "heiman\u0000watersensor-n": [
+      "HEIMAN Water Leak Sensor"
+    ],
+    "hoposmart\u0000a2230011": [
+      "HOPOsmart Window Opener A2230011"
+    ],
+    "ikea of sweden\u0000floalt panel ws 30x30": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000floalt panel ws 30x90": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000floalt panel ws 60x60": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000fyrtur block-out roller blind": [
+      "IKEA Window Treatment"
+    ],
+    "ikea of sweden\u0000gunnarp panel round": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000jormlien door ws 40x80": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000kadrilj roller blind": [
+      "IKEA Window Treatment"
+    ],
+    "ikea of sweden\u0000leptiter recessed spot light": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000surte door ws 38x64": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e12 w op/ch 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e12 ws opal 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e12 ws opal 600lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e14 w op/ch 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e14 ws 470lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e14 ws opal 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e14 ws opal 600lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e17 w op/ch 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 cws opal 600lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 opal 1000lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 w opal 1000lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 ws clear 806lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 ws clear 950lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 ws opal 1000lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e26 ws opal 980lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 cws opal 600lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 w opal 1000lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ws clear 806lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ws clear 950lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ws opal 1000lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ws opal 980lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ww 806lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb e27 ww clear 250lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb gu10 w 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri bulb gu10 ws 400lm": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri control outlet": [
+      "IKEA Outlet"
+    ],
+    "ikea of sweden\u0000tradfri driver 10w": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri driver 30w": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri motion sensor": [
+      "IKEA motion Sensor"
+    ],
+    "ikea of sweden\u0000tradfri on/off switch": [
+      "IKEA Remote Control"
+    ],
+    "ikea of sweden\u0000tradfri open/close remote": [
+      "IKEA Remote Control"
+    ],
+    "ikea of sweden\u0000tradfri remote control": [
+      "IKEA Remote Control"
+    ],
+    "ikea of sweden\u0000tradfri signal repeater": [
+      "IKEA Repeater/Extender"
+    ],
+    "ikea of sweden\u0000tradfri transformer 10w": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri transformer 30w": [
+      "IKEA Light"
+    ],
+    "ikea of sweden\u0000tradfri wireless dimmer": [
+      "IKEA Dimmer Switch"
+    ],
+    "imagic by greatstar\u00001113-s": [
+      "Iris Outlet"
+    ],
+    "imagic by greatstar\u00001116-s": [
+      "Iris Open/Closed Sensor"
+    ],
+    "imagic by greatstar\u00001117-s": [
+      "Iris Multipurpose Sensor"
+    ],
+    "innr\u0000ae 260": [
+      "Innr Light"
+    ],
+    "innr\u0000ae 280 c": [
+      "Innr Light"
+    ],
+    "innr\u0000be 220": [
+      "Innr Light"
+    ],
+    "innr\u0000bf 263": [
+      "Innr Light"
+    ],
+    "innr\u0000bf 265": [
+      "Innr Light"
+    ],
+    "innr\u0000by 285 c": [
+      "Innr Light"
+    ],
+    "innr\u0000fl 130 c": [
+      "Innr Light"
+    ],
+    "innr\u0000ofl 120 c": [
+      "Innr Light"
+    ],
+    "innr\u0000ofl 140 c": [
+      "Innr Light"
+    ],
+    "innr\u0000osl 130 c": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 145": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 148 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 165": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 175 w": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 178 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 185 c": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 245": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 248 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 250 c": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 265": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 278 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rb 285 c": [
+      "Innr Light"
+    ],
+    "innr\u0000rf 261": [
+      "Innr Light"
+    ],
+    "innr\u0000rf 263": [
+      "Innr Light"
+    ],
+    "innr\u0000rf 264": [
+      "Innr Light"
+    ],
+    "innr\u0000rf 265": [
+      "Innr Light"
+    ],
+    "innr\u0000rs 125": [
+      "Innr Light"
+    ],
+    "innr\u0000rs 128 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rs 225": [
+      "Innr Light"
+    ],
+    "innr\u0000rs 228 t": [
+      "Innr Light"
+    ],
+    "innr\u0000rs 230 c": [
+      "Innr Light"
+    ],
+    "innr\u0000sp 120": [
+      "Innr Outlet"
+    ],
+    "innr\u0000sp 220": [
+      "Innr Outlet"
+    ],
+    "innr\u0000sp 222": [
+      "Innr Outlet"
+    ],
+    "innr\u0000sp 224": [
+      "Innr Outlet"
+    ],
+    "inovelli\u0000vzm30-sn": [
+      "Inovelli On/Off Blue Series"
+    ],
+    "inovelli\u0000vzm31-sn": [
+      "Inovelli 2-in-1 Blue Series"
+    ],
+    "inovelli\u0000vzm32-sn": [
+      "Inovelli mmWave Dimmer Blue Series"
+    ],
+    "insta gmbh\u0000nexentro blinds actuator": [
+      "NEXENTRO Blinds Actuator"
+    ],
+    "insta gmbh\u0000nexentro dimming actuator": [
+      "NEXENTRO Dimming Actuator"
+    ],
+    "insta gmbh\u0000nexentro pushbutton interface": [
+      "NEXENTRO Pushbutton Interface"
+    ],
+    "insta gmbh\u0000nexentro switching actuator": [
+      "NEXENTRO Switching Actuator"
+    ],
+    "jnl\u0000y-k001-001": [
+      "Yanmi Switch (1 Way)"
+    ],
+    "jnl\u0000y-k002-001": [
+      "Yanmi Switch (2 Way) 1"
+    ],
+    "jnl\u0000y-k003-001": [
+      "Yanmi Switch (3 Way) 1"
+    ],
+    "juno\u0000abl-light-z-001": [
+      "Juno Connect"
+    ],
+    "juno\u0000abl-light-z-201": [
+      "Juno Connect"
+    ],
+    "ke\u0000tradfri open/close remote": [
+      "IKEA Remote Control"
+    ],
+    "keen home inc\u0000sv01-412-mp-1.4": [
+      "Keen Home Vent"
+    ],
+    "keen home inc\u0000sv01-610-mp-1.1": [
+      "Keen Home Vent"
+    ],
+    "kwikset\u0000smartcode": [
+      "Kwikset Door Lock"
+    ],
+    "kwikset\u0000smartcode_deadbolt_10": [
+      "Kwikset Door Lock"
+    ],
+    "kwikset\u0000smartcode_deadbolt_10t": [
+      "Kwikset Door Lock"
+    ],
+    "kwikset\u0000smartcode_deadbolt_5": [
+      "Kwikset Door Lock"
+    ],
+    "kwikset\u0000smartcode_lever_5": [
+      "Kwikset Door Lock"
+    ],
+    "laisiao\u0000dg60gcm-04-2904w": [
+      "Laisiao Bathroom Heater"
+    ],
+    "laisiao\u0000yuba": [
+      "Laisiao Bathroom Heater"
+    ],
+    "lds\u0000zb-onoffplug-d0000": [
+      "LDS Outlet"
+    ],
+    "lds\u0000zb-onoffplug-d0005": [
+      "LDS Outlet"
+    ],
+    "lds\u0000zbt-cctswitch-d0001": [
+      "EcoSmart Remote Control"
+    ],
+    "lds\u0000zbt-dimcontroller-d0800": [
+      "Tint Dimmer Switch"
+    ],
+    "lds\u0000zbt-dimlight-gls": [
+      "Light"
+    ],
+    "lds\u0000zbt-dimlight-gls0000": [
+      "Light"
+    ],
+    "lds\u0000zbt-dimlight-gls0006": [
+      "Light"
+    ],
+    "lds\u0000zbt-dimlight-gls0044": [
+      "Light"
+    ],
+    "lds\u0000zha-dimlight-gls0000": [
+      "Light"
+    ],
+    "ledvance\u0000a19 rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000a19 tw 10 year": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000a19 w 10 year": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000br30 rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000br30 tw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000br30 w 10 year": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000flex outdoor rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000flex rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000flex rgbw pro": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000mr16 tw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000outdoor accent rgb": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000outdoor pathway rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000par38 w 10 year": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000plug": [
+      "SYLVANIA Outlet"
+    ],
+    "ledvance\u0000plug compact eu em t": [
+      "SMART ZIGBEE COMPACT OUTDOOR PLUG EU"
+    ],
+    "ledvance\u0000plug eu em t": [
+      "SMART ZIGBEE PLUG EU EM T"
+    ],
+    "ledvance\u0000rt ho rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000rt rgbw": [
+      "SYLVANIA Light"
+    ],
+    "ledvance\u0000rt tw": [
+      "SYLVANIA Light"
+    ],
+    "leedarson lighting\u00005zb-a806st-q1g": [
+      "Ozom Light"
+    ],
+    "leedarson lighting\u0000m350st-w1r-01": [
+      "OZOM Light"
+    ],
+    "lellki\u0000jz-zb-001": [
+      "LELLKI Switch"
+    ],
+    "leviton\u0000dg15a": [
+      "Leviton Outlet"
+    ],
+    "leviton\u0000dg15s": [
+      "Leviton Switch"
+    ],
+    "leviton\u0000dg3hl": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000dg6hd": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000dl15a": [
+      "Leviton Outlet"
+    ],
+    "leviton\u0000dl15s": [
+      "Leviton Switch"
+    ],
+    "leviton\u0000dl1kd": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000dl3hl": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000dl6hd": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000zsd07": [
+      "Leviton Dimmer Switch"
+    ],
+    "leviton\u0000zss-10": [
+      "Leviton Switch"
+    ],
+    "linxura\u0000aura smart button": [
+      "Aura Smart Button"
+    ],
+    "linxura\u0000smart controller": [
+      "Linxura Smart Controller"
+    ],
+    "lk\u0000zbt-cctlight-gls0108": [
+      "Linkind Light"
+    ],
+    "lk\u0000zbt-dimlight-gls0010": [
+      "Linkind Light"
+    ],
+    "lumi\u0000aqara.lock.akr001": [
+      "Aqara Doorlock L100"
+    ],
+    "lumi\u0000aqara.lock.akr011": [
+      "Aqara Doorlock K100"
+    ],
+    "lumi\u0000lumi.airrtc.agl001": [
+      "Aqara Smart Radiator Thermostat E1"
+    ],
+    "lumi\u0000lumi.curtain": [
+      "Aqara Curtain Controller"
+    ],
+    "lumi\u0000lumi.curtain.agl001": [
+      "Aqara Curtain Driver E1"
+    ],
+    "lumi\u0000lumi.curtain.aq2": [
+      "Aqara Roller Shade Controller"
+    ],
+    "lumi\u0000lumi.curtain.v1": [
+      "Aqara Curtain Controller"
+    ],
+    "lumi\u0000lumi.flood.agl02": [
+      "Aqara Water Leak Sensor"
+    ],
+    "lumi\u0000lumi.light.acn004": [
+      "Aqara Smart Dimmer Controller T1 Pro"
+    ],
+    "lumi\u0000lumi.light.cwacn1": [
+      "Aqara Smart Dimmer Controller T1 (0-10v)"
+    ],
+    "lumi\u0000lumi.magnet.agl02": [
+      "Aqara Door and Window Sensor T1"
+    ],
+    "lumi\u0000lumi.motion.ac02": [
+      "Aqara Motion Sensor P1"
+    ],
+    "lumi\u0000lumi.motion.agl02": [
+      "Aqara Motion Sensor T1"
+    ],
+    "lumi\u0000lumi.motion.agl04": [
+      "Aqara High Precision Motion Sensor"
+    ],
+    "lumi\u0000lumi.plug.macn01": [
+      "Aqara Smart Plug T1"
+    ],
+    "lumi\u0000lumi.plug.maeu01": [
+      "Aqara Smart Plug"
+    ],
+    "lumi\u0000lumi.remote.acn003": [
+      "Aqara Wireless Remote Switch E1 (Single Rocker)"
+    ],
+    "lumi\u0000lumi.remote.b186acn03": [
+      "Aqara Wireless Remote Switch T1 (Single Rocker)"
+    ],
+    "lumi\u0000lumi.remote.b18ac1": [
+      "Aqara Wireless Remote Switch H1 (Single Rocker)"
+    ],
+    "lumi\u0000lumi.remote.b1acn02": [
+      "Aqara Wireless Mini Switch T1"
+    ],
+    "lumi\u0000lumi.remote.b286acn03": [
+      "Aqara Wireless Remote Switch T1 (Double Rocker)"
+    ],
+    "lumi\u0000lumi.remote.b28ac1": [
+      "Aqara Wireless Remote Switch H1 (Double Rocker)"
+    ],
+    "lumi\u0000lumi.remote.cagl02": [
+      "Aqara Cube T1 Pro"
+    ],
+    "lumi\u0000lumi.remote.rkba01": [
+      "Aqara Wireless Smart Knob H1"
+    ],
+    "lumi\u0000lumi.sen_ill.agl01": [
+      "Aqara Illuminance Sensor T1"
+    ],
+    "lumi\u0000lumi.sensor_gas.acn02": [
+      "Aqara Smart Natural Gas Detector"
+    ],
+    "lumi\u0000lumi.sensor_ht.agl02": [
+      "Aqara Temperature and Humidity Sensor T1"
+    ],
+    "lumi\u0000lumi.sensor_smoke.acn03": [
+      "Aqara Smart Smoke Detector"
+    ],
+    "lumi\u0000lumi.switch.b1laus01": [
+      "Aqara Smart Wall Switch (No Neutral, Single Rocker)"
+    ],
+    "lumi\u0000lumi.switch.b1nacn01": [
+      "Aqara Smart Wall Switch T1 (With Neutral, Single Rocker)"
+    ],
+    "lumi\u0000lumi.switch.b2laus01": [
+      "Aqara Smart Wall Switch (No Neutral, Double Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.b2nacn01": [
+      "Aqara Smart Wall Switch T1 (With Neutral, Double Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.b3n01": [
+      "Aqara Smart Wall Switch T1 (With Neutral, Triple Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.l0agl1": [
+      "Aqara Single Switch Module T1 (No Neutral)"
+    ],
+    "lumi\u0000lumi.switch.l1aeu1": [
+      "Aqara Smart Wall Switch H1 EU (No Neutral, Single Rocker)"
+    ],
+    "lumi\u0000lumi.switch.l2aeu1": [
+      "Aqara Smart Wall Switch H1 EU (No Neutral, Double Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.n0acn2": [
+      "Aqara Single Switch Module T1 (With Neutral)"
+    ],
+    "lumi\u0000lumi.switch.n0agl1": [
+      "Aqara Single Switch Module T1 (With Neutral)"
+    ],
+    "lumi\u0000lumi.switch.n1acn1": [
+      "Aqara Smart Wall Switch H1 (With Neutral, Single Rocker)"
+    ],
+    "lumi\u0000lumi.switch.n1aeu1": [
+      "Aqara Smart Wall Switch H1 EU (With Neutral, Single Rocker)"
+    ],
+    "lumi\u0000lumi.switch.n2acn1": [
+      "Aqara Smart Wall Switch H1 (With Neutral, Double Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.n2aeu1": [
+      "Aqara Smart Wall Switch H1 EU (With Neutral, Double Rocker) 1"
+    ],
+    "lumi\u0000lumi.switch.n3acn1": [
+      "Aqara Smart Wall Switch H1 (With Neutral, Triple Rocker) 1"
+    ],
+    "lux\u0000konoz": [
+      "LUX Thermostat"
+    ],
+    "megaman\u0000ad-dimmablelight3001": [
+      "INGENIUM Light"
+    ],
+    "megaman\u0000bsztm002": [
+      "INGENIUM Light"
+    ],
+    "megaman\u0000bsztm003": [
+      "INGENIUM Light"
+    ],
+    "megaman\u0000bsztm005": [
+      "INGENIUM Switch"
+    ],
+    "megaman\u0000ms601/z1": [
+      "INGENIUM Open/Closed Sensor"
+    ],
+    "megaman\u0000ps601/z1": [
+      "INGENIUM Motion Sensor"
+    ],
+    "megaman\u0000sh-psukc44b-e": [
+      "INGENIUM Outlet"
+    ],
+    "megaman\u0000z3-colortemperature": [
+      "INGENIUM Light"
+    ],
+    "megaman\u0000zll-dimmablelight": [
+      "INGENIUM Light"
+    ],
+    "megaman\u0000zll-extendedcolor": [
+      "INGENIUM Light"
+    ],
+    "mli\u0000zbt-colortemperature": [
+      "Tint Light"
+    ],
+    "mli\u0000zbt-dimmablelight": [
+      "Tint Light"
+    ],
+    "mli\u0000zbt-extendedcolor": [
+      "Tint Light"
+    ],
+    "mrvl\u0000mz100": [
+      "Wemo Light"
+    ],
+    "multiir\u0000pmt1006s-sgm-ztn": [
+      "MultiIR Air Quality Detector"
+    ],
+    "multir\u0000mir-ir100": [
+      "MultiIR Motion Detector MIR-IR100"
+    ],
+    "multir\u0000mir-mc100": [
+      "MultiIR Contact Sensor MIR-MC100"
+    ],
+    "multir\u0000mir-sm200": [
+      "MultiIR Smoke Detector MIR-SM200"
+    ],
+    "multir\u0000mir-so100": [
+      "MultiIR Smart button MIR-SO100"
+    ],
+    "multir\u0000mir-wa100": [
+      "MultiIR Water Leak Sensor MIR-WA100"
+    ],
+    "neo\u0000nas_ws11": [
+      "NEO Water Leak Sensor"
+    ],
+    "neuhaus lighting group\u0000zbt-extendedcolor": [
+      "Q-Smart Light"
+    ],
+    "nodon\u0000sin-4-1-20": [
+      "Zigbee Multifunction Relay Switch"
+    ],
+    "nodon\u0000sin-4-1-20-pro": [
+      "Zigbee Multifunction Relay Switch PRO"
+    ],
+    "nodon\u0000sin-4-1-21": [
+      "Zigbee Multifunction Relay Switch with Metering"
+    ],
+    "nodon\u0000sin-4-2-20": [
+      "Zigbee ON/OFF Lighting Relay Switch"
+    ],
+    "nodon\u0000sin-4-rs-20": [
+      "Zigbee Roller Shutter Relay Switch"
+    ],
+    "nodon\u0000stph-4-1-00": [
+      "Zigbee Temperature and Humidity Sensor"
+    ],
+    "none\u0000e220-kr1n0z0-ha": [
+      "eZEX Switch"
+    ],
+    "nortek security and control\u0000f-adt-wtr-1": [
+      "ADT Water Leak Detector"
+    ],
+    "orvibo\u0000074b3ffba5a045b7afd94c47079dd553": [
+      "Orvibo Switch 1"
+    ],
+    "orvibo\u0000095db3379e414477ba6c2f7e0c6aa026": [
+      "Orvibo Switch"
+    ],
+    "orvibo\u0000895a2d80097f4ae2b2d40500d5e03dcc": [
+      "Orvibo Motion Sensor"
+    ],
+    "orvibo\u00009f76c9f31b4c4a499e3aca0977ac4494": [
+      "Orvibo Switch 1"
+    ],
+    "orvibo\u0000e70f96b3773a4c9283c6862dbafb6a99": [
+      "Orvibo Open/Closed Sensor"
+    ],
+    "orvibo\u0000fdd5fce51a164c7ab73b2f4d8d84c88e": [
+      "Orvibo Outlet"
+    ],
+    "osram\u0000cla60 ofd osram": [
+      "OSRAM Light"
+    ],
+    "osram\u0000cla60 rgbw osram": [
+      "OSRAM Light"
+    ],
+    "osram\u0000cla60 tw osram": [
+      "OSRAM Light"
+    ],
+    "osram\u0000classic a60 rgbw": [
+      "OSRAM Light"
+    ],
+    "osram\u0000classic a60 tw": [
+      "OSRAM Light"
+    ],
+    "osram\u0000classic a60 w clear": [
+      "OSRAM Light"
+    ],
+    "osram\u0000classic a60 w clear - lightify": [
+      "OSRAM Light"
+    ],
+    "osram\u0000classic b40 tw - lightify": [
+      "OSRAM Light"
+    ],
+    "osram\u0000colorstriprgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000flex rgbw": [
+      "OSRAM Light"
+    ],
+    "osram\u0000gardenpole rgbw-lightify": [
+      "OSRAM Light"
+    ],
+    "osram\u0000gardenspot rgb": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify a19 on/off/dim": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify a19 on/off/dim 10 year": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify a19 rgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify a19 tunable white": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify br on/off/dim": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify br rgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify br tunable white": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify conv under cabinet tw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify dimming switch": [
+      "OSRAM Button"
+    ],
+    "osram\u0000lightify edge-lit flushmount": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify edge-lit flushmount tw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify flex outdoor rgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify flex rgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify gardenspot rgb": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify indoor flex rgbw": [
+      "OSRAM Light"
+    ],
+    "osram\u0000lightify outdoor flex rgbw": [
+      "OSRAM Light"
+    ],
+    "osram\u0000lightify par38 on/off/dim": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify rt rgbw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify rt tunable white": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify surface tw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000lightify under cabinet tw": [
+      "SYLVANIA Light"
+    ],
+    "osram\u0000par 16 50 rgbw - lightify": [
+      "OSRAM Light"
+    ],
+    "osram\u0000plug 01": [
+      "OSRAM Outlet"
+    ],
+    "osram sylvania\u0000iqbr30": [
+      "SYLVANIA Light"
+    ],
+    "philips\u0000lct001": [
+      "Philips Light"
+    ],
+    "philips\u0000lct002": [
+      "Philips Light"
+    ],
+    "philips\u0000lct003": [
+      "Philips Light"
+    ],
+    "philips\u0000lct007": [
+      "Philips Light"
+    ],
+    "philips\u0000lct010": [
+      "Philips Light"
+    ],
+    "philips\u0000lct011": [
+      "Philips Light"
+    ],
+    "philips\u0000lct012": [
+      "Philips Light"
+    ],
+    "philips\u0000lct014": [
+      "Philips Light"
+    ],
+    "philips\u0000lct015": [
+      "Philips Light"
+    ],
+    "philips\u0000lct016": [
+      "Philips Light"
+    ],
+    "philips\u0000lst001": [
+      "Philips Light"
+    ],
+    "philips\u0000lst002": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw001": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw004": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw010": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw011": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw012": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw013": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw014": [
+      "Philips Light"
+    ],
+    "philips\u0000ltw015": [
+      "Philips Light"
+    ],
+    "philips\u0000lwb004": [
+      "Philips Light"
+    ],
+    "philips\u0000lwb006": [
+      "Philips Light"
+    ],
+    "philips\u0000lwb007": [
+      "Philips Light"
+    ],
+    "philips\u0000lwb010": [
+      "Philips Light"
+    ],
+    "philips\u0000lwb014": [
+      "Philips Light"
+    ],
+    "plaid systems\u0000ps-sprzms-01": [
+      "Spruce Irrigation"
+    ],
+    "plaid systems\u0000ps-sprzms-slp1": [
+      "Spruce Irrigation"
+    ],
+    "plaid systems\u0000ps-sprzms-slp3": [
+      "Spruce Irrigation"
+    ],
+    "resideo korea\u0000dt300st-m000": [
+      "Main Thermostat"
+    ],
+    "resideo korea\u0000mc200st": [
+      "Valve Controller"
+    ],
+    "rex\u0000hy0095": [
+      "HONYAR Switch"
+    ],
+    "rex\u0000hy0096": [
+      "HONYAR Switch 1"
+    ],
+    "rex\u0000hy0097": [
+      "HONYAR Switch 1"
+    ],
+    "rexense\u0000dy0010": [
+      "Window Treatment"
+    ],
+    "rexense\u0000hy0001": [
+      "GDKES Switch"
+    ],
+    "rexense\u0000hy0002": [
+      "GDKES Switch 1"
+    ],
+    "rexense\u0000hy0003": [
+      "GDKES Switch 1"
+    ],
+    "rexense\u0000hy0104": [
+      "HONYAR Outlet"
+    ],
+    "rexense\u0000hy0105": [
+      "HONYAR Outlet"
+    ],
+    "rexense\u0000kg0001": [
+      "Window Treatment"
+    ],
+    "rexense\u0000rh5005": [
+      "GDKES Outlet"
+    ],
+    "rexense\u0000rh5006": [
+      "GDKES Outlet"
+    ],
+    "robb smarrt\u0000rob_200-004-0": [
+      "ROBB SMARRT Zigbee dimmer 3-wire"
+    ],
+    "robb smarrt\u0000rob_200-007-0": [
+      "ROBB 8x Wireless Smarrt Switch"
+    ],
+    "robb smarrt\u0000rob_200-008-0": [
+      "ROBB 4x Wireless Smarrt Switch"
+    ],
+    "robb smarrt\u0000rob_200-011-0": [
+      "ROBB SMARRT Zigbee dimmer 2-wire"
+    ],
+    "robb smarrt\u0000rob_200-014-0": [
+      "ROBB SMARRT Zigbee rotary dimmer 2-wire"
+    ],
+    "rooms beautiful\u0000c001": [
+      "Rooms Beautiful Window Treatment"
+    ],
+    "rooms beautiful\u0000r001": [
+      "Rooms Beautiful Repeater/Extender"
+    ],
+    "salus\u0000sx885zb": [
+      "Salus Switch"
+    ],
+    "samjin\u0000button": [
+      "Button"
+    ],
+    "samjin\u0000motion": [
+      "Motion Sensor"
+    ],
+    "samjin\u0000multi": [
+      "Multipurpose Sensor"
+    ],
+    "samjin\u0000outlet": [
+      "SmartThings Outlet"
+    ],
+    "samjin\u0000water": [
+      "Water Leak Sensor"
+    ],
+    "samsung electronics\u0000abl-light-z-001": [
+      "Juno Connect"
+    ],
+    "samsung electronics\u0000han-light-z-001": [
+      "SamsungB2B Light"
+    ],
+    "samsung electronics\u0000samsung-itm-z-001": [
+      "Samsung Light"
+    ],
+    "samsung electronics\u0000samsung-itm-z-002": [
+      "Samsung Light"
+    ],
+    "samsung electronics\u0000samsung-itm-z-003": [
+      "Fan light"
+    ],
+    "samsung electronics\u0000samsung-itm-z-005": [
+      "ITM Switch"
+    ],
+    "samsung sds\u0000": [
+      "Samsung Door Lock"
+    ],
+    "schlage\u0000be468": [
+      "Schlage Door Lock"
+    ],
+    "screen innovations\u0000wm25/l-z": [
+      "Screen Innovations Window Treatment"
+    ],
+    "sengled\u0000e11-g13": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-g14": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-g23": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-g33": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-n13": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-n13a": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-n14": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-n14a": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-n1ea": [
+      "Sengled Multicolor"
+    ],
+    "sengled\u0000e11-n1g": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-u21u31": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e11-u2e": [
+      "Sengled Element Color Plus"
+    ],
+    "sengled\u0000e11-u3e": [
+      "Sengled Element Color Plus"
+    ],
+    "sengled\u0000e12-n13": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e12-n14": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e12-n15": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e12-n1e": [
+      "Sengled Element Color Plus"
+    ],
+    "sengled\u0000e13-a21": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e13-n11": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e14-u43": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e1a-ac2": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e1c-nb6": [
+      "Sengled Outlet"
+    ],
+    "sengled\u0000e1c-nb7": [
+      "Sengled Outlet"
+    ],
+    "sengled\u0000e1d-g73": [
+      "Sengled Open/Closed Sensor"
+    ],
+    "sengled\u0000e1e-g7f": [
+      "Sengled Dimmer Switch"
+    ],
+    "sengled\u0000e1f-n5e": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e1g-g8e": [
+      "Sengled Smart Light Strip"
+    ],
+    "sengled\u0000e1l-g7k": [
+      "Sengled Water Leak Sensor"
+    ],
+    "sengled\u0000e1m-g7h": [
+      "Sengled Motion Sensor"
+    ],
+    "sengled\u0000e21-n13a": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e21-n14a": [
+      "Sengled Light"
+    ],
+    "sengled\u0000e21-n1ea": [
+      "Sengled Multicolor"
+    ],
+    "sengled\u0000e23-n11": [
+      "Sengled Light par38"
+    ],
+    "sengled\u0000e23-n13": [
+      "Sengled Multicolor par38"
+    ],
+    "sengled\u0000e2d-g73": [
+      "Sengled Open/Closed Sensor"
+    ],
+    "sengled\u0000z01-a191ae26w": [
+      "Sengled Light"
+    ],
+    "sengled\u0000z01-a19nae26": [
+      "Sengled Light"
+    ],
+    "sengled\u0000z01-a60eab22": [
+      "Sengled Light"
+    ],
+    "sengled\u0000z01-a60eae27": [
+      "Sengled Light"
+    ],
+    "sengled\u0000z01-cia19nae26": [
+      "Sengled Light"
+    ],
+    "sercomm corp.\u0000sz-dws04": [
+      "Sercomm Open/Closed Sensor"
+    ],
+    "sercomm corp.\u0000sz-esw01-au": [
+      "Sercomm Outlet"
+    ],
+    "sercomm corp.\u0000sz-wtd03": [
+      "Sercomm Water Leak Sensor"
+    ],
+    "shade revolution\u0000indoor shade motors": [
+      "Smart Shade"
+    ],
+    "shinasystem\u0000bsm-300z": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000fam-300z": [
+      "SiHAS Smoke Detector"
+    ],
+    "shinasystem\u0000msm-300z": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000pmm-300z1": [
+      "SiHAS Energy Monitor"
+    ],
+    "shinasystem\u0000pmm-300z2": [
+      "SiHAS Energy Monitor"
+    ],
+    "shinasystem\u0000pmm-300z3": [
+      "SiHAS Energy Monitor"
+    ],
+    "shinasystem\u0000sbm300z1": [
+      "SiHAS Switch"
+    ],
+    "shinasystem\u0000sbm300z2": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sbm300z3": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sbm300z4": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sbm300z5": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sbm300z6": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sbm300zb1": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zb2": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zb3": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zc1": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zc2": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zc3": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sbm300zc4": [
+      "SiHAS Remote Control"
+    ],
+    "shinasystem\u0000sqm300z1": [
+      "SiHAS Switch"
+    ],
+    "shinasystem\u0000sqm300z2": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sqm300z3": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sqm300z4": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sqm300z6": [
+      "SiHAS Switch 1"
+    ],
+    "shinasystem\u0000sqm300zc4": [
+      "SiHAS Remote Control"
+    ],
+    "shus\u0000sx-1": [
+      "Sleepone Ai SX-1"
+    ],
+    "sinope technologies\u0000dm2500zb": [
+      "DM2500ZB Sinope Dimmer"
+    ],
+    "sinope technologies\u0000rm3250zb": [
+      "RM3250ZB Sinope Load Controller"
+    ],
+    "sinope technologies\u0000rm3500zb": [
+      "RM3500ZB Sinope Load Controller"
+    ],
+    "sinope technologies\u0000sp2600zb": [
+      "Sinope Outlet"
+    ],
+    "sinope technologies\u0000sp2610zb": [
+      "Sinope Outlet"
+    ],
+    "sinope technologies\u0000sw2500zb": [
+      "Sinope Switch"
+    ],
+    "sinope technologies\u0000th1123zb": [
+      "TH1123ZB Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1123zb-g2": [
+      "TH1123ZB-G2 Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1124zb": [
+      "TH1124ZB Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1124zb-g2": [
+      "TH1124ZB-G2 Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1300zb": [
+      "TH1300ZB Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1400zb": [
+      "TH1400ZB Sinope Thermostat"
+    ],
+    "sinope technologies\u0000th1500zb": [
+      "TH1500ZB Sinope Thermostat"
+    ],
+    "sinope technologies\u0000wl4200": [
+      "Sinope Water Leak Sensor"
+    ],
+    "sinope technologies\u0000wl4200s": [
+      "Sinope Water Leak Sensor"
+    ],
+    "sinope technologies\u0000wl4210": [
+      "Sinope Water Leak Sensor"
+    ],
+    "smartenit, inc\u0000zb3re": [
+      "Smartenit Repeater/Extender"
+    ],
+    "smarthome\u0000s111-201a": [
+      "Leedarson Light"
+    ],
+    "smarthome\u0000s111-202a": [
+      "Leedarson Light"
+    ],
+    "smartthings\u0000moisturev4": [
+      "Water Leak Sensor"
+    ],
+    "smartthings\u0000motionv4": [
+      "Motion Sensor"
+    ],
+    "smartthings\u0000motionv5": [
+      "Motion Sensor"
+    ],
+    "smartthings\u0000multiv4": [
+      "Multipurpose Sensor"
+    ],
+    "smartthings\u0000outletv4": [
+      "SmartThings Outlet"
+    ],
+    "smartthings\u0000pgc313": [
+      "Multipurpose Sensor"
+    ],
+    "smartthings\u0000pgc313eu": [
+      "Multipurpose Sensor"
+    ],
+    "smartthings\u0000pgc314": [
+      "SmartThings Motion Sensor"
+    ],
+    "smartthings\u0000pgc410": [
+      "SmartThings Presence Sensor"
+    ],
+    "smartthings\u0000pgc410eu": [
+      "SmartThings Presence Sensor"
+    ],
+    "smartthings\u0000tagv4": [
+      "SmartThings Presence Sensor"
+    ],
+    "smartvill\u0000sla01": [
+      "SMARTvill Switch"
+    ],
+    "smartvill\u0000sla02": [
+      "SMARTvill Switch 1"
+    ],
+    "smartvill\u0000sla03": [
+      "SMARTvill Switch 1"
+    ],
+    "smartvill\u0000sla04": [
+      "SMARTvill Switch 1"
+    ],
+    "smartvill\u0000sla05": [
+      "SMARTvill Switch 1"
+    ],
+    "smartvill\u0000sla06": [
+      "SMARTvill Switch 1"
+    ],
+    "smartwings\u0000wm25/l-z": [
+      "Smartwings Window Treatment"
+    ],
+    "sombra shades\u0000sombra/z-m": [
+      "Sombra Automated Shades"
+    ],
+    "sombra shades\u0000ss25/l-z": [
+      "Sombra Automated Shades and Blinds"
+    ],
+    "sombra shades\u0000wm25/l-z": [
+      "Sombra Shades Window Treatment"
+    ],
+    "somfy\u0000glydea ultra curtain": [
+      "SOMFY Window Treatment"
+    ],
+    "somfy\u0000situo 1 zigbee": [
+      "SOMFY Remote Control"
+    ],
+    "somfy\u0000situo 4 zigbee": [
+      "SOMFY Remote Control"
+    ],
+    "somfy\u0000sonesse 30 wf roller": [
+      "SOMFY Window Treatment"
+    ],
+    "somfy\u0000sonesse 40 roller": [
+      "SOMFY Window Treatment"
+    ],
+    "sonoff\u000001minizb": [
+      "SONOFF 01MINIZB"
+    ],
+    "sonoff\u0000basiczbr3": [
+      "SONOFF Outlet"
+    ],
+    "sonoff\u0000s31 lite zb": [
+      "S31 Outlet"
+    ],
+    "sonoff\u0000snzb-01m": [
+      "SNZB-01M"
+    ],
+    "sonoff\u0000snzb-02b": [
+      "SONOFF SNZB-02B"
+    ],
+    "sonoff\u0000snzb-02dr2": [
+      "SONOFF SNZB-02DR2"
+    ],
+    "sonoff\u0000snzb-04pr2": [
+      "SONOFF Contact Sensor"
+    ],
+    "sonoff\u0000zbm5-1c-120w": [
+      "SONOFF Zigbee Smart Wall Switch"
+    ],
+    "sonoff\u0000zbm5-2c-120w": [
+      "SONOFF Zigbee Smart Wall Switch"
+    ],
+    "sonoff\u0000zbm5-3c-120w": [
+      "SONOFF Zigbee Smart Wall Switch"
+    ],
+    "sonoff\u0000zbminil2": [
+      "SONOFF Switch"
+    ],
+    "stelpro\u0000maestrostat": [
+      "Stelpro Thermostat"
+    ],
+    "stelpro\u0000sonomastyle": [
+      "Stelpro Thermostat"
+    ],
+    "stelpro\u0000sorb": [
+      "Stelpro Thermostat"
+    ],
+    "stelpro\u0000st218": [
+      "Stelpro Thermostat"
+    ],
+    "stelpro\u0000stzb402+": [
+      "Stelpro Thermostat"
+    ],
+    "the home depot\u0000ecosmart-zbt-a19-cct-bulb": [
+      "Ecosmart Light"
+    ],
+    "the home depot\u0000ecosmart-zbt-br30-cct-bulb": [
+      "Ecosmart Light"
+    ],
+    "third reality, inc\u00003rds17bz": [
+      "ThirdReality Door Sensor"
+    ],
+    "third reality, inc\u00003rms16bz": [
+      "ThirdReality Motion Sensor"
+    ],
+    "third reality, inc\u00003rsb22bz": [
+      "ThirdReality Smart Button"
+    ],
+    "third reality, inc\u00003rsl011z": [
+      "RealityLight Light"
+    ],
+    "third reality, inc\u00003rsl012z": [
+      "RealityLight Light"
+    ],
+    "third reality, inc\u00003rsm0147z": [
+      "ThirdReality Smart Soil Moisture Sensor"
+    ],
+    "third reality, inc\u00003rsp019bz": [
+      "ThirdReality Plug"
+    ],
+    "third reality, inc\u00003rsp02028bz": [
+      "ThirdReality Plug"
+    ],
+    "third reality, inc\u00003rss007z": [
+      "ThirdReality Switch"
+    ],
+    "third reality, inc\u00003rss008z": [
+      "ThirdReality Switch"
+    ],
+    "third reality, inc\u00003rss009z": [
+      "ThirdReality Switch"
+    ],
+    "third reality, inc\u00003rths24bz": [
+      "ThirdReality Temperature and Humidity Sensor"
+    ],
+    "third reality, inc\u00003rvs01031z": [
+      "ThirdReality Vibration Sensor"
+    ],
+    "third reality, inc\u00003rwk0148z": [
+      "ThirdReality Smart Watering Kit"
+    ],
+    "third reality, inc\u00003rws18bz": [
+      "ThirdReality Water Leak Sensor"
+    ],
+    "thirdreality\u00003rms16bz": [
+      "ThirdReality Motion Sensor"
+    ],
+    "thirdreality\u00003rws18bz": [
+      "ThirdReality Water Leak Sensor"
+    ],
+    "totem\u0000g30": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000h60/h90": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000n60": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000p30": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000p70": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000p90": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000q30": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000r50": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000r60": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000r71": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000s50v": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000s90": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000s93": [
+      "TOTEM Door Lock"
+    ],
+    "totem\u0000w31v": [
+      "TOTEM Door Lock"
+    ],
+    "ubec\u0000bbb65l-hy": [
+      "XLSmart Light"
+    ],
+    "ubisys\u0000d1 (5503)": [
+      "Dimmer D1"
+    ],
+    "ubisys\u0000d1-r (5603)": [
+      "Dimmer D1-R"
+    ],
+    "ubisys\u0000s1 (5501)": [
+      "Switching Actuator S1"
+    ],
+    "ubisys\u0000s2 (5502)": [
+      "ubisys S2"
+    ],
+    "umbrela\u0000thermostat": [
+      "Umbrela Thermostat"
+    ],
+    "vimar\u0000remotecontrol_v1.0": [
+      "Vimar Remote Control"
+    ],
+    "vimar\u0000wheelthermostat_v1.0": [
+      "Vimar Smart Thermostat"
+    ],
+    "vimar\u0000window_cov_module_v1.0": [
+      "Vimar Smart Roller Shutter Module"
+    ],
+    "vimar\u0000window_cov_v1.0": [
+      "Vimar Smart Roller Shutter"
+    ],
+    "visonic\u0000mct-340 e": [
+      "Visonic Open/Closed Sensor"
+    ],
+    "visonic\u0000mct-340 sma": [
+      "Tyco Open/Closed Sensor"
+    ],
+    "vividstorm\u0000vwsdstust120h": [
+      "VIVIDSTORM Smart Screen VWSDSTUST120H"
+    ],
+    "wall hero\u0000acl-401on": [
+      "WallHero Outlet"
+    ],
+    "wall hero\u0000acl-401s1i": [
+      "WallHero Switch (1 Way)"
+    ],
+    "wall hero\u0000acl-401s2i": [
+      "WallHero Switch (2 Way) 1"
+    ],
+    "wall hero\u0000acl-401s3i": [
+      "WallHero Switch (3 Way) 1"
+    ],
+    "wall hero\u0000acl-401s4i": [
+      "WallHero Switch (4 Way) 1"
+    ],
+    "wall hero\u0000acl-401s8i": [
+      "WallHero Switch (8 Way) 1"
+    ],
+    "wall hero\u0000acl-401sca4": [
+      "WallHero Remote Control (4-Inch)"
+    ],
+    "wall hero\u0000acl-403stc1": [
+      "WALLHERO Thermostat ACL-403STC1"
+    ],
+    "waxman\u0000leaksmart water sensor v2": [
+      "leakSMART Water Leak Sensor"
+    ],
+    "winners\u0000lss1-101": [
+      "HS Switch 1(1 way)"
+    ],
+    "winners\u0000lss1-102": [
+      "HS Switch 1(2 way)"
+    ],
+    "winners\u0000lss1-103": [
+      "HS Switch 1(3 way)"
+    ],
+    "winners\u0000lss1-204": [
+      "HS Switch 1(4 way)"
+    ],
+    "winners\u0000lss1-205": [
+      "HS Switch 1(5 way)"
+    ],
+    "winners\u0000lss1-206": [
+      "HS Switch 1(6 way)"
+    ],
+    "yale\u0000ydd-d4f0 tsdb": [
+      "Lockwood Door Lock"
+    ],
+    "yale\u0000yrd210 pb db": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrd216 pbdb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrd220/240 tsdb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrd226 tsdb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrd226/246 tsdb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrd446 ble tsdb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrl210 pb ll": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrl216 pb": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrl220 ts ll": [
+      "Yale Door Lock"
+    ],
+    "yale\u0000yrl226 tsll": [
+      "Yale Door Lock"
+    ],
+    "yookee\u0000d10110": [
+      "Yookee Window Treatment"
+    ],
+    "yooksmart\u0000d10110": [
+      "yooksmart Window Treatment"
+    ],
+    "zemismart\u0000sdm01-1z1": [
+      "Energy Monitor 1PN"
+    ],
+    "zemismart\u0000sdm01-3z1": [
+      "Energy Monitor 3PN"
+    ],
+    "zemismart\u0000sdm02-2z1": [
+      "Energy Monitor 2PN"
+    ],
+    "zemismart\u0000spm01-1z2": [
+      "Energy Monitor 1PN"
+    ],
+    "zemismart\u0000spm02-3z3": [
+      "Energy Monitor 3PN"
+    ],
+    "zen within\u0000zen-01": [
+      "Zen Thermostat"
+    ],
+    "zhenchen\u0000sg20": [
+      "Greentown Lock(SG20)"
+    ],
+    "zunzunbee\u0000sswz8t": [
+      "Slate Switch Button"
+    ]
+  },
+  "matter": {
+    "100B-0002": [
+      "Matter Bridge"
+    ],
+    "100B-0129": [
+      "Hue WCA 650 BR30 E26 1P NAM"
+    ],
+    "100B-0800": [
+      "Hue WA 810 A19 E26 1P NAM"
+    ],
+    "100B-0801": [
+      "Hue W 1600 A21 E26 1P NAM"
+    ],
+    "100B-2000": [
+      "WiZ A19"
+    ],
+    "100B-2001": [
+      "WiZ A.E27"
+    ],
+    "100B-2002": [
+      "WiZ A19 Daylight"
+    ],
+    "100B-2003": [
+      "WiZ LED Strip"
+    ],
+    "100B-2004": [
+      "WiZ Downlight"
+    ],
+    "100B-2006": [
+      "WiZ Ceiling"
+    ],
+    "100B-2007": [
+      "WiZ Linear"
+    ],
+    "100B-2008": [
+      "WiZ Hero"
+    ],
+    "100B-2009": [
+      "WiZ LED Strip"
+    ],
+    "100B-200A": [
+      "WiZ A19 Filament"
+    ],
+    "100B-200B": [
+      "WiZ A60 Filament"
+    ],
+    "100B-200C": [
+      "WiZ Downlight"
+    ],
+    "100B-200D": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-200E": [
+      "WiZ A60 Filament"
+    ],
+    "100B-200F": [
+      "WiZ A.E27"
+    ],
+    "100B-2011": [
+      "WiZ ELPAS Wall"
+    ],
+    "100B-2012": [
+      "WiZ Outdoor Ground Spot"
+    ],
+    "100B-2014": [
+      "WiZ PAR30"
+    ],
+    "100B-2015": [
+      "WiZ Ceiling"
+    ],
+    "100B-2016": [
+      "WiZ Ceiling"
+    ],
+    "100B-2017": [
+      "WiZ Portrait"
+    ],
+    "100B-2018": [
+      "WiZ A19"
+    ],
+    "100B-2019": [
+      "WiZ A19 Warm White"
+    ],
+    "100B-2100": [
+      "WiZ A21"
+    ],
+    "100B-2101": [
+      "WiZ A19"
+    ],
+    "100B-2102": [
+      "WiZ BR30"
+    ],
+    "100B-2103": [
+      "WiZ A.B22"
+    ],
+    "100B-2104": [
+      "WiZ GU10"
+    ],
+    "100B-2105": [
+      "WiZ Candle"
+    ],
+    "100B-2106": [
+      "WiZ A67.E27"
+    ],
+    "100B-2107": [
+      "WiZ G95.E27"
+    ],
+    "100B-2108": [
+      "WiZ A.E27"
+    ],
+    "100B-2109": [
+      "WiZ A67.E27"
+    ],
+    "100B-210A": [
+      "WiZ A19"
+    ],
+    "100B-210B": [
+      "WiZ BR30"
+    ],
+    "100B-210C": [
+      "WiZ Candle"
+    ],
+    "100B-210D": [
+      "WiZ GU10"
+    ],
+    "100B-210E": [
+      "WiZ Candle"
+    ],
+    "100B-210F": [
+      "WiZ A21"
+    ],
+    "100B-211B": [
+      "WiZ GU10"
+    ],
+    "100B-211C": [
+      "WiZ Candle"
+    ],
+    "100B-211D": [
+      "WiZ A.B22"
+    ],
+    "100B-211E": [
+      "WiZ G95.E27"
+    ],
+    "100B-211F": [
+      "WiZ A19"
+    ],
+    "100B-2120": [
+      "WiZ A60"
+    ],
+    "100B-2121": [
+      "WiZ A60.E26"
+    ],
+    "100B-2122": [
+      "WiZ A67.E26"
+    ],
+    "100B-2123": [
+      "WiZ GU10"
+    ],
+    "100B-212B": [
+      "WiZ Downlight"
+    ],
+    "100B-212C": [
+      "WiZ Downlight"
+    ],
+    "100B-212E": [
+      "WiZ Downlight"
+    ],
+    "100B-212F": [
+      "WiZ Downlight"
+    ],
+    "100B-2130": [
+      "WiZ Downlight"
+    ],
+    "100B-2131": [
+      "WiZ Downlight"
+    ],
+    "100B-2133": [
+      "WiZ Downlight"
+    ],
+    "100B-2137": [
+      "WiZ Downlight"
+    ],
+    "100B-2139": [
+      "WiZ Downlight"
+    ],
+    "100B-213A": [
+      "WiZ Ceiling Light"
+    ],
+    "100B-213B": [
+      "WiZ Ceiling Light"
+    ],
+    "100B-213D": [
+      "WiZ LED Strip"
+    ],
+    "100B-213E": [
+      "WiZ LED Strip"
+    ],
+    "100B-213F": [
+      "WiZ LED Strip"
+    ],
+    "100B-2142": [
+      "WiZ LED Strip"
+    ],
+    "100B-2143": [
+      "WiZ LED Strip"
+    ],
+    "100B-2144": [
+      "WiZ A19 Warm White"
+    ],
+    "100B-2145": [
+      "WiZ BR30 Warm White"
+    ],
+    "100B-2146": [
+      "WiZ BR30 Daylight"
+    ],
+    "100B-2147": [
+      "WiZ GU10 Warm White"
+    ],
+    "100B-2148": [
+      "WiZ Candle Warm White"
+    ],
+    "100B-2149": [
+      "WiZ A.E27 Warm White"
+    ],
+    "100B-214A": [
+      "WiZ A.B22 Warm White"
+    ],
+    "100B-214B": [
+      "WiZ A19 Warm White"
+    ],
+    "100B-214C": [
+      "WiZ A19 Daylight"
+    ],
+    "100B-214D": [
+      "WiZ BR30 Warm White"
+    ],
+    "100B-214E": [
+      "WiZ BR30 Daylight"
+    ],
+    "100B-214F": [
+      "WiZ A21 Warm White"
+    ],
+    "100B-2150": [
+      "WiZ A21 Daylight"
+    ],
+    "100B-2151": [
+      "WiZ A21 Warm White"
+    ],
+    "100B-2152": [
+      "WiZ A21 Daylight"
+    ],
+    "100B-2153": [
+      "WiZ Candle Daylight"
+    ],
+    "100B-2154": [
+      "WiZ GU10 Warm White"
+    ],
+    "100B-2155": [
+      "WiZ Candle Warm White"
+    ],
+    "100B-2156": [
+      "WiZ GU10 Daylight"
+    ],
+    "100B-2157": [
+      "WiZ GU10 Warm White"
+    ],
+    "100B-2158": [
+      "WiZ Candle Warm White"
+    ],
+    "100B-2159": [
+      "WiZ A.E27 Warm White"
+    ],
+    "100B-215A": [
+      "WiZ A.B22 Warm White"
+    ],
+    "100B-215B": [
+      "WiZ A60.E26"
+    ],
+    "100B-215C": [
+      "WiZ A60.E26"
+    ],
+    "100B-215D": [
+      "WiZ BR30"
+    ],
+    "100B-215E": [
+      "WiZ Candle"
+    ],
+    "100B-215F": [
+      "WiZ A.E27"
+    ],
+    "100B-2160": [
+      "WiZ A.B22"
+    ],
+    "100B-2161": [
+      "WiZ G.E27"
+    ],
+    "100B-2162": [
+      "WiZ GU10"
+    ],
+    "100B-2163": [
+      "WiZ Candle"
+    ],
+    "100B-2164": [
+      "WiZ A67.E27"
+    ],
+    "100B-2165": [
+      "WiZ A.E27"
+    ],
+    "100B-2166": [
+      "WiZ A.E27"
+    ],
+    "100B-2167": [
+      "WiZ A67.E27"
+    ],
+    "100B-2168": [
+      "WiZ A19"
+    ],
+    "100B-2169": [
+      "WiZ BR30"
+    ],
+    "100B-216A": [
+      "WiZ GU10"
+    ],
+    "100B-216B": [
+      "WiZ Candle"
+    ],
+    "100B-216C": [
+      "WiZ A21"
+    ],
+    "100B-216D": [
+      "WiZ GU10"
+    ],
+    "100B-216E": [
+      "WiZ Candle"
+    ],
+    "100B-216F": [
+      "WiZ A21"
+    ],
+    "100B-217B": [
+      "WiZ GU10"
+    ],
+    "100B-217C": [
+      "WiZ A.E27"
+    ],
+    "100B-217D": [
+      "WiZ G.E27"
+    ],
+    "100B-217E": [
+      "WiZ Candle"
+    ],
+    "100B-217F": [
+      "WiZ A60"
+    ],
+    "100B-2180": [
+      "WiZ A.E27"
+    ],
+    "100B-2181": [
+      "WiZ A60.E26"
+    ],
+    "100B-2182": [
+      "WiZ A23"
+    ],
+    "100B-2183": [
+      "WiZ A80.E27"
+    ],
+    "100B-2184": [
+      "WiZ P45.E27"
+    ],
+    "100B-2185": [
+      "WiZ P45.E27"
+    ],
+    "100B-2186": [
+      "WiZ A80.E27"
+    ],
+    "100B-2187": [
+      "WiZ P45.E14"
+    ],
+    "100B-2188": [
+      "WiZ P45.E14"
+    ],
+    "100B-2189": [
+      "WiZ A.E27"
+    ],
+    "100B-218A": [
+      "WiZ A67.E26"
+    ],
+    "100B-218B": [
+      "WiZ BR30"
+    ],
+    "100B-218C": [
+      "WiZ A19"
+    ],
+    "100B-218D": [
+      "WiZ A19"
+    ],
+    "100B-218E": [
+      "WiZ BR30"
+    ],
+    "100B-218F": [
+      "WiZ PAR38"
+    ],
+    "100B-2190": [
+      "WiZ PAR38"
+    ],
+    "100B-2192": [
+      "WiZ A.E27"
+    ],
+    "100B-2193": [
+      "WiZ Candle"
+    ],
+    "100B-2194": [
+      "WiZ A23"
+    ],
+    "100B-2195": [
+      "WiZ Spot Light"
+    ],
+    "100B-2196": [
+      "WiZ Spot Light"
+    ],
+    "100B-2197": [
+      "WiZ G95 Filament"
+    ],
+    "100B-2198": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2199": [
+      "WiZ A60 Filament"
+    ],
+    "100B-219A": [
+      "WiZ G95 Filament"
+    ],
+    "100B-219B": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-219C": [
+      "WiZ G25 Filament"
+    ],
+    "100B-219D": [
+      "WiZ ST19 Filament"
+    ],
+    "100B-219E": [
+      "WiZ G25 Filament"
+    ],
+    "100B-219F": [
+      "WiZ ST19 Filament"
+    ],
+    "100B-21A0": [
+      "WiZ G95.E27"
+    ],
+    "100B-21A1": [
+      "WiZ G95.E27"
+    ],
+    "100B-21A2": [
+      "WiZ A.E27"
+    ],
+    "100B-21A3": [
+      "WiZ A.B22"
+    ],
+    "100B-21A4": [
+      "WiZ A.B22"
+    ],
+    "100B-21A5": [
+      "WiZ A.E26"
+    ],
+    "100B-21A6": [
+      "WiZ G95.E26"
+    ],
+    "100B-21A7": [
+      "WiZ Ceiling"
+    ],
+    "100B-21A8": [
+      "WiZ Downlight"
+    ],
+    "100B-21A9": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-21AA": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-21AB": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-21AC": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-21AD": [
+      "WiZ Modular Downlight"
+    ],
+    "100B-21AE": [
+      "WiZ Downlight"
+    ],
+    "100B-21B3": [
+      "WiZ Downlight"
+    ],
+    "100B-21B4": [
+      "WiZ Ceiling"
+    ],
+    "100B-21B5": [
+      "WiZ Ceiling"
+    ],
+    "100B-21B8": [
+      "WiZ Spot Light"
+    ],
+    "100B-21B9": [
+      "WiZ LED Strip"
+    ],
+    "100B-21BB": [
+      "WiZ LED Strip"
+    ],
+    "100B-21BC": [
+      "WiZ Multi-color Neon Flex Strip"
+    ],
+    "100B-21BD": [
+      "WiZ Multi-color Neon Flex Strip"
+    ],
+    "100B-21BE": [
+      "WiZ String Lights"
+    ],
+    "100B-21BF": [
+      "WiZ String Lights"
+    ],
+    "100B-21C0": [
+      "WiZ String Lights"
+    ],
+    "100B-21C1": [
+      "WiZ String Lights"
+    ],
+    "100B-21C2": [
+      "WiZ Outdoor Ground Spot"
+    ],
+    "100B-21C3": [
+      "WiZ ELPAS Bollard"
+    ],
+    "100B-21C4": [
+      "WiZ ELPAS Bollard"
+    ],
+    "100B-21C5": [
+      "WiZ GU10"
+    ],
+    "100B-21C6": [
+      "WiZ Candle"
+    ],
+    "100B-21C7": [
+      "WiZ GU10"
+    ],
+    "100B-21C8": [
+      "WiZ R20"
+    ],
+    "100B-21C9": [
+      "WiZ R20"
+    ],
+    "100B-21CA": [
+      "WiZ BR40"
+    ],
+    "100B-21CB": [
+      "WiZ BR40"
+    ],
+    "100B-21CC": [
+      "WiZ PAR30"
+    ],
+    "100B-21CD": [
+      "WiZ Candle"
+    ],
+    "100B-21CE": [
+      "WiZ GU10"
+    ],
+    "100B-21CF": [
+      "WiZ Candle"
+    ],
+    "100B-21D0": [
+      "WiZ Candle"
+    ],
+    "100B-21D1": [
+      "WiZ GU10"
+    ],
+    "100B-21D2": [
+      "WiZ Candle"
+    ],
+    "100B-21D5": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21D6": [
+      "WiZ A19 Filament"
+    ],
+    "100B-21D7": [
+      "WiZ ST19 Filament"
+    ],
+    "100B-21D8": [
+      "WiZ ST19 Filament"
+    ],
+    "100B-21D9": [
+      "WiZ G25 Filament"
+    ],
+    "100B-21DA": [
+      "WiZ G25 Filament"
+    ],
+    "100B-21DB": [
+      "WiZ A15 Filament"
+    ],
+    "100B-21DC": [
+      "WiZ A15 Filament"
+    ],
+    "100B-21DD": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21DE": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21DF": [
+      "WiZ G16.5 Filament"
+    ],
+    "100B-21E0": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21E1": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21E2": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21E3": [
+      "WiZ G16.5 Filament"
+    ],
+    "100B-21E4": [
+      "WiZ G16.5 Filament"
+    ],
+    "100B-21E5": [
+      "WiZ PS160 Filament"
+    ],
+    "100B-21E6": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21E7": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21E8": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21E9": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21EA": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21EB": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21EC": [
+      "WiZ G125 Filament"
+    ],
+    "100B-21ED": [
+      "WiZ G125 Filament"
+    ],
+    "100B-21EE": [
+      "WiZ G200 Filament"
+    ],
+    "100B-21EF": [
+      "WiZ G200 Filament"
+    ],
+    "100B-21F0": [
+      "WiZ G95 Filament"
+    ],
+    "100B-21F1": [
+      "WiZ G95 Filament"
+    ],
+    "100B-21F2": [
+      "WiZ PS160 Filament"
+    ],
+    "100B-21F3": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-21F4": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-21F5": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-21F6": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21F7": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21F8": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21F9": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21FA": [
+      "WiZ A60 Filament"
+    ],
+    "100B-21FB": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21FC": [
+      "WiZ Candle Filament"
+    ],
+    "100B-21FD": [
+      "WiZ G125 Filament"
+    ],
+    "100B-21FE": [
+      "WiZ G125 Filament"
+    ],
+    "100B-21FF": [
+      "WiZ G200 Filament"
+    ],
+    "100B-2200": [
+      "WiZ G200 Filament"
+    ],
+    "100B-2201": [
+      "WiZ G95 Filament"
+    ],
+    "100B-2202": [
+      "WiZ G95 Filament"
+    ],
+    "100B-2203": [
+      "WiZ PS160 Filament"
+    ],
+    "100B-2204": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2205": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2206": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2207": [
+      "WiZ Candle Filament"
+    ],
+    "100B-2208": [
+      "WiZ G16.5 Filament"
+    ],
+    "100B-2209": [
+      "WiZ A19 Filament"
+    ],
+    "100B-220A": [
+      "WiZ ST19 Filament"
+    ],
+    "100B-2210": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2211": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2212": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2213": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2214": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2215": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2216": [
+      "WiZ Candle Filament"
+    ],
+    "100B-2217": [
+      "WiZ Candle Filament"
+    ],
+    "100B-2218": [
+      "WiZ G125 Filament"
+    ],
+    "100B-2219": [
+      "WiZ G125 Filament"
+    ],
+    "100B-221A": [
+      "WiZ G200 Filament"
+    ],
+    "100B-221B": [
+      "WiZ G200 Filament"
+    ],
+    "100B-221C": [
+      "WiZ G95 Filament"
+    ],
+    "100B-221D": [
+      "WiZ G95 Filament"
+    ],
+    "100B-221E": [
+      "WiZ PS160 Filament"
+    ],
+    "100B-221F": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2220": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2221": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2222": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2223": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2224": [
+      "WiZ A60 Filament"
+    ],
+    "100B-2225": [
+      "WiZ Candle Filament"
+    ],
+    "100B-2226": [
+      "WiZ Candle Filament"
+    ],
+    "100B-2227": [
+      "WiZ G125 Filament"
+    ],
+    "100B-2228": [
+      "WiZ G125 Filament"
+    ],
+    "100B-2229": [
+      "WiZ G200 Filament"
+    ],
+    "100B-222A": [
+      "WiZ G200 Filament"
+    ],
+    "100B-222B": [
+      "WiZ G95 Filament"
+    ],
+    "100B-222C": [
+      "WiZ G95 Filament"
+    ],
+    "100B-222D": [
+      "WiZ PS160 Filament"
+    ],
+    "100B-222E": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-222F": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2230": [
+      "WiZ ST64 Filament"
+    ],
+    "100B-2231": [
+      "WiZ Hero"
+    ],
+    "100B-2232": [
+      "WiZ Hero"
+    ],
+    "100B-2234": [
+      "WiZ Squire"
+    ],
+    "100B-2235": [
+      "WiZ Squire"
+    ],
+    "100B-2236": [
+      "WiZ Squire"
+    ],
+    "100B-2238": [
+      "WiZ Hero"
+    ],
+    "100B-2239": [
+      "WiZ Hero"
+    ],
+    "100B-223A": [
+      "WiZ Dual Zone"
+    ],
+    "100B-223B": [
+      "WiZ Squire"
+    ],
+    "100B-223C": [
+      "WiZ Pole"
+    ],
+    "100B-223D": [
+      "WiZ Pole"
+    ],
+    "100B-223E": [
+      "WiZ Pole"
+    ],
+    "100B-2240": [
+      "WiZ Mobile"
+    ],
+    "100B-2241": [
+      "WiZ Mobile"
+    ],
+    "100B-2243": [
+      "WiZ Pole"
+    ],
+    "100B-2244": [
+      "WiZ Mobile"
+    ],
+    "100B-2245": [
+      "WiZ Mobile"
+    ],
+    "100B-2246": [
+      "WiZ Mobile"
+    ],
+    "100B-2248": [
+      "WiZ Ceiling"
+    ],
+    "100B-2249": [
+      "WiZ Ceiling"
+    ],
+    "100B-224A": [
+      "WiZ Ceiling"
+    ],
+    "100B-224B": [
+      "WiZ Ceiling"
+    ],
+    "100B-224C": [
+      "WiZ Ceiling"
+    ],
+    "100B-224D": [
+      "WiZ Ceiling"
+    ],
+    "100B-224E": [
+      "WiZ Ceiling"
+    ],
+    "100B-2252": [
+      "WiZ Ceiling"
+    ],
+    "100B-2253": [
+      "WiZ Ceiling"
+    ],
+    "100B-2254": [
+      "WiZ Ceiling"
+    ],
+    "100B-2255": [
+      "WiZ Linear"
+    ],
+    "100B-2256": [
+      "WiZ Linear"
+    ],
+    "100B-2257": [
+      "WiZ Linear"
+    ],
+    "100B-2258": [
+      "WiZ ELPAS Wall"
+    ],
+    "100B-2259": [
+      "WiZ Ceiling"
+    ],
+    "100B-225A": [
+      "WiZ Ceiling"
+    ],
+    "100B-225B": [
+      "WiZ Ceiling"
+    ],
+    "100B-225C": [
+      "WiZ Downlight"
+    ],
+    "100B-2260": [
+      "WiZ Ceiling"
+    ],
+    "100B-2261": [
+      "WiZ Outdoor LED Strip"
+    ],
+    "100B-2262": [
+      "WiZ Outdoor LED Strip"
+    ],
+    "100B-2263": [
+      "WiZ A21.E26"
+    ],
+    "100B-2264": [
+      "WiZ A21.E26"
+    ],
+    "100B-2265": [
+      "WiZ A67.E27"
+    ],
+    "100B-2266": [
+      "WiZ A67.E27"
+    ],
+    "100B-2267": [
+      "WiZ A21.E27"
+    ],
+    "100B-2268": [
+      "WiZ A21.E27"
+    ],
+    "100B-2269": [
+      "WiZ A19"
+    ],
+    "100B-226A": [
+      "WiZ A19"
+    ],
+    "100B-226B": [
+      "WiZ BR30"
+    ],
+    "100B-226C": [
+      "WiZ BR30"
+    ],
+    "100B-226D": [
+      "WiZ Downlight"
+    ],
+    "100B-226E": [
+      "WiZ Downlight"
+    ],
+    "100B-226F": [
+      "WiZ Downlight"
+    ],
+    "100B-2270": [
+      "WiZ Downlight"
+    ],
+    "100B-2272": [
+      "WiZ Linear"
+    ],
+    "100B-2273": [
+      "WiZ A19"
+    ],
+    "100B-2274": [
+      "WiZ BR30"
+    ],
+    "100B-2275": [
+      "WiZ BR30"
+    ],
+    "100B-2276": [
+      "WiZ A19 Warm White"
+    ],
+    "100B-2277": [
+      "WiZ A19 Daylight"
+    ],
+    "100B-2278": [
+      "WiZ A19 Daylight"
+    ],
+    "100B-2279": [
+      "WiZ BR30 Warm White"
+    ],
+    "100B-227A": [
+      "WiZ BR30 Warm White"
+    ],
+    "100B-227B": [
+      "WiZ BR30 Daylight"
+    ],
+    "100B-227C": [
+      "WiZ BR30 Daylight"
+    ],
+    "100B-227D": [
+      "WiZ A60 Filament"
+    ],
+    "100B-227E": [
+      "WiZ A60 Filament"
+    ],
+    "100B-227F": [
+      "WiZ Downlight"
+    ],
+    "100B-2280": [
+      "WiZ Downlight"
+    ],
+    "100B-2281": [
+      "WiZ Downlight"
+    ],
+    "100B-2282": [
+      "WiZ Downlight"
+    ],
+    "100B-2283": [
+      "WiZ Downlight"
+    ],
+    "100B-2284": [
+      "WiZ Downlight"
+    ],
+    "100B-2285": [
+      "WiZ Downlight"
+    ],
+    "100B-2286": [
+      "WiZ Downlight"
+    ],
+    "100B-2287": [
+      "WiZ Downlight"
+    ],
+    "100B-2288": [
+      "WiZ Downlight"
+    ],
+    "100B-2289": [
+      "WiZ Downlight"
+    ],
+    "100B-228A": [
+      "WiZ Downlight"
+    ],
+    "100B-228B": [
+      "WiZ Downlight"
+    ],
+    "100B-228C": [
+      "WiZ Downlight"
+    ],
+    "100B-228D": [
+      "WiZ Downlight"
+    ],
+    "100B-228E": [
+      "WiZ Wall Light Classic"
+    ],
+    "100B-228F": [
+      "WiZ Wall Light Classic"
+    ],
+    "100B-22F4": [
+      "WiZ Gradient Floor lamp"
+    ],
+    "100B-22F5": [
+      "WiZ Gradient Floor lamp"
+    ],
+    "100B-22F9": [
+      "WiZ Gradient Light Bars"
+    ],
+    "100B-22FA": [
+      "WiZ Gradient Light Bars"
+    ],
+    "101D-8110": [
+      "Yale Lock with Matter"
+    ],
+    "1021-0001": [
+      "Netatmo Smart 2-in-1 Sensor"
+    ],
+    "1021-0003": [
+      "Smart Lights Smart Plug"
+    ],
+    "1021-0004": [
+      "Smart Lights Outdoor Plug"
+    ],
+    "1021-0005": [
+      "Radiant Smart Switch"
+    ],
+    "1021-0006": [
+      "Radiant Smart LED Dimmer"
+    ],
+    "1021-0007": [
+      "Radiant Smart Receptacle"
+    ],
+    "1021-0008": [
+      "Netatmo Thermo Hub"
+    ],
+    "102E-2000": [
+      "LG Temp and Humidity Sensor"
+    ],
+    "102E-2010": [
+      "LG Air Quality Sensor"
+    ],
+    "102E-2020": [
+      "LG Door and Window Sensor"
+    ],
+    "102E-2030": [
+      "LG Motion Sensor"
+    ],
+    "102E-2200": [
+      "LG Smart Wall Switch (1 Button)"
+    ],
+    "102E-2201": [
+      "LG Smart Wall Switch (2 Button)"
+    ],
+    "102E-2202": [
+      "LG Smart Wall Switch (3 Button)"
+    ],
+    "102E-2250": [
+      "LG Smart Button (1 Button)"
+    ],
+    "102E-2251": [
+      "LG Smart Button (2 Button)"
+    ],
+    "102E-2260": [
+      "LG Smart Plug"
+    ],
+    "109B-1000": [
+      "Decora Smart Wi-Fi (2nd Gen) 600W Dimmer"
+    ],
+    "109B-1001": [
+      "Decora Smart Wi-Fi (2nd Gen) Switch"
+    ],
+    "109B-1002": [
+      "Decora Smart Wi-Fi (2nd Gen) Mini Plug-In Dimmer"
+    ],
+    "109B-1003": [
+      "Leviton Decora Smart Wi-Fi Mini Plug-In Outlet"
+    ],
+    "109B-1004": [
+      "Decora Smart Wi-Fi (2nd Gen) Tamper Resistant Outlet"
+    ],
+    "109B-1005": [
+      "Decora Smart Wi-Fi (2ndGen) Fan Speed Controller"
+    ],
+    "109B-1006": [
+      "Decora Smart Motion Sensing Dimmer Switch"
+    ],
+    "109B-1007": [
+      "Decora Smart Wi-Fi (2nd Gen) Scene Controller Switch"
+    ],
+    "109B-1009": [
+      "Decora Smart Wi-Fi Outdoor Plug-In Switch"
+    ],
+    "109B-100B": [
+      "Decora Smart Wi-Fi ELV Dimmer"
+    ],
+    "109B-100C": [
+      "Decora Evolve Smart Dimmer Module"
+    ],
+    "109B-100D": [
+      "Decora Evolve Smart Switch Module"
+    ],
+    "109B-100E": [
+      "Decora Smart Wi-Fi 0-10V Dimmer"
+    ],
+    "109B-1010": [
+      "Decora Smart Wi-Fi (3rd Gen) 600W Dimmer"
+    ],
+    "109B-1011": [
+      "Decora Smart Wi-Fi (3rd Gen) 15A Switch"
+    ],
+    "10E1-1021": [
+      "Matter Refrigerator"
+    ],
+    "10E1-1023": [
+      "Samsung Room Air Conditioner"
+    ],
+    "10E1-1024": [
+      "Matter Laundry Washer"
+    ],
+    "10E1-1025": [
+      "Matter RVC"
+    ],
+    "10E1-1026": [
+      "Matter Dishwasher"
+    ],
+    "10F2-6100": [
+      "Matter Bridge"
+    ],
+    "115A-0035": [
+      "Essentials BR30"
+    ],
+    "115A-0036": [
+      "Essentials GU10"
+    ],
+    "115A-0041": [
+      "Essentials Downlight"
+    ],
+    "115A-0043": [
+      "Essentials A19/A60"
+    ],
+    "115A-0044": [
+      "Essentials Lightstrip"
+    ],
+    "115A-0047": [
+      "Smart Holiday String Lights"
+    ],
+    "115A-0048": [
+      "Essentials Indoor Lights"
+    ],
+    "115A-0049": [
+      "Essentials Outdoor Lights"
+    ],
+    "115A-004B": [
+      "Essentials Wifi A19-A60 Smart Bulb"
+    ],
+    "115A-0711": [
+      "Smart Holiday String Lights"
+    ],
+    "115F-0802": [
+      "Matter Bridge"
+    ],
+    "115F-1003": [
+      "Aqara Light Switch H2 US (2 Buttons 1 Channel)"
+    ],
+    "115F-1004": [
+      "Aqara Light Switch H2 US (2 Buttons 2 Channel)"
+    ],
+    "115F-1005": [
+      "Aqara Light Switch H2 US (4 Buttons 3 Channel)"
+    ],
+    "115F-1008": [
+      "Aqara Light Switch H2 EU (2 Buttons 1 Channel)"
+    ],
+    "115F-1009": [
+      "Aqara Light Switch H2 EU (4 Buttons 2 Channel)"
+    ],
+    "115F-1801": [
+      "Aqara LED Bulb T2 RGB CCT"
+    ],
+    "115F-1802": [
+      "Aqara LED Bulb T2 CCT"
+    ],
+    "115F-1805": [
+      "Aqara LED Bulb T2 RGB CCT"
+    ],
+    "115F-1806": [
+      "Aqara LED Bulb T2 CCT"
+    ],
+    "115F-2002": [
+      "Aqara Door and Window Sensor P2"
+    ],
+    "115F-2003": [
+      "Aqara Motion and Light Sensor P2"
+    ],
+    "115F-2004": [
+      "Climate Sensor W100"
+    ],
+    "115F-2005": [
+      "Presence Multi-Sensor FP300"
+    ],
+    "115F-2009": [
+      "Spatial Multi-Sensor FP400"
+    ],
+    "115F-2801": [
+      "Aqara Smart Lock U300"
+    ],
+    "115F-2802": [
+      "Aqara Smart Lock U200"
+    ],
+    "115F-2804": [
+      "Aqara Smart Lock U400"
+    ],
+    "115F-2807": [
+      "Aqara Smart Lock U200 Lite"
+    ],
+    "115F-280D": [
+      "Aqara Smart Lock J200"
+    ],
+    "115F-280E": [
+      "Aqara Smart Lock U500"
+    ],
+    "115F-280F": [
+      "Aqara Smart Lock U500 Rim"
+    ],
+    "115F-2810": [
+      "Aqara Smart Lock U500 Glass Door"
+    ],
+    "115F-284A": [
+      "Aqara Smart Lock U600"
+    ],
+    "115F-286A": [
+      "Aqara Smart Lock U200 US"
+    ],
+    "1160-9002": [
+      "Sengled LED Smart Light Bulb (A19)"
+    ],
+    "1168-03E8": [
+      "Linkind Smart Light Bulb A19 RGBTW"
+    ],
+    "1168-03EA": [
+      "OREiN Smart Light Bulb A19 RGBTW"
+    ],
+    "1168-03EB": [
+      "Linkind Smart Light Bulb BR30 RGBTW"
+    ],
+    "1168-03EC": [
+      "OREiN Smart Light Bulb BR30 RGBTW"
+    ],
+    "1168-03ED": [
+      "Matter Smart Light Bulb A19 RGBTW 1100lm"
+    ],
+    "1168-03EE": [
+      "Matter Smart Light Bulb A19 RGBTW 1100lm"
+    ],
+    "1168-03EF": [
+      "Matter Smart Light Bulb A21 RGBTW 1600lm"
+    ],
+    "1168-03F2": [
+      "Aidot OREiN Matter Smart Light Bulb BR30 RGBTW 1200lm"
+    ],
+    "1168-03F3": [
+      "Smart Light Bulb A60"
+    ],
+    "1168-03F4": [
+      "Aidot Linkind Matter Smart Light Bulb BR30 RGBTW 1200lm"
+    ],
+    "1168-03F5": [
+      "Matter Smart Light Bulb A21 RGBTW 1600lm"
+    ],
+    "1168-03F8": [
+      "AiDot Smart Light Bulb A19 RGBT"
+    ],
+    "1168-03F9": [
+      "Smart Light Bulb A19 CCT"
+    ],
+    "1168-03FB": [
+      "Matter Smart Filament  Bulb ST58 CCT"
+    ],
+    "1168-03FC": [
+      "AiDot OREiN Matter Smart Filament Bulb ST58 CCT"
+    ],
+    "1168-0400": [
+      "Smart Plug"
+    ],
+    "1168-0405": [
+      "Consciot Smart Light Bulb A19 RGBT"
+    ],
+    "1168-044E": [
+      "Matter Smart Plug"
+    ],
+    "117C-3000": [
+      "MYGGSPRAY Motion Sensor"
+    ],
+    "117C-3001": [
+      "ALPSTUGA Air Quality Sensor"
+    ],
+    "117C-8000": [
+      "BILRESA Scroll Wheel"
+    ],
+    "117C-8001": [
+      "BILRESA Dual Button"
+    ],
+    "117C-8005": [
+      "TIMMERFLOTTE Temperature/Humidity Sensor"
+    ],
+    "117C-8006": [
+      "KLIPPBOK Water Leak Sensor"
+    ],
+    "117C-8007": [
+      "MYGGBETT Door/Window Sensor"
+    ],
+    "117C-9010": [
+      "VARMBLIXT table/wall lamp"
+    ],
+    "117C-9011": [
+      "KAJPLATS E26 450lm"
+    ],
+    "117C-9012": [
+      "KAJPLATS E26 1100lm"
+    ],
+    "117C-9014": [
+      "KAJPLATS E26 WS 1600lm"
+    ],
+    "117C-9015": [
+      "KAJPLATS E12 WS Globe 800lm"
+    ],
+    "117C-9016": [
+      "KAJPLATS E26 1100lm CWS"
+    ],
+    "117C-9017": [
+      "KAJPLATS E12 CWS Globe 800lm"
+    ],
+    "117C-9019": [
+      "KAJPLATS E12 WS B38 CL 470lm"
+    ],
+    "117E-FB01": [
+      "Matter Bridge"
+    ],
+    "1189-033C": [
+      "Ledvance Matter Classic A RGBW"
+    ],
+    "1189-033D": [
+      "Ledvance Matter Classic A RGBW"
+    ],
+    "1189-033F": [
+      "Ledvance Matter Classic A RGBW"
+    ],
+    "1189-0340": [
+      "Ledvance Matter Classic A RGBW"
+    ],
+    "1189-0341": [
+      "Ledvance Matter Classic B P RGBW"
+    ],
+    "1189-0343": [
+      "Ledvance Matter Classic B P RGBW"
+    ],
+    "1189-034B": [
+      "Matter Filament RGBW"
+    ],
+    "1189-034C": [
+      "Matter Filament RGBW"
+    ],
+    "1189-034D": [
+      "Matter Filament RGBW"
+    ],
+    "1189-0460": [
+      "Ledvance Matter PAR16 RGBW"
+    ],
+    "1189-0461": [
+      "Ledvance Matter Classic G RGBW"
+    ],
+    "1189-055C": [
+      "MATTER PLUG EU WH"
+    ],
+    "1189-0633": [
+      "MATTER COMP OUT PLUG EU"
+    ],
+    "1189-0880": [
+      "MATTER PLUG EU BK"
+    ],
+    "1189-0891": [
+      "SMART WIFI MATTER WALL SWITCH 2G"
+    ],
+    "1189-0892": [
+      "SMART WIFI MATTER WALL SWITCH 1G"
+    ],
+    "1189-092E": [
+      "SMART MATTER FLOORCORN140 MGC BK"
+    ],
+    "1189-092F": [
+      "SMART MATTER FLOORCORN200 MGC BK"
+    ],
+    "1189-0930": [
+      "SMART MATTER FLOORCORN140 MGC WT"
+    ],
+    "1189-0931": [
+      "SMART MATTER FLOORCORN200 MGC WT"
+    ],
+    "1189-0949": [
+      "LEDVANCE MATTER PLUG CH"
+    ],
+    "1189-09A9": [
+      "MATTER FLEX RGBTW EU"
+    ],
+    "1189-09D2": [
+      "SMART MAT ORBIS DL 200 TW WT"
+    ],
+    "1189-09D6": [
+      "SMART MAT ORBIS DL 400 TW WT"
+    ],
+    "1189-09D7": [
+      "SMART MAT ORBIS DL SQ400 TW WT"
+    ],
+    "1189-0A04": [
+      "OSRAM MATTER PLUG UK"
+    ],
+    "1189-0A74": [
+      "SMART MAT G60 DIM FIL 827 E27"
+    ],
+    "1189-0A76": [
+      "SMART MAT E60 DIM FIL 827 E27"
+    ],
+    "1189-0A79": [
+      "SMART MAT A60 DIM FIL 827 E27"
+    ],
+    "1189-0A7A": [
+      "SMART MAT P40 DIM FIL 827 E14"
+    ],
+    "1189-0A7C": [
+      "SMART MAT G53 DIM FILGD 824 E27"
+    ],
+    "1189-0A7D": [
+      "SMART MAT E53 DIM FILGD 824 E27"
+    ],
+    "1189-0A7E": [
+      "SMART MAT A53 DIM FILGD 824 E27"
+    ],
+    "1189-0A7F": [
+      "SMART MAT B40 DIM FIL 827 E14"
+    ],
+    "1189-0A97": [
+      "SMART MAT A100 TW 827 FR E27"
+    ],
+    "1189-0A98": [
+      "SMART MAT G95 100 TW 827 E27"
+    ],
+    "1189-0A99": [
+      "SMART MAT A60 TW 827 FR E27"
+    ],
+    "1189-0A9B": [
+      "SMART MAT B40 TW 827 FR E14"
+    ],
+    "1189-0A9C": [
+      "SMART MAT P40 TW 827 FR E14"
+    ],
+    "1189-0AA5": [
+      "SMART MAT PAR16 RGBW GU10"
+    ],
+    "1189-0AA6": [
+      "SMART MAT PAR16 TW 827 GU10"
+    ],
+    "1189-0AA7": [
+      "SMART MAT PAR16 DIM GU10"
+    ],
+    "1189-0AC3": [
+      "SMART MAT A60 RGBW 827 FR E27"
+    ],
+    "1189-0AC4": [
+      "SMART MAT A100 RGBW 827 FR E27"
+    ],
+    "1189-0AC5": [
+      "SMART MAT P40 RGBW 827 FR E27"
+    ],
+    "1189-0ACB": [
+      "SMART MAT A60 RGBW 827 FR B22D"
+    ],
+    "1189-0ACC": [
+      "SMART MAT G95 RGBW 827 FR E27"
+    ],
+    "1189-0ACD": [
+      "SMART MAT P40 RGBW 827 FR E14"
+    ],
+    "1189-0ACE": [
+      "SMART MAT B40 RGBW 827 FR E14"
+    ],
+    "1189-0AD6": [
+      "SMART MAT A40 FIL RGBW 827 E27"
+    ],
+    "1189-0AD7": [
+      "SMART MAT E40 FIL RGBW 827 E27"
+    ],
+    "1189-0AD8": [
+      "SMART MAT G40 FIL RGBW 827 E27"
+    ],
+    "1189-0B14": [
+      "SMART MAT A75 TW 827 FR E27"
+    ],
+    "1189-0B15": [
+      "SMART MAT A75 RGBW 827 FR E27"
+    ],
+    "1189-0B85": [
+      "SMART WIFI MAT SPIRAL 500 TW"
+    ],
+    "1189-0B8D": [
+      "SMART WIFI MAT TRACKSP OSAKA TW"
+    ],
+    "1189-0B93": [
+      "SMART WIFI MAT FLOOD 100W RGBW"
+    ],
+    "1189-0B99": [
+      "SMART MAT PLANON PLUS 120X30TW"
+    ],
+    "1189-0B9A": [
+      "SMART MAT PLANON PLUS60X60RGBTW"
+    ],
+    "1189-0B9B": [
+      "SMART MAT PLANON FL 80X10TW"
+    ],
+    "1189-0B9C": [
+      "SMART MAT PLANON PLUS60X60RGBW"
+    ],
+    "1189-0B9D": [
+      "SMART MAT PLANON PLUS45X45RGBW"
+    ],
+    "1189-0B9E": [
+      "SMART MAT PLANON PLUS60X30RGBW"
+    ],
+    "1189-0BA8": [
+      "SMART MAT PLANON PLUS120X30RGBW"
+    ],
+    "1189-0BA9": [
+      "SMART MAT PLANON PLUS 30X30 TW"
+    ],
+    "1189-0BAB": [
+      "SMART MAT PLANON PLUS 45X45 TW"
+    ],
+    "1189-0BAE": [
+      "SMART MAT PLANON PLUS 60X30 TW"
+    ],
+    "1189-0BAF": [
+      "SMART MAT PLANON PLUS 60X60 TW"
+    ],
+    "1189-0BB0": [
+      "SMART MAT PLANON PLUS30X30RGBW"
+    ],
+    "1189-0BB1": [
+      "SMART MAT PLANON FL 30X30 TW"
+    ],
+    "1189-0BB2": [
+      "SMART MAT PLANON FL 120X30 TW"
+    ],
+    "1189-0BB3": [
+      "SMART MAT PLANON FL 120X10 TW"
+    ],
+    "1189-0BB5": [
+      "SMART WIFI MAT DL SLIM 85 TW WT"
+    ],
+    "1189-0BB6": [
+      "SMART WIFI MAT DL SLIM 120 TW"
+    ],
+    "1189-0BB7": [
+      "SMART WIFI MAT DL SLIM 225 TW"
+    ],
+    "1189-0BB8": [
+      "SMART WIFI MAT SP 86 100DEGRGBTW"
+    ],
+    "1189-0BB9": [
+      "SMART WIFI MAT SP170 110DEGRGBTW"
+    ],
+    "1189-0BBB": [
+      "SMART WIFI MAT STEA485RD RGBTW"
+    ],
+    "1189-0BC6": [
+      "SMART MAT PLANONFLSPARK45X45TW"
+    ],
+    "1189-0BC8": [
+      "SMART OUTD MAT BEAMADJWALL RGBTW"
+    ],
+    "1189-0BCA": [
+      "SMART WFMTDECORWALLWOOD210X110TW"
+    ],
+    "1189-0BCB": [
+      "SMART MATDECORWALLTWIST230X127TW"
+    ],
+    "1189-0BCC": [
+      "SMART MATDECORWALLTWIST230X127TW"
+    ],
+    "1189-0BCD": [
+      "SMART WIFI MAT AQUA280X160IP44TW"
+    ],
+    "1189-0BCE": [
+      "SMART WIFI MAT AQUA200X200IP44TW"
+    ],
+    "1189-0BCF": [
+      "SMART WIFI MAT MAGNET 600X300 TW"
+    ],
+    "1189-0BD0": [
+      "SMART WIFI MAT DUPLO 580 IP44 TW"
+    ],
+    "1189-0BD1": [
+      "SMART WIFI MAT CYLINDER 450 TW"
+    ],
+    "1189-0BD2": [
+      "SMART WIFI MAT WAVE300X300IP44TW"
+    ],
+    "1189-0BD3": [
+      "SMART MAT DECORWALLSWAN300X150TW"
+    ],
+    "1189-0BD4": [
+      "SMART MAT DISC 400 IP44 TW"
+    ],
+    "1189-0BD5": [
+      "SMART WIFI MAT DUPLO 450 IP44 TW"
+    ],
+    "1189-0BD6": [
+      "SMART WIFI MAT MAGNET 450X450 TW"
+    ],
+    "1189-0BD7": [
+      "SMART WIFI MAT MAGNET 600X300 TW"
+    ],
+    "1189-0BD8": [
+      "SMART WIFI MAT BATH W400 IP44 TW"
+    ],
+    "1189-0BD9": [
+      "SMART WIFI MAT BATH W300 IP44 TW"
+    ],
+    "1189-0BDA": [
+      "SMART WIFI MAT DISC 300 IP44 TW"
+    ],
+    "1189-0BDB": [
+      "SMART WIFI MAT DUPLO 300 IP44 TW"
+    ],
+    "1189-0BDC": [
+      "SMART WFMTDECORWALLSWAN200X200TW"
+    ],
+    "1189-0BDD": [
+      "SMART WIFI MAT MAGNET 300X300 TW"
+    ],
+    "1189-0BE7": [
+      "SMART WIFI MAT TRACKSP OSAKA TW"
+    ],
+    "1189-0BE8": [
+      "SMART WIFI MAT TRACKSP CIRCLE TW"
+    ],
+    "1189-0BE9": [
+      "SMART WIFI MAT TRACKSP CIRCLE TW"
+    ],
+    "1189-0BEF": [
+      "SMART WIFI MAT FLOOD 50W RGBW"
+    ],
+    "1189-0BF0": [
+      "SMART WIFI MAT FLOOD 10W RGBW"
+    ],
+    "1189-0BF1": [
+      "SMART WIFI MAT FLOOD 20W RGBW"
+    ],
+    "1189-0BF2": [
+      "SMART WIFI MAT FLOOD 30W RGBW"
+    ],
+    "1189-0BF3": [
+      "SMART WIFI MAT CLARIA 490RGBTW"
+    ],
+    "1189-1001": [
+      "OSRAM PLANON SLIM"
+    ],
+    "1189-F001": [
+      "OSRAM MATTER CLASSIC A 60W"
+    ],
+    "1189-F002": [
+      "OSRAM MATTER CLASSIC A 100W"
+    ],
+    "1189-F003": [
+      "OSRAM MATTER PLUG EU WH"
+    ],
+    "1189-F004": [
+      "OSRAM MATTER PLUG UK"
+    ],
+    "1206-0001": [
+      "LUX TQ1 Smart Thermostat"
+    ],
+    "1206-0011": [
+      "LUX TQX Smart Thermostat"
+    ],
+    "1209-3012": [
+      "Radiator Thermostat II [M]"
+    ],
+    "1209-3013": [
+      "Motion Detector II [M]"
+    ],
+    "1209-3015": [
+      "Door/window contact II [M]"
+    ],
+    "1209-3016": [
+      "Plug Compact [M]"
+    ],
+    "120B-1001": [
+      "Heiman Motion Sensor"
+    ],
+    "120B-1002": [
+      "Heiman CO Sensor"
+    ],
+    "120B-1003": [
+      "Heiman Smoke Sensor"
+    ],
+    "120B-1006": [
+      "Heiman Smoke Sensor"
+    ],
+    "120B-1007": [
+      "Smart co sensor"
+    ],
+    "120B-1008": [
+      "Smart water leakage sensor"
+    ],
+    "120B-1031": [
+      "Heiman Door and Window D1-M"
+    ],
+    "120B-1060": [
+      "Smart Humidity&Temperature Sensor"
+    ],
+    "1236-3800": [
+      "Schlage Sense Pro"
+    ],
+    "1280-0301": [
+      "Siterwell Radiator Thermostat"
+    ],
+    "1280-034F": [
+      "Siterwell Door Window Sensor"
+    ],
+    "1280-0350": [
+      "Siterwell Motion Sensor"
+    ],
+    "1280-8014": [
+      "Siterwell Smart Smoke Alarm"
+    ],
+    "1280-8015": [
+      "Siterwell Smart Carbon Monoxide Alarm"
+    ],
+    "1285-0005": [
+      "Hager Switch 1G"
+    ],
+    "1285-0006": [
+      "Hager Switch 2G"
+    ],
+    "1285-0007": [
+      "Hager PIR 1.1M"
+    ],
+    "1285-0008": [
+      "Hager matter 2 buttons (battery)"
+    ],
+    "1285-0009": [
+      "Hager matter 4 buttons (battery)"
+    ],
+    "1285-000A": [
+      "Hager PIR 2.2M"
+    ],
+    "129F-0001": [
+      "Level Lock Plus (Matter)"
+    ],
+    "129F-0003": [
+      "Level Bolt (Matter)"
+    ],
+    "129F-0004": [
+      "Level Lock Pro"
+    ],
+    "129F-0005": [
+      "Level Lock (Matter)"
+    ],
+    "130A-0043": [
+      "Eve Light Switch"
+    ],
+    "130A-004D": [
+      "Eve Door and Window"
+    ],
+    "130A-004F": [
+      "Eve Thermo"
+    ],
+    "130A-0050": [
+      "Eve Energy"
+    ],
+    "130A-0053": [
+      "Eve Energy"
+    ],
+    "130A-0054": [
+      "Eve Energy"
+    ],
+    "130A-0055": [
+      "Eve MotionBlinds"
+    ],
+    "130A-0057": [
+      "Eve Weather"
+    ],
+    "130A-0059": [
+      "Eve Motion"
+    ],
+    "130A-005D": [
+      "Eve Light Switch"
+    ],
+    "130A-005E": [
+      "Eve Energy"
+    ],
+    "130A-0060": [
+      "Eve Shutter Switch"
+    ],
+    "130A-0062": [
+      "Eve MotionBlinds for Honeycomb Blinds"
+    ],
+    "130A-0063": [
+      "Eve MotionBlinds for Venetian Blinds"
+    ],
+    "130A-0064": [
+      "Eve MotionBlinds for Curtains"
+    ],
+    "130A-0069": [
+      "Eve Energy Outlet"
+    ],
+    "130A-006A": [
+      "Eve Energy Switzerland"
+    ],
+    "130A-006B": [
+      "Eve Energy Outdoor"
+    ],
+    "130A-006D": [
+      "Eve MotionBlinds for Roller Blinds"
+    ],
+    "130A-0079": [
+      "Eve Dimmer Switch"
+    ],
+    "130A-007D": [
+      "Eve Thermo"
+    ],
+    "130A-007F": [
+      "Eve Thermostat (Europe)"
+    ],
+    "1312-0001": [
+      "Yeelight Smart Lamp"
+    ],
+    "1312-0002": [
+      "Matter Bridge"
+    ],
+    "131E-0001": [
+      "Matter Bridge"
+    ],
+    "1321-0002": [
+      "Smart Plug-in Unit"
+    ],
+    "1321-000B": [
+      "SONOFF SwitchMan Smart Wall Switch"
+    ],
+    "1321-000C": [
+      "SONOFF SwitchMan Smart Wall Switch"
+    ],
+    "1321-000D": [
+      "SONOFF SwitchMan Smart Wall Switch"
+    ],
+    "1339-0015": [
+      "Cync Full Color A19"
+    ],
+    "1339-0016": [
+      "Cync Full Color RS Can"
+    ],
+    "1339-0029": [
+      "Cync Full Color Undercabinet 12 Inch"
+    ],
+    "1339-002A": [
+      "Cync Full Color Undercabinet 18 Inch"
+    ],
+    "1339-002B": [
+      "Cync Full Color Undercabinet 24 Inch"
+    ],
+    "1339-002C": [
+      "Cync Full Color 3 Inch Puck"
+    ],
+    "1339-002E": [
+      "Cync Full Color RS Can"
+    ],
+    "1339-0040": [
+      "Cync Indoor Plug"
+    ],
+    "1339-0055": [
+      "Dual Socket Smart Plug"
+    ],
+    "1339-0056": [
+      "Cync Smart Shop Light"
+    ],
+    "1339-0061": [
+      "Cync Full Color ST19"
+    ],
+    "1339-0062": [
+      "Cync Full Color Globe"
+    ],
+    "1339-0065": [
+      "Cync Full Color Deco Candle Base"
+    ],
+    "1339-0068": [
+      "Cync Full Color PAR38"
+    ],
+    "1339-0069": [
+      "Cync Full Color A21"
+    ],
+    "1339-006B": [
+      "Cync Reveal Full Color A19"
+    ],
+    "1339-006C": [
+      "Cync Reveal Full Color BR30"
+    ],
+    "1339-006D": [
+      "Cync Reveal Full Color A21"
+    ],
+    "1339-006E": [
+      "Cync Indoor Light Strip 16ft"
+    ],
+    "1339-006F": [
+      "Cync Outdoor Plug"
+    ],
+    "1339-0074": [
+      "Cync Button Dimmer w Traveler"
+    ],
+    "1339-0075": [
+      "Cync Motion Dimmer w Traveler"
+    ],
+    "1339-0076": [
+      "Cync Button Switch w Traveler"
+    ],
+    "1339-0077": [
+      "Cync Paddle Switch w Traveler"
+    ],
+    "1339-0078": [
+      "Cync Toggle Switch w Traveler"
+    ],
+    "1339-0079": [
+      "Cync Fan Switch"
+    ],
+    "1339-007B": [
+      "Cync Indoor Light Strip 32ft"
+    ],
+    "1339-007C": [
+      "Cync Keypad Dimmer"
+    ],
+    "1339-007D": [
+      "Cync Paddle Dimmer"
+    ],
+    "1339-0089": [
+      "Cync Full Color A19"
+    ],
+    "1339-00AB": [
+      "Cync Full Color A19"
+    ],
+    "1339-00AC": [
+      "Cync Indoor Plug"
+    ],
+    "1339-00AD": [
+      "Cync Full Color BR30"
+    ],
+    "1339-00AE": [
+      "Cync Full Color 4 Inch Wafer"
+    ],
+    "1339-00AF": [
+      "Cync Full Color 6 Inch Wafer"
+    ],
+    "1339-00B1": [
+      "Cync Full Color 2 Inch Wafer"
+    ],
+    "1339-00B4": [
+      "Cync 4 Inch High Ceiling Wafer"
+    ],
+    "1339-00B5": [
+      "Cync 6 Inch High Ceiling Wafer"
+    ],
+    "1339-00B6": [
+      "Cync Full Color A19 Clear Spiral"
+    ],
+    "1344-041E": [
+      "Eltako Matter Bridge"
+    ],
+    "1345-4201": [
+      "Smart Presence Sensor"
+    ],
+    "1345-4202": [
+      "Smart Presence Sensor (Thread)"
+    ],
+    "1345-A012": [
+      "Smart Wi-Fi Switch"
+    ],
+    "1345-A01B": [
+      "Smart Wi-Fi Switch"
+    ],
+    "1345-B001": [
+      "Smart Wi-Fi Power Strip"
+    ],
+    "1345-E001": [
+      "Smart Wi-Fi Thermostat"
+    ],
+    "1345-F00D": [
+      "Smart Wi-Fi Roller Shutter Timer"
+    ],
+    "134E-0001": [
+      "Smart Radiator Thermostat X"
+    ],
+    "134E-0002": [
+      "Smart Thermostat X"
+    ],
+    "134E-0006": [
+      "Wireless Temperature Sensor X"
+    ],
+    "1351-EEF3": [
+      "HooRii Window Covering"
+    ],
+    "135D-00A1": [
+      "Nuki Smart Lock Ultra"
+    ],
+    "135D-00B0": [
+      "Nuki Smart Lock"
+    ],
+    "135D-00B1": [
+      "Nuki Smart Lock Pro"
+    ],
+    "135D-00B2": [
+      "Nuki Smart Lock Pro"
+    ],
+    "135D-00C1": [
+      "Nuki Smart Lock Go"
+    ],
+    "1365-1001": [
+      "Wi-Fi Curtain"
+    ],
+    "1372-0001": [
+      "M2D Bridge"
+    ],
+    "1372-0002": [
+      "IM Pushbutton Module"
+    ],
+    "137F-027B": [
+      "Power Plug"
+    ],
+    "137F-0462": [
+      "Door Sensor"
+    ],
+    "137F-0463": [
+      "Motion Sensor"
+    ],
+    "1387-1270": [
+      "Govee Ceiling Light Ultra (21inch)"
+    ],
+    "1387-1401": [
+      "Govee Smart Bulb A21 1600lm"
+    ],
+    "1387-14A1": [
+      "Govee Smart Bulb PAR38"
+    ],
+    "1387-14C0": [
+      "Govee Edison Bulb"
+    ],
+    "1387-14C1": [
+      "Govee Edison Bulb"
+    ],
+    "1387-1630": [
+      "Govee Lantern Floor Lamp"
+    ],
+    "1387-16B0": [
+      "Govee Floor Lamp 3"
+    ],
+    "1387-16C0": [
+      "Govee Floor Lamp 3 Lite"
+    ],
+    "1387-1741": [
+      "Govee Table Lamp Classic"
+    ],
+    "1387-6006": [
+      "Govee RGBWW Smart LED Bulb A19 1000lm"
+    ],
+    "1387-600A": [
+      "Govee RGBWW Smart LED Bulb A19 1200lm"
+    ],
+    "1387-600B": [
+      "Govee RGBWW Smart LED Bulb E12 450lm"
+    ],
+    "1387-600C": [
+      "Govee RGBWW Smart LED Bulb E14 450lm"
+    ],
+    "1387-600D": [
+      "Govee RGBWW Smart LED Bulb MR16 400lm"
+    ],
+    "1387-6010": [
+      "Govee RGBWW Smart LED Bulb BR30 1200lm"
+    ],
+    "1387-6013": [
+      "Govee RGBWW Smart LED Bulb BR30 850lm"
+    ],
+    "1387-601A": [
+      "Govee Recessed Downlight (6 inch)"
+    ],
+    "1387-601B": [
+      "Govee Recessed Downlight (4 inch)"
+    ],
+    "1387-601E": [
+      "Govee Recessed Downlight 2 (4 inch)"
+    ],
+    "1387-601F": [
+      "Govee Recessed Downlight 2 (6 inch)"
+    ],
+    "1387-6020": [
+      "Govee Table Lamp 2 Pro Sound by JBL"
+    ],
+    "1387-6022": [
+      "Govee Table Lamp 2"
+    ],
+    "1387-6046": [
+      "Govee TV Light Bar"
+    ],
+    "1387-6056": [
+      "Govee RGBICWW Light Bar"
+    ],
+    "1387-605A": [
+      "Govee TV Backlight 3 Lite Kit 55-65"
+    ],
+    "1387-6076": [
+      "Govee Floor Lamp Basic"
+    ],
+    "1387-607C": [
+      "Govee Floor Lamp 2"
+    ],
+    "1387-6093": [
+      "Govee Star Light Projector (Aurora)"
+    ],
+    "1387-6094": [
+      "Govee Star Projector Light"
+    ],
+    "1387-6095": [
+      "Govee Star Projector Light"
+    ],
+    "1387-6097": [
+      "Govee TV Backlight 3 Lite 40-50"
+    ],
+    "1387-6099": [
+      "Govee TV Backlight 3 Lite 75-85"
+    ],
+    "1387-609D": [
+      "Govee Galaxy Light Star Projector 2 Pro"
+    ],
+    "1387-60A4": [
+      "Govee Square Ceiling Light (12 inch)"
+    ],
+    "1387-60A6": [
+      "Govee Ceiling Light Pro"
+    ],
+    "1387-60B0": [
+      "Govee Uplighter Floor Lamp"
+    ],
+    "1387-60B1": [
+      "Govee Torchiere Floor Lamp"
+    ],
+    "1387-60B2": [
+      "Govee Tree Floor Lamp"
+    ],
+    "1387-60B3": [
+      "Govee Uplighter Floor Lamp with Nebula Effect"
+    ],
+    "1387-61B3": [
+      "Govee Strip Light with Cover 9.8f/3m"
+    ],
+    "1387-61B5": [
+      "Govee Strip Light with Cover 16.4ft/5m"
+    ],
+    "1387-61B6": [
+      "Govee Strip Light with Cover 32.8ft/10m"
+    ],
+    "1387-61B8": [
+      "Govee Strip Light with Skyline Kit 13.1ft/4m"
+    ],
+    "1387-61B9": [
+      "Govee Strip Light with Skyline Kit 19.7ft/6m"
+    ],
+    "1387-61D3": [
+      "Govee Neon Rope Light 2 9.8ft/3m"
+    ],
+    "1387-61D5": [
+      "Govee Neon Rope Light 2 16.4ft/5m"
+    ],
+    "1387-61D6": [
+      "Govee Neon Rope Light 2 32.8ft/10m"
+    ],
+    "1387-61E5": [
+      "Govee COB Strip Light Pro 9.8ft/3m"
+    ],
+    "1387-61E6": [
+      "Govee COB Strip Light Pro 16.4ft/5m"
+    ],
+    "1387-61F2": [
+      "Govee Strip Light 2 Pro 6.56ft/2m"
+    ],
+    "1387-61F5": [
+      "Govee Strip Light 2 Pro 16.4ft/5m"
+    ],
+    "1387-61F6": [
+      "Govee Strip Light 2 Pro 32.8ft/10m"
+    ],
+    "1387-6604": [
+      "Govee HDMI 2.1 Sync Box 2 75-85"
+    ],
+    "1387-66A0": [
+      "Govee TV Backlight 3 Pro 55-65"
+    ],
+    "1387-6870": [
+      "Govee Christmas Sparkle String Lights 66ft"
+    ],
+    "1387-6871": [
+      "Govee Christmas Sparkle String Lights 99ft"
+    ],
+    "1387-70B6": [
+      "Govee Curtain Lights Pro"
+    ],
+    "1387-70C4": [
+      "Govee Christmas String Lights 2 (Clear Wire) 66ft/20m"
+    ],
+    "1387-70C5": [
+      "Govee Christmas String Lights 2 (Green Wire)  99ft/30m"
+    ],
+    "1387-70C7": [
+      "Govee Christmas String Lights 2 (Clear Wire)  164ft/50m"
+    ],
+    "1387-70C9": [
+      "Govee Christmas String Lights 2 (Green Wire)  328ft/100m"
+    ],
+    "138A-1392": [
+      "Matter Bridge"
+    ],
+    "1392-0106": [
+      "Mini Smart Wi-Fi Plug Energy Monitoring Matter"
+    ],
+    "1392-010D": [
+      "Tapo Smart Power Strip"
+    ],
+    "1392-0114": [
+      "Smart WiFi Outdoor Plug"
+    ],
+    "1396-043A": [
+      "AiDot Air Purifier"
+    ],
+    "1396-1000": [
+      "Linkind LED Light Strip EL6"
+    ],
+    "1396-1001": [
+      "OREIN Bath Fan OLO5S"
+    ],
+    "1396-1005": [
+      "Linkind Smart Plug with Light"
+    ],
+    "1396-1014": [
+      "Linkind Smart Light Bulb"
+    ],
+    "1396-1016": [
+      "Linkind Smart Filament Bulb"
+    ],
+    "1396-103E": [
+      "Linkind Smart Ceiling Fan"
+    ],
+    "1396-1044": [
+      "Linkind Smart Light Bulb"
+    ],
+    "1396-1045": [
+      "Linkind Smart Downlight"
+    ],
+    "1396-1076": [
+      "Linkind Smart Light Bulb"
+    ],
+    "1396-1077": [
+      "Linkind Smart Light Bulb"
+    ],
+    "1396-1095": [
+      "OREiN Matter smart Bathroom Fan"
+    ],
+    "1396-1096": [
+      "OREiN Matter smart Bathroom Fan"
+    ],
+    "1396-1097": [
+      "OREiN Matter smart Bathroom Fan"
+    ],
+    "1396-10B1": [
+      "Linkind Smart Ceiling Light"
+    ],
+    "1396-10B2": [
+      "Linkind Smart Ceiling Light"
+    ],
+    "1396-11E2": [
+      "Linkind Light Stick T19"
+    ],
+    "1396-1215": [
+      "Smart Outdoor String Lights"
+    ],
+    "1396-1222": [
+      "Linkind Smart Permanent Outdoor Lights"
+    ],
+    "1397-07E7": [
+      "Matter Bridge"
+    ],
+    "139C-0387": [
+      "Zemismart M1 Hub"
+    ],
+    "139C-0388": [
+      "Zemismart M6 Hub"
+    ],
+    "139C-AB01": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB02": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB03": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB04": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB05": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB08": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB31": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-AB43": [
+      "Zemismart WiFi Smart Switch"
+    ],
+    "139C-D001": [
+      "Zemismart Downlight"
+    ],
+    "139C-D002": [
+      "Zemismart Bulb"
+    ],
+    "139C-D003": [
+      "Zemismart LED Light Strip Driver"
+    ],
+    "139C-EEE2": [
+      "Zemismart Inline Module"
+    ],
+    "139C-FA11": [
+      "Zemismart ZM25C Smart Curtain"
+    ],
+    "139C-FA17": [
+      "Zemismart ZM24A Smart Curtain"
+    ],
+    "139C-FA31": [
+      "Zemismart ZM01 Smart Curtain"
+    ],
+    "139C-FA32": [
+      "Zemismart ZM02 Smart Curtain"
+    ],
+    "139C-FF10": [
+      "Zemismart MT82 Smart Curtain"
+    ],
+    "139C-FF15": [
+      "Zemismart MT25A Thread Roller Motor"
+    ],
+    "139C-FF60": [
+      "Zemismart MT25B Roller Motor"
+    ],
+    "139C-FFFE": [
+      "Zemismart MT01 Slide Curtain"
+    ],
+    "1407-1088": [
+      "THIRDREALITY Night Light"
+    ],
+    "1407-1098": [
+      "Smart Garage Door Opener"
+    ],
+    "1407-1288": [
+      "Smart Bridge MZ1"
+    ],
+    "1407-1388": [
+      "Smart Mechanical Keyboard MK1"
+    ],
+    "1407-1401": [
+      "ThirdReality Smart Night Light -T"
+    ],
+    "141E-0001": [
+      "TUO Smart Button"
+    ],
+    "141E-0002": [
+      "TUO Contact Sensor"
+    ],
+    "141E-0003": [
+      "TUO Temperature Sensor"
+    ],
+    "141F-1005": [
+      "TARUIE AC Remote"
+    ],
+    "1421-0041": [
+      "Halo Select Plus"
+    ],
+    "1421-0042": [
+      "Kwikset Halo Select Plus"
+    ],
+    "1421-0081": [
+      "Kwikset Aura Reach"
+    ],
+    "1423-0075": [
+      "LIFX Lightstrip"
+    ],
+    "1423-0076": [
+      "LIFX Lightstrip"
+    ],
+    "1423-0077": [
+      "LIFX Beam"
+    ],
+    "1423-0078": [
+      "LIFX Beam"
+    ],
+    "1423-008D": [
+      "LIFX Neon"
+    ],
+    "1423-008E": [
+      "LIFX Neon"
+    ],
+    "1423-008F": [
+      "LIFX String"
+    ],
+    "1423-0090": [
+      "LIFX String"
+    ],
+    "1423-00A1": [
+      "LIFX Neon Outdoor"
+    ],
+    "1423-00A2": [
+      "LIFX Neon Outdoor"
+    ],
+    "1423-00A3": [
+      "LIFX Supercolor (A19)"
+    ],
+    "1423-00A4": [
+      "LIFX Supercolor (BR30)"
+    ],
+    "1423-00A5": [
+      "LIFX Supercolour (A19)"
+    ],
+    "1423-00A6": [
+      "LIFX Supercolour (BR30)"
+    ],
+    "1423-00A7": [
+      "LIFX Downlight"
+    ],
+    "1423-00A8": [
+      "LIFX Downlight (Retrofit 6)"
+    ],
+    "1423-00A9": [
+      "LIFX Color (A21)"
+    ],
+    "1423-00AA": [
+      "LIFX Supercolour (A21)"
+    ],
+    "1423-00AB": [
+      "LIFX Spot"
+    ],
+    "1423-00AD": [
+      "LIFX Path (Round)"
+    ],
+    "1423-00AE": [
+      "LIFX Path (Square)"
+    ],
+    "1423-00AF": [
+      "LIFX Color (PAR38)"
+    ],
+    "1423-00B0": [
+      "LIFX Ceiling"
+    ],
+    "1423-00B1": [
+      "LIFX Ceiling"
+    ],
+    "1423-00B2": [
+      "LIFX Downlight (Canless 6)"
+    ],
+    "1423-00B3": [
+      "LIFX Downlight (Retrofit 4)"
+    ],
+    "1423-00B4": [
+      "LIFX Downlight (Canless 4)"
+    ],
+    "1423-00B9": [
+      "LIFX Candle"
+    ],
+    "1423-00BA": [
+      "LIFX Candle Color"
+    ],
+    "1423-00BF": [
+      "LIFX Everyday Smart Light 2-Pack"
+    ],
+    "1423-00C9": [
+      "LIFX Ceiling 13x26"
+    ],
+    "1423-00CA": [
+      "LIFX Ceiling 13x26"
+    ],
+    "1423-00CB": [
+      "LIFX String"
+    ],
+    "1423-00CC": [
+      "LIFX String"
+    ],
+    "1423-00CD": [
+      "LIFX Neon"
+    ],
+    "1423-00CE": [
+      "LIFX Neon"
+    ],
+    "1423-00CF": [
+      "LIFX Everyday Lightstrip"
+    ],
+    "1423-00D0": [
+      "LIFX Everyday Lightstrip"
+    ],
+    "1423-00D5": [
+      "LIFX Permanent Outdoor"
+    ],
+    "1423-00D6": [
+      "LIFX Permanent Outdoor"
+    ],
+    "1423-00D7": [
+      "LIFX Candle (B10)"
+    ],
+    "1423-00D8": [
+      "LIFX Candle Color (B10)"
+    ],
+    "1423-00D9": [
+      "LIFX Tube"
+    ],
+    "1423-00DA": [
+      "LIFX Tube"
+    ],
+    "1423-00DB": [
+      "LIFX Luna"
+    ],
+    "1423-00DC": [
+      "LIFX Luna"
+    ],
+    "1423-00DD": [
+      "LIFX Spot"
+    ],
+    "1423-00DE": [
+      "LIFX Path (Round)"
+    ],
+    "1423-00DF": [
+      "LIFX Downlight (6 Retro Downlight)"
+    ],
+    "1423-00E0": [
+      "LIFX Downlight (90mm Downlight)"
+    ],
+    "1423-00E1": [
+      "LIFX PAR38"
+    ],
+    "1423-0109": [
+      "Ceiling 13"
+    ],
+    "1423-010A": [
+      "LIFX Ceiling 13"
+    ],
+    "1423-010B": [
+      "LIFX Mirror"
+    ],
+    "1423-010C": [
+      "LIFX Mirror"
+    ],
+    "1426-0003": [
+      "ELEGRP Smart Mini Plug"
+    ],
+    "1429-0001": [
+      "Matter Push button 2-gang"
+    ],
+    "142B-0002": [
+      "LeTianPai Presence Sensor Box"
+    ],
+    "142B-1001": [
+      "LeTianPai Smart Light Bulb"
+    ],
+    "142B-1002": [
+      "LeTianPai Smart Switch 1 Way"
+    ],
+    "142B-1003": [
+      "LeTianPai Smart Switch 2 Way"
+    ],
+    "142B-1004": [
+      "LeTianPai Smart Switch 3 Way"
+    ],
+    "1432-1000": [
+      "RFSAI-62B-SL/MT"
+    ],
+    "1432-1001": [
+      "RFGB-40B(W)/MT"
+    ],
+    "1432-1002": [
+      "RFWD-100/MT"
+    ],
+    "1432-1003": [
+      "RFWB-40G/MT"
+    ],
+    "1434-1000": [
+      "A3 Home Gateway"
+    ],
+    "1434-1100": [
+      "Wi-Fi Relay"
+    ],
+    "143D-1001": [
+      "Onvis Smart Plug S4EU"
+    ],
+    "1457-0002": [
+      "WISTAR WSERD30-B Smart Tubular Motor"
+    ],
+    "1457-0003": [
+      "WISTAR WSERD16-B Smart Tubular Motor"
+    ],
+    "1457-0004": [
+      "WISTAR WSERD24 Smart Tubular Motor"
+    ],
+    "1457-0005": [
+      "WISTAR WSERD40-B Smart Tubular Motor"
+    ],
+    "1457-0006": [
+      "WISTAR WSERD40-L Smart Tubular Motor"
+    ],
+    "1457-0007": [
+      "WISTAR WSERD40-T Smart Tubular Motor"
+    ],
+    "1457-0008": [
+      "WISTAR WSERD50-B Smart Tubular Motor"
+    ],
+    "1457-0009": [
+      "WISTAR WSERD50-L Smart Tubular Motor"
+    ],
+    "1457-0010": [
+      "WISTAR WSERD50-T Smart Tubular Motor"
+    ],
+    "1457-0011": [
+      "WISTAR WSER40 Smart Tubular Motor"
+    ],
+    "1457-0012": [
+      "WISTAR WSER50 Smart Tubular Motor"
+    ],
+    "1457-0013": [
+      "WISTAR WSER60 Smart Tubular Motor"
+    ],
+    "1457-0014": [
+      "WISTAR WSCMQ Smart Curtain Motor"
+    ],
+    "1457-0015": [
+      "WISTAR WSCMXI Smart Curtain Motor"
+    ],
+    "1457-0016": [
+      "WISTAR WSCMXH Smart Vertical Blind Motor"
+    ],
+    "1457-0017": [
+      "WISTAR WSCMXF Smart Vertical Blind Motor"
+    ],
+    "1457-0018": [
+      "WISTAR WSCMXF-LED Smart Vertical Blind Motor"
+    ],
+    "1457-0020": [
+      "WISTAR WSCMT Smart Curtain Motor"
+    ],
+    "1457-0022": [
+      "WISTAR WSCMXB Smart Curtain Motor"
+    ],
+    "1457-0023": [
+      "WISTAR WSCMXC Smart Curtain Motor"
+    ],
+    "1457-0026": [
+      "WISTAR WSCMXJ Smart Curtain Motor"
+    ],
+    "145C-0002": [
+      "Lockly Smart Lock"
+    ],
+    "145C-0003": [
+      "Lockly Smart Lock"
+    ],
+    "1462-2005": [
+      "Magic Cube DS001"
+    ],
+    "146A-8001": [
+      "InvisOutlet"
+    ],
+    "146F-1001": [
+      "SmartWings Window Covering"
+    ],
+    "147F-0001": [
+      "ULTRALOQ Bolt Fingerprint Smart Matter Deadbolt"
+    ],
+    "147F-0002": [
+      "UTEC Smart Matter Light Bulb"
+    ],
+    "147F-0003": [
+      "U-tec Smart Matter Plug"
+    ],
+    "147F-0004": [
+      "U-tec Smart Matter Switch"
+    ],
+    "147F-0007": [
+      "ULTRALOQ Bolt Pro Smart Matter Door Lock"
+    ],
+    "147F-0008": [
+      "ULTRALOQ Bolt Smart Matter Door Lock"
+    ],
+    "147F-0010": [
+      "ULTRALOQ Latch 5 Pro Smart Matter Door Lock"
+    ],
+    "1490-0001": [
+      "Shelly Plug S MTR Gen3"
+    ],
+    "1490-1005": [
+      "Shelly 2PM Gen3"
+    ],
+    "1490-1013": [
+      "Shelly 2L Gen3"
+    ],
+    "1490-1014": [
+      "Shelly 1L Gen3"
+    ],
+    "1490-1015": [
+      "Shelly 1 Mini Gen3"
+    ],
+    "1490-1016": [
+      "Shelly 1PM Mini Gen3"
+    ],
+    "1490-1018": [
+      "Shelly 1 Gen3"
+    ],
+    "1490-1019": [
+      "Shelly 1PM Gen3"
+    ],
+    "1490-1029": [
+      "Shelly 1PM Gen4"
+    ],
+    "1490-1853": [
+      "Shelly Outdoor Plug S Gen3"
+    ],
+    "1500-2711": [
+      "SmartWave Motorized Roller Shades 100 Blackout Flex"
+    ],
+    "1509-0001": [
+      "SmartSetup Smart Switch"
+    ],
+    "1509-0004": [
+      "SmartSetup Smart Multi-Switch"
+    ],
+    "1522-0003": [
+      "Zimi Matter Connect"
+    ],
+    "1523-041C": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A64": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A65": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A66": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A67": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A68": [
+      "Smart WindowCovering Series"
+    ],
+    "1523-0A69": [
+      "Smart WindowCovering Series"
+    ],
+    "1527-0001": [
+      "habi Matter Wireless Room Thermostat"
+    ],
+    "1527-0002": [
+      "habi Smart TRV"
+    ],
+    "152C-9500": [
+      "Dreame NAVO Smart Lock A10"
+    ],
+    "152C-9501": [
+      "Dreame NAVO Smart Lock E10"
+    ],
+    "1533-0001": [
+      "eufy Smart Lock E31"
+    ],
+    "1533-0002": [
+      "eufy Smart Lock E30"
+    ],
+    "1533-0003": [
+      "eufy Smart Lock C34"
+    ],
+    "1533-000F": [
+      "eufy FamiLock S3 Max"
+    ],
+    "1533-0010": [
+      "eufy FamiLock S3"
+    ],
+    "1533-0011": [
+      "eufy FamiLock E34"
+    ],
+    "1533-0012": [
+      "eufy FamiLock E35"
+    ],
+    "1533-0013": [
+      "eufy Permanent Outdoor Lights S4"
+    ],
+    "1533-0014": [
+      "eufy FamiLock E40"
+    ],
+    "1533-0016": [
+      "eufy FamiLock E32"
+    ],
+    "153B-3801": [
+      "MSM-1"
+    ],
+    "1547-03E9": [
+      "Sense by MACO | Window Pro T&T"
+    ],
+    "1547-03EA": [
+      "Sense by MACO | Window TT"
+    ],
+    "1547-03EB": [
+      "Sense by MACO | Casement"
+    ],
+    "1547-03EC": [
+      "Sense by MACO | Door"
+    ],
+    "1547-03ED": [
+      "Sense by MACO | Universal"
+    ],
+    "1552-0D00": [
+      "Edishine Smart Led Bulb"
+    ],
+    "156A-0001": [
+      "xCREAS Smart Air Purifier Cyclone400"
+    ],
+    "1575-0001": [
+      "Smart AC Controller"
+    ],
+    "1578-1A01": [
+      "GATEWAY-MT"
+    ],
+    "1596-0001": [
+      "Sensereo Matter Smoke Alarm MS1"
+    ],
+    "1596-0002": [
+      "MSC-1"
+    ],
+    "159A-1002": [
+      "HAOJAI Smart Switch 6-key"
+    ],
+    "159A-1011": [
+      "HAOJAI Smart Switch 3-key"
+    ],
+    "164B-0001": [
+      "Floor Lamp"
+    ],
+    "4476-4096": [
+      "GRILLPLATS plug"
+    ],
+    "4476-4097": [
+      "TOFSMYGGA"
+    ]
+  }
+}
