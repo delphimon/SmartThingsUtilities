@@ -1,10 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T22:35:16.897383Z",
+  "generatedAt": "2026-08-11T22:50:16.773118Z",
   "source": "https://github.com/SmartThingsCommunity/SmartThingsEdgeDrivers",
   "sourceRevision": "e666b3e335ddee032211baa72f40d70c93d883af",
   "zwaveJsSource": "https://github.com/zwave-js/zwave-js",
   "zwaveJsSourceRevision": "b59ef1b58b17122368c828ce88bfb18404d466ee",
+  "firmwareUpdatesSource": "https://github.com/zwave-js/firmware-updates",
+  "firmwareUpdatesSourceRevision": "e99f1193d3e7e75b9a64ef6e77be6eaf52e3eb71",
   "matching": "Exact identifiers only; multiple names are retained as ambiguous.",
   "zwave": {
     "0002-0115-A010": [
@@ -24753,6 +24755,4275 @@
         "manufacturer": "Remotec",
         "model": "BW8120",
         "description": "Dual Mode Switch-Dimmer"
+      }
+    ]
+  },
+  "zwaveFirmware": {
+    "0159-0002-0054": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "41.11",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "Smart Plug 16A"
+      }
+    ],
+    "0159-0007-0052": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "80.1",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "Smart Meter"
+      }
+    ],
+    "0159-0007-0054": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "50.6",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "3 Phase Smart Meter"
+      }
+    ],
+    "027A-0001-0005": [
+      {
+        "minVersion": "2.1",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.2",
+            "url": "https://www.getzooz.com/firmware/ZSE29_V02R20.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE29"
+      }
+    ],
+    "027A-0004-0006": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE70_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE70_V01R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE70"
+      }
+    ],
+    "027A-0004-0110": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R50.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN55"
+      }
+    ],
+    "027A-0004-0321": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN57_V01R20_US.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN57"
+      }
+    ],
+    "027A-0004-0322": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R30_EU.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R20_US.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN58"
+      }
+    ],
+    "027A-0004-0369": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R40_US.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R30_US.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE50"
+      }
+    ],
+    "027A-0004-0510": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC38_V01R30.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZAC38_V01R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC38"
+      }
+    ],
+    "027A-0004-0610": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZST39_SDK_7.24.2_US-LR_V01R70.gbl"
+          },
+          {
+            "version": "1.70.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZST39_SDK_7.24.2_EU-LR_V01R70.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZST39"
+      }
+    ],
+    "027A-0004-0611": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC93_SDK_7.23.2_US-LR_V02R20.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZAC93_SDK_7.23.2_EU-LR_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC93"
+      }
+    ],
+    "027A-0101-000D": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R40_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R30_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R20.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN15"
+      },
+      {
+        "minVersion": "20.0",
+        "maxVersion": "20.255",
+        "updates": [
+          {
+            "version": "20.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V020R40_EU.gbl"
+          },
+          {
+            "version": "20.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V20R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN15"
+      }
+    ],
+    "027A-0101-0036": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC36LR_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC36"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.24.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC36_V01R24.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC36"
+      }
+    ],
+    "027A-0103-004E": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN78_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN78_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN78"
+      }
+    ],
+    "027A-0201-0006": [
+      {
+        "minVersion": "1.10",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30",
+            "url": "https://www.getzooz.com/firmware/ZSE11_FW_V1_30.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE11"
+      },
+      {
+        "minVersion": "2.10",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE11"
+      }
+    ],
+    "027A-0301-0012": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE18_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE18 800LR"
+      }
+    ],
+    "027A-0904-0218": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R70_US.gbl"
+          },
+          {
+            "version": "1.70.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R70_EU.gbl"
+          },
+          {
+            "version": "1.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R60_US.gbl"
+          },
+          {
+            "version": "1.60.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R60_EU.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN54"
+      }
+    ],
+    "027A-0904-0219": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN53_V01R40.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN53_V01R40_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN53"
+      }
+    ],
+    "027A-7000-A001": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V10R30.gbl"
+          },
+          {
+            "version": "10.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V10R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R70.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71"
+      }
+    ],
+    "027A-7000-A002": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.40.2",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R70.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.2",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72"
+      }
+    ],
+    "027A-7000-A003": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.0.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V10_0.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN73"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN73"
+      }
+    ],
+    "027A-7000-A004": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.10.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V10R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN74"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN74"
+      }
+    ],
+    "027A-7000-A005": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN75_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN75_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN75"
+      }
+    ],
+    "027A-7000-A006": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V04R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V10R30.gbl"
+          },
+          {
+            "version": "10.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V10R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R60.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76"
+      }
+    ],
+    "027A-7000-A007": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R70.gbl"
+          },
+          {
+            "version": "4.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R60.gbl"
+          },
+          {
+            "version": "4.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R50.gbl"
+          },
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.40.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77"
+      },
+      {
+        "minVersion": "5.0",
+        "maxVersion": "5.255",
+        "updates": [
+          {
+            "version": "5.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V05R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77"
+      }
+    ],
+    "027A-7000-A008": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.50.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V10R50.gbl"
+          },
+          {
+            "version": "10.40.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.2",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V02R30.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V02R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32"
+      }
+    ],
+    "027A-7000-A00A": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN17"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40.gbl"
+          },
+          {
+            "version": "1.40.2",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.40.2",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN17"
+      }
+    ],
+    "027A-7000-A018": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN35"
+      }
+    ],
+    "027A-7000-B001": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN05_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN05_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN05"
+      }
+    ],
+    "027A-7000-B002": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R60.gbl"
+          },
+          {
+            "version": "2.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R50.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN04"
+      },
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V01R20.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN04"
+      }
+    ],
+    "027A-7000-B003": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V02R30.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN14"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN14"
+      }
+    ],
+    "027A-7000-E001": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_US.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE41"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R20_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE41"
+      }
+    ],
+    "027A-7000-E002": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.50.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_US.gbl"
+          },
+          {
+            "version": "1.50.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_EU.gbl"
+          },
+          {
+            "version": "1.50.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE42"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R40_US.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R40_EU.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R20_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE42"
+      }
+    ],
+    "027A-7000-E003": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20-EU.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20-AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE43"
+      }
+    ],
+    "027A-7000-E004": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_EU.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE44"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R40_US.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R40_EU.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R10_US.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R10_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE44"
+      }
+    ],
+    "027A-7000-F001": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN34_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN34"
+      }
+    ],
+    "027A-7000-F003": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN37"
+      }
+    ],
+    "027A-A000-A001": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.50.1",
+            "url": "https://www.getzooz.com/firmware/ZEN26_V03R50.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN26"
+      }
+    ],
+    "027A-A000-A002": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.40.1",
+            "url": "https://www.getzooz.com/firmware/ZEN27-3.40.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN27"
+      }
+    ],
+    "027A-A000-A004": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN20_V04R30.gbl"
+          },
+          {
+            "version": "4.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN20_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN20"
+      }
+    ],
+    "027A-A000-A008": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R40.gbl"
+          },
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R30.gbl"
+          },
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN30"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.30.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V03R30.gbl"
+          },
+          {
+            "version": "3.20.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN30"
+      }
+    ],
+    "027A-A000-A00A": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN16_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN16"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN16_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN16"
+      }
+    ],
+    "027A-AA00-AA01": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.5.1",
+            "url": "https://www.getzooz.com/firmware/ZEN21-4-05.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN21"
+      }
+    ],
+    "027A-B112-1F1C": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.4.1",
+            "url": "https://www.getzooz.com/firmware/ZEN22-4.04.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN22"
+      }
+    ],
+    "0460-0001-0081": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.2",
+            "region": "europe"
+          },
+          {
+            "version": "12.2",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro Dimmer 1PM"
+      }
+    ],
+    "0460-0001-0082": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.7",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.7",
+            "region": "europe"
+          },
+          {
+            "version": "12.7",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro Dimmer 2PM"
+      }
+    ],
+    "0460-0001-0083": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.3",
+            "region": "europe"
+          },
+          {
+            "version": "12.3",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Dimmer"
+      }
+    ],
+    "0460-0002-0081": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "16.5",
+            "region": "europe"
+          },
+          {
+            "version": "16.5",
+            "region": "usa"
+          },
+          {
+            "version": "16.5",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "16.2",
+            "region": "europe"
+          },
+          {
+            "version": "15.0",
+            "region": "europe"
+          },
+          {
+            "version": "15.0",
+            "region": "europe"
+          },
+          {
+            "version": "10.30",
+            "region": "europe"
+          },
+          {
+            "version": "10.35",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 2PM"
+      }
+    ],
+    "0460-0002-0083": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "14.0",
+            "region": "usa"
+          },
+          {
+            "version": "13.0",
+            "region": "europe"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          },
+          {
+            "version": "11.5",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1"
+      }
+    ],
+    "0460-0002-0084": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.1",
+            "region": "europe"
+          },
+          {
+            "version": "14.1",
+            "region": "usa"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "11.10",
+            "region": "europe"
+          },
+          {
+            "version": "11.10",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave 1 PM"
+      }
+    ],
+    "0460-0002-0087": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.2",
+            "region": "europe"
+          },
+          {
+            "version": "11.4",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Plug S"
+      }
+    ],
+    "0460-0002-0088": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "10.11",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Plug US"
+      }
+    ],
+    "0460-0002-0089": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.0",
+            "region": "europe"
+          },
+          {
+            "version": "10.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Plug UK"
+      }
+    ],
+    "0460-0002-008A": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "11.1",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 1"
+      }
+    ],
+    "0460-0002-008B": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "usa"
+          },
+          {
+            "version": "11.3",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 1PM"
+      }
+    ],
+    "0460-0002-008C": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.0",
+            "region": "europe"
+          },
+          {
+            "version": "12.0",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 2"
+      }
+    ],
+    "0460-0002-008D": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.4",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.4",
+            "region": "europe"
+          },
+          {
+            "version": "13.4",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 2PM"
+      }
+    ],
+    "0460-0002-008E": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "14.0",
+            "region": "usa"
+          },
+          {
+            "version": "10.4",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1 Mini"
+      }
+    ],
+    "0460-0002-008F": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.3",
+            "region": "europe"
+          },
+          {
+            "version": "14.3",
+            "region": "usa"
+          },
+          {
+            "version": "11.3",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1PM Mini"
+      }
+    ],
+    "0460-0002-0091": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "usa"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro 3"
+      }
+    ],
+    "0460-0003-0082": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.2",
+            "region": "europe"
+          },
+          {
+            "version": "14.2",
+            "region": "usa"
+          },
+          {
+            "version": "14.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.23",
+            "region": "europe"
+          },
+          {
+            "version": "12.23",
+            "region": "usa"
+          },
+          {
+            "version": "12.23",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Shutter"
+      }
+    ],
+    "0460-0003-0084": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.3",
+            "region": "europe"
+          },
+          {
+            "version": "12.3",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro Shutter"
+      }
+    ],
+    "0460-0009-0081": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave i4"
+      }
+    ],
+    "0460-0009-0082": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.0",
+            "region": "europe"
+          },
+          {
+            "version": "13.0",
+            "region": "usa"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave i4 DC"
+      }
+    ],
+    "0460-0100-0081": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.9",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.9",
+            "region": "usa"
+          },
+          {
+            "version": "11.9",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Door Window"
+      }
+    ],
+    "0460-0100-0082": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.10",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.10",
+            "region": "usa"
+          },
+          {
+            "version": "11.10",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Motion"
+      }
+    ],
+    "0460-0100-0083": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.13",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.13",
+            "region": "europe"
+          },
+          {
+            "version": "11.13",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave H&T"
+      }
+    ],
+    "0466-0001-0001": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "1.2.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.2.0/zwa2_controller_1.2.0.gbl"
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.1.0/zwa2_controller_1.1.0.gbl"
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.0/zwa2_firmware_1.0.gbl"
+          }
+        ],
+        "manufacturer": "Nabu Casa",
+        "model": "ZWA-2"
+      }
+    ]
+  },
+  "zwaveFirmwareByModel": {
+    "0159\u00003 phase smart meter": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "50.6",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "3 Phase Smart Meter",
+        "fingerprint": "0159-0007-0054"
+      }
+    ],
+    "0159\u0000smart meter": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "80.1",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "Smart Meter",
+        "fingerprint": "0159-0007-0052"
+      }
+    ],
+    "0159\u0000smart plug 16a": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "41.11",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Qubino",
+        "model": "Smart Plug 16A",
+        "fingerprint": "0159-0002-0054"
+      }
+    ],
+    "027A\u0000zac36": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC36LR_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC36",
+        "fingerprint": "027A-0101-0036"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.24.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC36_V01R24.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC36",
+        "fingerprint": "027A-0101-0036"
+      }
+    ],
+    "027A\u0000zac38": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC38_V01R30.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZAC38_V01R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC38",
+        "fingerprint": "027A-0004-0510"
+      }
+    ],
+    "027A\u0000zac93": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZAC93_SDK_7.23.2_US-LR_V02R20.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZAC93_SDK_7.23.2_EU-LR_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZAC93",
+        "fingerprint": "027A-0004-0611"
+      }
+    ],
+    "027A\u0000zen04": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R60.gbl"
+          },
+          {
+            "version": "2.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R50.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN04",
+        "fingerprint": "027A-7000-B002"
+      },
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V01R20.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN04_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN04",
+        "fingerprint": "027A-7000-B002"
+      }
+    ],
+    "027A\u0000zen05": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN05_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN05_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN05",
+        "fingerprint": "027A-7000-B001"
+      }
+    ],
+    "027A\u0000zen14": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V02R30.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN14",
+        "fingerprint": "027A-7000-B003"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN14_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN14",
+        "fingerprint": "027A-7000-B003"
+      }
+    ],
+    "027A\u0000zen15": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R40_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R30_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R20.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN15",
+        "fingerprint": "027A-0101-000D"
+      },
+      {
+        "minVersion": "20.0",
+        "maxVersion": "20.255",
+        "updates": [
+          {
+            "version": "20.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V020R40_EU.gbl"
+          },
+          {
+            "version": "20.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN15_V20R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN15",
+        "fingerprint": "027A-0101-000D"
+      }
+    ],
+    "027A\u0000zen16": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN16_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN16",
+        "fingerprint": "027A-A000-A00A"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN16_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN16",
+        "fingerprint": "027A-A000-A00A"
+      }
+    ],
+    "027A\u0000zen17": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN17",
+        "fingerprint": "027A-7000-A00A"
+      },
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40.gbl"
+          },
+          {
+            "version": "1.40.2",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.40.2",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZEN17_V01R40_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN17",
+        "fingerprint": "027A-7000-A00A"
+      }
+    ],
+    "027A\u0000zen20": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN20_V04R30.gbl"
+          },
+          {
+            "version": "4.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN20_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN20",
+        "fingerprint": "027A-A000-A004"
+      }
+    ],
+    "027A\u0000zen21": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.5.1",
+            "url": "https://www.getzooz.com/firmware/ZEN21-4-05.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN21",
+        "fingerprint": "027A-AA00-AA01"
+      }
+    ],
+    "027A\u0000zen22": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.4.1",
+            "url": "https://www.getzooz.com/firmware/ZEN22-4.04.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN22",
+        "fingerprint": "027A-B112-1F1C"
+      }
+    ],
+    "027A\u0000zen26": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.50.1",
+            "url": "https://www.getzooz.com/firmware/ZEN26_V03R50.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN26",
+        "fingerprint": "027A-A000-A001"
+      }
+    ],
+    "027A\u0000zen27": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.40.1",
+            "url": "https://www.getzooz.com/firmware/ZEN27-3.40.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN27",
+        "fingerprint": "027A-A000-A002"
+      }
+    ],
+    "027A\u0000zen30": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R40.gbl"
+          },
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R30.gbl"
+          },
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN30",
+        "fingerprint": "027A-A000-A008"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.30.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V03R30.gbl"
+          },
+          {
+            "version": "3.20.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN30_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN30",
+        "fingerprint": "027A-A000-A008"
+      }
+    ],
+    "027A\u0000zen32": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32",
+        "fingerprint": "027A-7000-A008"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.50.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V10R50.gbl"
+          },
+          {
+            "version": "10.40.2",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32",
+        "fingerprint": "027A-7000-A008"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.2",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V02R30.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "url": "https://www.getzooz.com/firmware/ZEN32_V02R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN32",
+        "fingerprint": "027A-7000-A008"
+      }
+    ],
+    "027A\u0000zen34": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN34_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN34",
+        "fingerprint": "027A-7000-F001"
+      }
+    ],
+    "027A\u0000zen35": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN35_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN35",
+        "fingerprint": "027A-7000-A018"
+      }
+    ],
+    "027A\u0000zen37": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN37_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN37",
+        "fingerprint": "027A-7000-F003"
+      }
+    ],
+    "027A\u0000zen53": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN53_V01R40.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN53_V01R40_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN53",
+        "fingerprint": "027A-0904-0219"
+      }
+    ],
+    "027A\u0000zen54": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R70_US.gbl"
+          },
+          {
+            "version": "1.70.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R70_EU.gbl"
+          },
+          {
+            "version": "1.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R60_US.gbl"
+          },
+          {
+            "version": "1.60.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R60_EU.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN54_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN54",
+        "fingerprint": "027A-0904-0218"
+      }
+    ],
+    "027A\u0000zen55": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R50.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R40.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN55_V01R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN55",
+        "fingerprint": "027A-0004-0110"
+      }
+    ],
+    "027A\u0000zen57": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN57_V01R20_US.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN57",
+        "fingerprint": "027A-0004-0321"
+      }
+    ],
+    "027A\u0000zen58": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R30_EU.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN58_V01R20_US.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN58",
+        "fingerprint": "027A-0004-0322"
+      }
+    ],
+    "027A\u0000zen71": [
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71",
+        "fingerprint": "027A-7000-A001"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71",
+        "fingerprint": "027A-7000-A001"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V10R30.gbl"
+          },
+          {
+            "version": "10.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V10R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71",
+        "fingerprint": "027A-7000-A001"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R70.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN71_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN71",
+        "fingerprint": "027A-7000-A001"
+      }
+    ],
+    "027A\u0000zen72": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.40.2",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72",
+        "fingerprint": "027A-7000-A002"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R70.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72",
+        "fingerprint": "027A-7000-A002"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V04R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72",
+        "fingerprint": "027A-7000-A002"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.2",
+            "url": "https://www.getzooz.com/firmware/ZEN72_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN72",
+        "fingerprint": "027A-7000-A002"
+      }
+    ],
+    "027A\u0000zen73": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.0.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V10_0.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN73",
+        "fingerprint": "027A-7000-A003"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN73_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN73",
+        "fingerprint": "027A-7000-A003"
+      }
+    ],
+    "027A\u0000zen74": [
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.10.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V10R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN74",
+        "fingerprint": "027A-7000-A004"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V02R40.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN74_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN74",
+        "fingerprint": "027A-7000-A004"
+      }
+    ],
+    "027A\u0000zen75": [
+      {
+        "minVersion": "1.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN75_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN75_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN75",
+        "fingerprint": "027A-7000-A005"
+      }
+    ],
+    "027A\u0000zen76": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V02R30.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76",
+        "fingerprint": "027A-7000-A006"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V04R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76",
+        "fingerprint": "027A-7000-A006"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.30.1",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V10R30.gbl"
+          },
+          {
+            "version": "10.20.1",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V10R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76",
+        "fingerprint": "027A-7000-A006"
+      },
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R60.gbl"
+          },
+          {
+            "version": "3.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R50.gbl"
+          },
+          {
+            "version": "3.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R40.gbl"
+          },
+          {
+            "version": "3.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN76_V03R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN76",
+        "fingerprint": "027A-7000-A006"
+      }
+    ],
+    "027A\u0000zen77": [
+      {
+        "minVersion": "3.0",
+        "maxVersion": "3.255",
+        "updates": [
+          {
+            "version": "3.20.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V03R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77",
+        "fingerprint": "027A-7000-A007"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V02R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77",
+        "fingerprint": "027A-7000-A007"
+      },
+      {
+        "minVersion": "4.0",
+        "maxVersion": "4.255",
+        "updates": [
+          {
+            "version": "4.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R70.gbl"
+          },
+          {
+            "version": "4.60.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R60.gbl"
+          },
+          {
+            "version": "4.50.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R50.gbl"
+          },
+          {
+            "version": "4.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V04R30.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77",
+        "fingerprint": "027A-7000-A007"
+      },
+      {
+        "minVersion": "10.0",
+        "maxVersion": "10.255",
+        "updates": [
+          {
+            "version": "10.40.2",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V10R40.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77",
+        "fingerprint": "027A-7000-A007"
+      },
+      {
+        "minVersion": "5.0",
+        "maxVersion": "5.255",
+        "updates": [
+          {
+            "version": "5.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN77_V05R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN77",
+        "fingerprint": "027A-7000-A007"
+      }
+    ],
+    "027A\u0000zen78": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN78_V01R30.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZEN78_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZEN78",
+        "fingerprint": "027A-0103-004E"
+      }
+    ],
+    "027A\u0000zse11": [
+      {
+        "minVersion": "1.10",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30",
+            "url": "https://www.getzooz.com/firmware/ZSE11_FW_V1_30.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE11",
+        "fingerprint": "027A-0201-0006"
+      },
+      {
+        "minVersion": "2.10",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE11_V02R10.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE11",
+        "fingerprint": "027A-0201-0006"
+      }
+    ],
+    "027A\u0000zse18 800lr": [
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE18_V02R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE18 800LR",
+        "fingerprint": "027A-0301-0012"
+      }
+    ],
+    "027A\u0000zse29": [
+      {
+        "minVersion": "2.1",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.2",
+            "url": "https://www.getzooz.com/firmware/ZSE29_V02R20.otz"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE29",
+        "fingerprint": "027A-0001-0005"
+      }
+    ],
+    "027A\u0000zse41": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_US.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.40.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V01R40_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE41",
+        "fingerprint": "027A-7000-E001"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE41_V02R20_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE41",
+        "fingerprint": "027A-7000-E001"
+      }
+    ],
+    "027A\u0000zse42": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.50.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_US.gbl"
+          },
+          {
+            "version": "1.50.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_EU.gbl"
+          },
+          {
+            "version": "1.50.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V01R50_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE42",
+        "fingerprint": "027A-7000-E002"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R40_US.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R40_EU.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE42_V02R20_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE42",
+        "fingerprint": "027A-7000-E002"
+      }
+    ],
+    "027A\u0000zse43": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20-EU.gbl"
+          },
+          {
+            "version": "1.20.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE43_V01R20-AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE43",
+        "fingerprint": "027A-7000-E003"
+      }
+    ],
+    "027A\u0000zse44": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_EU.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "australia/new zealand",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V01R30_AU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE44",
+        "fingerprint": "027A-7000-E004"
+      },
+      {
+        "minVersion": "2.0",
+        "maxVersion": "2.255",
+        "updates": [
+          {
+            "version": "2.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R40_US.gbl"
+          },
+          {
+            "version": "2.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R40_EU.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R30_US.gbl"
+          },
+          {
+            "version": "2.30.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R30_EU.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R20_US.gbl"
+          },
+          {
+            "version": "2.20.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R20_EU.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R10_US.gbl"
+          },
+          {
+            "version": "2.10.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE44_V02R10_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE44",
+        "fingerprint": "027A-7000-E004"
+      }
+    ],
+    "027A\u0000zse50": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.40.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R40_US.gbl"
+          },
+          {
+            "version": "1.40.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R40_EU.gbl"
+          },
+          {
+            "version": "1.30.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R30_US.gbl"
+          },
+          {
+            "version": "1.20.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE50_V01R20.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE50",
+        "fingerprint": "027A-0004-0369"
+      }
+    ],
+    "027A\u0000zse70": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.30.1",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZSE70_V01R30_US.gbl"
+          },
+          {
+            "version": "1.30.1",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZSE70_V01R30_EU.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZSE70",
+        "fingerprint": "027A-0004-0006"
+      }
+    ],
+    "027A\u0000zst39": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "1.255",
+        "updates": [
+          {
+            "version": "1.70.0",
+            "region": "usa",
+            "url": "https://www.getzooz.com/firmware/ZST39_SDK_7.24.2_US-LR_V01R70.gbl"
+          },
+          {
+            "version": "1.70.0",
+            "region": "europe",
+            "url": "https://www.getzooz.com/firmware/ZST39_SDK_7.24.2_EU-LR_V01R70.gbl"
+          }
+        ],
+        "manufacturer": "Zooz",
+        "model": "ZST39",
+        "fingerprint": "027A-0004-0610"
+      }
+    ],
+    "0460\u0000wave 1": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "14.0",
+            "region": "usa"
+          },
+          {
+            "version": "13.0",
+            "region": "europe"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          },
+          {
+            "version": "11.5",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1",
+        "fingerprint": "0460-0002-0083"
+      }
+    ],
+    "0460\u0000wave 1 mini": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "14.0",
+            "region": "usa"
+          },
+          {
+            "version": "10.4",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1 Mini",
+        "fingerprint": "0460-0002-008E"
+      }
+    ],
+    "0460\u0000wave 1 pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.1",
+            "region": "europe"
+          },
+          {
+            "version": "14.1",
+            "region": "usa"
+          },
+          {
+            "version": "14.0",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "11.10",
+            "region": "europe"
+          },
+          {
+            "version": "11.10",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave 1 PM",
+        "fingerprint": "0460-0002-0084"
+      }
+    ],
+    "0460\u0000wave 1pm mini": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "14.3",
+            "region": "europe"
+          },
+          {
+            "version": "14.3",
+            "region": "usa"
+          },
+          {
+            "version": "11.3",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 1PM Mini",
+        "fingerprint": "0460-0002-008F"
+      }
+    ],
+    "0460\u0000wave 2pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "16.5",
+            "region": "europe"
+          },
+          {
+            "version": "16.5",
+            "region": "usa"
+          },
+          {
+            "version": "16.5",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "16.2",
+            "region": "europe"
+          },
+          {
+            "version": "15.0",
+            "region": "europe"
+          },
+          {
+            "version": "15.0",
+            "region": "europe"
+          },
+          {
+            "version": "10.30",
+            "region": "europe"
+          },
+          {
+            "version": "10.35",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave 2PM",
+        "fingerprint": "0460-0002-0081"
+      }
+    ],
+    "0460\u0000wave dimmer": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.3",
+            "region": "europe"
+          },
+          {
+            "version": "12.3",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Dimmer",
+        "fingerprint": "0460-0001-0083"
+      }
+    ],
+    "0460\u0000wave door window": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.9",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.9",
+            "region": "usa"
+          },
+          {
+            "version": "11.9",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Door Window",
+        "fingerprint": "0460-0100-0081"
+      }
+    ],
+    "0460\u0000wave h&t": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.13",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.13",
+            "region": "europe"
+          },
+          {
+            "version": "11.13",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave H&T",
+        "fingerprint": "0460-0100-0083"
+      }
+    ],
+    "0460\u0000wave i4": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave i4",
+        "fingerprint": "0460-0009-0081"
+      }
+    ],
+    "0460\u0000wave i4 dc": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.0",
+            "region": "europe"
+          },
+          {
+            "version": "13.0",
+            "region": "usa"
+          },
+          {
+            "version": "11.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave i4 DC",
+        "fingerprint": "0460-0009-0082"
+      }
+    ],
+    "0460\u0000wave motion": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "11.10",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "11.10",
+            "region": "usa"
+          },
+          {
+            "version": "11.10",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Motion",
+        "fingerprint": "0460-0100-0082"
+      }
+    ],
+    "0460\u0000wave plug s": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.2",
+            "region": "europe"
+          },
+          {
+            "version": "11.4",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Plug S",
+        "fingerprint": "0460-0002-0087"
+      }
+    ],
+    "0460\u0000wave plug uk": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.0",
+            "region": "europe"
+          },
+          {
+            "version": "10.5",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Plug UK",
+        "fingerprint": "0460-0002-0089"
+      }
+    ],
+    "0460\u0000wave plug us": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "10.11",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Plug US",
+        "fingerprint": "0460-0002-0088"
+      }
+    ],
+    "0460\u0000wave pro 1": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "11.1",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 1",
+        "fingerprint": "0460-0002-008A"
+      }
+    ],
+    "0460\u0000wave pro 1pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "usa"
+          },
+          {
+            "version": "11.3",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 1PM",
+        "fingerprint": "0460-0002-008B"
+      }
+    ],
+    "0460\u0000wave pro 2": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.0",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.0",
+            "region": "europe"
+          },
+          {
+            "version": "12.0",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 2",
+        "fingerprint": "0460-0002-008C"
+      }
+    ],
+    "0460\u0000wave pro 2pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.4",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.4",
+            "region": "europe"
+          },
+          {
+            "version": "13.4",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro 2PM",
+        "fingerprint": "0460-0002-008D"
+      }
+    ],
+    "0460\u0000wave pro 3": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "13.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "13.2",
+            "region": "europe"
+          },
+          {
+            "version": "13.2",
+            "region": "usa"
+          },
+          {
+            "version": "13.1",
+            "region": "europe"
+          },
+          {
+            "version": "13.1",
+            "region": "usa"
+          },
+          {
+            "version": "13.1",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro 3",
+        "fingerprint": "0460-0002-0091"
+      }
+    ],
+    "0460\u0000wave pro dimmer 1pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.2",
+            "region": "europe"
+          },
+          {
+            "version": "12.2",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro Dimmer 1PM",
+        "fingerprint": "0460-0001-0081"
+      }
+    ],
+    "0460\u0000wave pro dimmer 2pm": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.7",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.7",
+            "region": "europe"
+          },
+          {
+            "version": "12.7",
+            "region": "usa"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Pro Dimmer 2PM",
+        "fingerprint": "0460-0001-0082"
+      }
+    ],
+    "0460\u0000wave pro shutter": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "12.3",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.3",
+            "region": "europe"
+          },
+          {
+            "version": "12.3",
+            "region": "usa"
+          },
+          {
+            "version": "10.8",
+            "region": "europe"
+          }
+        ],
+        "manufacturer": "Shelly Qubino",
+        "model": "Wave Pro Shutter",
+        "fingerprint": "0460-0003-0084"
+      }
+    ],
+    "0460\u0000wave shutter": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "14.2",
+            "region": "europe"
+          },
+          {
+            "version": "14.2",
+            "region": "usa"
+          },
+          {
+            "version": "14.2",
+            "region": "australia/new zealand"
+          },
+          {
+            "version": "12.23",
+            "region": "europe"
+          },
+          {
+            "version": "12.23",
+            "region": "usa"
+          },
+          {
+            "version": "12.23",
+            "region": "australia/new zealand"
+          }
+        ],
+        "manufacturer": "Shelly",
+        "model": "Wave Shutter",
+        "fingerprint": "0460-0003-0082"
+      }
+    ],
+    "0466\u0000zwa-2": [
+      {
+        "minVersion": "0.0",
+        "maxVersion": "255.255",
+        "updates": [
+          {
+            "version": "1.2.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.2.0/zwa2_controller_1.2.0.gbl"
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.1.0/zwa2_controller_1.1.0.gbl"
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "url": "https://github.com/NabuCasa/zwave-firmware/releases/download/1.0/zwa2_firmware_1.0.gbl"
+          }
+        ],
+        "manufacturer": "Nabu Casa",
+        "model": "ZWA-2",
+        "fingerprint": "0466-0001-0001"
       }
     ]
   },

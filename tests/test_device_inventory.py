@@ -2,12 +2,18 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 import csv
+import copy
 import json
 from pathlib import Path
 import tempfile
 import unittest
 
-from smartthings_utilities.device_inventory import build_inventory, write_inventory_files
+from smartthings_utilities.device_inventory import (
+    CatalogLookupError,
+    build_inventory,
+    lookup_zwave_updates,
+    write_inventory_files,
+)
 
 
 FIXTURE = Path(__file__).parent / "fixtures" / "all_devices.json"
@@ -21,14 +27,7 @@ class DeviceInventoryTests(unittest.TestCase):
     @staticmethod
     def loader(url: str, **kwargs):
         if "firmware.zwave-js.io" in url:
-            return [{
-                "manufacturerId": "0x027a", "productType": "0xb112",
-                "productId": "0x1f1c", "firmwareVersion": "20.15",
-                "updates": [{
-                    "version": "20.16", "normalizedVersion": "20.16.0",
-                    "channel": "stable", "downgrade": False, "files": [],
-                }],
-            }]
+            return []
         return []
 
     def test_enriches_protocols_names_and_latest_firmware_without_guessing(self) -> None:
@@ -45,8 +44,11 @@ class DeviceInventoryTests(unittest.TestCase):
         self.assertEqual(zooz["model"], "ZEN22")
         self.assertEqual(zooz["reportedManufacturer"], "027A-B112-1F1C")
         self.assertEqual(zooz["reportedModel"], "B112-1F1C")
-        self.assertEqual(zooz["latestFirmware"], "20.16")
-        self.assertEqual(zooz["updateStatus"], "UPDATE_AVAILABLE")
+        self.assertEqual(zooz["latestFirmware"], "4.4.1")
+        self.assertEqual(zooz["latestFirmwareStatus"], "CATALOG_LATEST_INCOMPATIBLE_BRANCH")
+        self.assertEqual(
+            zooz["updateStatus"], "NOT_COMPATIBLE_WITH_CURRENT_FIRMWARE_BRANCH"
+        )
 
         zigbee = by_label["Aqara Weather"]
         self.assertEqual(zigbee["resolvedDeviceName"], "LUMI lumi.weather")
@@ -57,6 +59,50 @@ class DeviceInventoryTests(unittest.TestCase):
         self.assertEqual(lan["resolvedDeviceName"], "TP-Link | Kasa Home KP115(US)")
         self.assertEqual(lan["latestFirmwareStatus"], "NO_SUPPORTED_PUBLIC_CATALOG")
         self.assertEqual(inventory["summary"]["byProtocol"], {"LAN": 1, "ZIGBEE": 1, "ZWAVE": 1})
+
+    def test_failed_batch_is_split_so_valid_devices_still_return(self) -> None:
+        first = copy.deepcopy(self.devices[0])
+        second = copy.deepcopy(first)
+        second["components"][0]["capabilities"][0]["status"]["currentVersion"]["value"] = "4.0"
+        batch_sizes = []
+
+        def loader(url: str, **kwargs):
+            devices = kwargs["payload"]["devices"]
+            batch_sizes.append(len(devices))
+            if len(devices) > 1:
+                raise CatalogLookupError("synthetic batch rejection")
+            device = devices[0]
+            if device["firmwareVersion"] != "4.0.0":
+                return []
+            return [{**device, "updates": [{
+                "version": "4.4.1", "normalizedVersion": "4.4.1",
+                "channel": "stable", "downgrade": False, "files": [],
+            }]}]
+
+        updates, error = lookup_zwave_updates(
+            [first, second], cache_dir=Path("/unused"), offline=False, loader=loader
+        )
+        self.assertEqual(batch_sizes, [2, 1, 1])
+        self.assertIsNone(error)
+        self.assertEqual(updates[("0x027a", "0xb112", "0x1f1c", "4.0.0")]["latest"], "4.4.1")
+
+    def test_model_family_firmware_with_other_fingerprint_is_not_offered(self) -> None:
+        device = copy.deepcopy(self.devices[0])
+        device["deviceManufacturerCode"] = "027A-B111-1E1C"
+        device["deviceModel"] = "B111-1E1C"
+        device["zwave"]["productType"] = 0xB111
+        device["zwave"]["productId"] = 0x1E1C
+        inventory = build_inventory([device], source="fixture", loader=self.loader)
+        result = inventory["devices"][0]
+        self.assertEqual(result["model"], "ZEN21")
+        self.assertEqual(result["latestFirmware"], "4.5.1")
+        self.assertEqual(
+            result["latestFirmwareStatus"],
+            "CATALOG_LATEST_DIFFERENT_HARDWARE_FINGERPRINT",
+        )
+        self.assertEqual(
+            result["updateStatus"], "NOT_COMPATIBLE_WITH_DEVICE_FINGERPRINT"
+        )
 
     def test_writes_csv_and_json(self) -> None:
         inventory = build_inventory(self.devices, source="fixture", loader=self.loader)

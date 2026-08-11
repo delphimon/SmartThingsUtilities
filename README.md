@@ -19,8 +19,10 @@ That single process:
 2. resolves Z-Wave manufacturer/model names from the bundled Z-Wave JS database,
    with official Edge-driver fingerprints as a fallback, and resolves Zigbee and
    Matter names from exact Edge-driver fingerprints;
-3. checks every eligible Z-Wave device in one batched request to the
-   [Z-Wave JS Firmware Update Service](https://github.com/zwave-js/firmware-updates);
+3. checks every eligible Z-Wave device with the
+   [Z-Wave JS Firmware Update Service](https://github.com/zwave-js/firmware-updates),
+   beginning with one batch and isolating smaller batches only if the service
+   rejects the combined request;
 4. checks exact Zigbee model matches in the
    [zigbee-OTA index](https://github.com/Koenkk/zigbee-OTA); and
 5. writes timestamped CSV and JSON files, then exits.
@@ -46,6 +48,13 @@ several types, or omit it for all types.
 - `SMARTTHINGS_REPORTED` is an available version exposed by the existing driver.
 - `CATALOG_UPDATE_AVAILABLE` or `CATALOG_LATEST` comes from the named online
   catalog and includes its URL in each row.
+- `CATALOG_LATEST_INCOMPATIBLE_BRANCH` records the newest published firmware
+  for that exact fingerprint while making clear that the device's current
+  firmware branch is outside the package's supported range. Its update status
+  is `NOT_COMPATIBLE_WITH_CURRENT_FIRMWARE_BRANCH`, not `UPDATE_AVAILABLE`.
+- `CATALOG_LATEST_DIFFERENT_HARDWARE_FINGERPRINT` reports the newest firmware
+  found for the same named model family when it targets a different Z-Wave
+  fingerprint. It is explicitly marked `NOT_COMPATIBLE_WITH_DEVICE_FINGERPRINT`.
 - `NOT_IN_CATALOG`, `CURRENT_VERSION_OR_FINGERPRINT_REQUIRED`,
   `NO_SUPPORTED_PUBLIC_CATALOG`, and `LOOKUP_FAILED` are unknown outcomes—not
   proof that a device cannot be updated.
@@ -67,6 +76,11 @@ public, cross-vendor latest-firmware catalog, so the utility uses SmartThings'
 The public catalogs are discovery evidence, not an instruction to flash a file.
 An entry does not prove that SmartThings can install it, that the hardware revision
 is compatible, or that installing it is safe. The utility downloads metadata only.
+
+The repository also bundles a revision-pinned, reduced copy of the public Z-Wave
+JS firmware definitions. This provides deterministic compatibility results when
+the online API fails and distinguishes “a firmware file exists” from “that file
+supports this device's current firmware/hardware branch.”
 
 For the online check, the process sends each eligible Z-Wave fingerprint and its
 current firmware version to `firmware.zwave-js.io`; it downloads the public Zigbee
@@ -105,7 +119,9 @@ python3 scripts/build_device_catalog.py \
   src/smartthings_utilities/data/device_catalog.json \
   --source-revision EDGE_COMMIT_SHA \
   --zwave-js-root /path/to/zwave-js \
-  --zwave-js-revision ZWAVE_JS_COMMIT_SHA
+  --zwave-js-revision ZWAVE_JS_COMMIT_SHA \
+  --firmware-updates-root /path/to/firmware-updates \
+  --firmware-updates-revision FIRMWARE_CATALOG_COMMIT_SHA
 ```
 
 ## Z-Wave firmware inventory

@@ -117,12 +117,72 @@ def zwave_js_catalog(root: Path) -> tuple[dict[str, str], dict[str, list[dict[st
     return manufacturers, devices
 
 
+def firmware_catalog(
+    root: Path,
+) -> tuple[dict[str, list[dict[str, Any]]], dict[str, list[dict[str, Any]]]]:
+    result: dict[str, list[dict[str, Any]]] = {}
+    for path in (root / "firmwares").rglob("*.json"):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        upgrades = []
+        for upgrade in payload.get("upgrades", []):
+            if not isinstance(upgrade, dict) or not isinstance(upgrade.get("version"), str):
+                continue
+            item = {"version": upgrade["version"]}
+            for field in ("channel", "region", "url"):
+                if isinstance(upgrade.get(field), str):
+                    item[field] = upgrade[field]
+            upgrades.append(item)
+        if not upgrades:
+            continue
+        for device in payload.get("devices", []):
+            if not isinstance(device, dict):
+                continue
+            ids = (device.get("manufacturerId"), device.get("productType"), device.get("productId"))
+            if not all(isinstance(value, str) and re.fullmatch(r"0x[0-9A-Fa-f]{4}", value) for value in ids):
+                continue
+            version_range = device.get("firmwareVersion")
+            if not isinstance(version_range, dict):
+                continue
+            minimum, maximum = version_range.get("min"), version_range.get("max")
+            if not isinstance(minimum, str) or not isinstance(maximum, str):
+                continue
+            key = "-".join(value.removeprefix("0x").upper() for value in ids)
+            record: dict[str, Any] = {
+                "minVersion": minimum,
+                "maxVersion": maximum,
+                "updates": upgrades,
+            }
+            if isinstance(device.get("brand"), str):
+                record["manufacturer"] = device["brand"]
+            if isinstance(device.get("model"), str):
+                record["model"] = device["model"]
+            if record not in result.setdefault(key, []):
+                result[key].append(record)
+    by_model: dict[str, list[dict[str, Any]]] = {}
+    for fingerprint, records in result.items():
+        manufacturer_id = fingerprint.split("-", 1)[0]
+        for record in records:
+            model = record.get("model")
+            if not isinstance(model, str) or not model:
+                continue
+            item = {**record, "fingerprint": fingerprint}
+            key = f"{manufacturer_id}\0{model.casefold()}"
+            if item not in by_model.setdefault(key, []):
+                by_model[key].append(item)
+    return dict(sorted(result.items())), dict(sorted(by_model.items()))
+
+
 def build(
     root: Path,
     source_url: str,
     source_revision: str | None,
     zwave_js_root: Path | None,
     zwave_js_revision: str | None,
+    firmware_updates_root: Path | None,
+    firmware_updates_revision: str | None,
 ) -> dict[str, Any]:
     zwave: dict[str, set[str]] = {}
     zigbee: dict[str, set[str]] = {}
@@ -163,6 +223,9 @@ def build(
     zwave_js: dict[str, list[dict[str, str]]] = {}
     if zwave_js_root is not None:
         manufacturers, zwave_js = zwave_js_catalog(zwave_js_root)
+    firmware, firmware_by_model = (
+        firmware_catalog(firmware_updates_root) if firmware_updates_root else ({}, {})
+    )
 
     return {
         "schemaVersion": 1,
@@ -171,10 +234,14 @@ def build(
         "sourceRevision": source_revision,
         "zwaveJsSource": "https://github.com/zwave-js/zwave-js",
         "zwaveJsSourceRevision": zwave_js_revision,
+        "firmwareUpdatesSource": "https://github.com/zwave-js/firmware-updates",
+        "firmwareUpdatesSourceRevision": firmware_updates_revision,
         "matching": "Exact identifiers only; multiple names are retained as ambiguous.",
         "zwave": clean(zwave),
         "zwaveManufacturers": manufacturers,
         "zwaveJs": dict(sorted(zwave_js.items())),
+        "zwaveFirmware": firmware,
+        "zwaveFirmwareByModel": firmware_by_model,
         "zigbee": clean(zigbee),
         "matter": clean(matter),
     }
@@ -191,6 +258,8 @@ def main() -> None:
     parser.add_argument("--source-revision")
     parser.add_argument("--zwave-js-root", type=Path)
     parser.add_argument("--zwave-js-revision")
+    parser.add_argument("--firmware-updates-root", type=Path)
+    parser.add_argument("--firmware-updates-revision")
     args = parser.parse_args()
     payload = build(
         args.drivers_root,
@@ -198,6 +267,8 @@ def main() -> None:
         args.source_revision,
         args.zwave_js_root,
         args.zwave_js_revision,
+        args.firmware_updates_root,
+        args.firmware_updates_revision,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

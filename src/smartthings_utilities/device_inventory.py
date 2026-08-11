@@ -18,7 +18,7 @@ from .zwave_inventory import _firmware, _hex16, _manufacturer_code, _atomic_writ
 ZWAVE_FIRMWARE_URL = "https://firmware.zwave-js.io/api/v4/updates"
 ZIGBEE_OTA_URL = "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/index.json"
 CATALOG_URL = "https://github.com/SmartThingsCommunity/SmartThingsEdgeDrivers"
-USER_AGENT = "SmartThingsUtilities/0.2.1 (+https://github.com/delphimon/SmartThingsUtilities)"
+USER_AGENT = "SmartThingsUtilities/0.2.2 (+https://github.com/delphimon/SmartThingsUtilities)"
 
 CSV_FIELDS = [
     "label", "protocol", "resolved_device_name", "device_name_status",
@@ -185,7 +185,13 @@ def fetch_json(
         cache.parent.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(result), encoding="utf-8")
         return result
-    except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError) as error:
+    except HTTPError as error:
+        if cache.is_file():
+            return _read_json(cache)
+        details = error.read().decode("utf-8", errors="replace").strip()
+        suffix = f": {details}" if details else ""
+        raise CatalogLookupError(f"{url}: HTTP {error.code}{suffix}") from error
+    except (URLError, TimeoutError, OSError, json.JSONDecodeError) as error:
         if cache.is_file():
             return _read_json(cache)
         raise CatalogLookupError(f"{url}: {error}") from error
@@ -199,7 +205,10 @@ def _zwave_key(device: dict[str, Any]) -> tuple[str, str, str, str] | None:
         return None
     if firmware in (None, ""):
         return None
-    return tuple([*(f"0x{value:04x}" for value in values), str(firmware)])  # type: ignore[return-value]
+    firmware_text = str(firmware)
+    if re.fullmatch(r"\d{1,3}\.\d{1,3}", firmware_text):
+        firmware_text += ".0"
+    return tuple([*(f"0x{value:04x}" for value in values), firmware_text])  # type: ignore[return-value]
 
 
 def _version_key(value: Any) -> tuple[int, ...] | None:
@@ -235,14 +244,26 @@ def lookup_zwave_updates(
     keys = sorted({_zwave_key(device) for device in devices if _protocol(device) == "ZWAVE"} - {None})
     if not keys:
         return {}, None
-    payload = {"region": "usa", "devices": [
-        {"manufacturerId": key[0], "productType": key[1], "productId": key[2], "firmwareVersion": key[3]}
-        for key in keys
-    ]}
-    try:
-        response = loader(ZWAVE_FIRMWARE_URL, cache_dir=cache_dir, offline=offline, payload=payload)
-    except CatalogLookupError as error:
-        return {}, str(error)
+    failures: list[str] = []
+
+    def query(batch: list[tuple[str, str, str, str]]) -> list[Any]:
+        payload = {"region": "usa", "devices": [
+            {"manufacturerId": key[0], "productType": key[1], "productId": key[2], "firmwareVersion": key[3]}
+            for key in batch
+        ]}
+        try:
+            response = loader(
+                ZWAVE_FIRMWARE_URL, cache_dir=cache_dir, offline=offline, payload=payload
+            )
+            return response if isinstance(response, list) else []
+        except CatalogLookupError as error:
+            if len(batch) > 1 and not offline:
+                midpoint = len(batch) // 2
+                return query(batch[:midpoint]) + query(batch[midpoint:])
+            failures.append(str(error))
+            return []
+
+    response = query(keys)
     indexed: dict[tuple[str, str, str, str], dict[str, Any]] = {}
     for item in response if isinstance(response, list) else []:
         if not isinstance(item, dict):
@@ -254,7 +275,80 @@ def lookup_zwave_updates(
                    and update.get("channel") == "stable" and not update.get("downgrade")]
         updates.sort(key=lambda update: _version_key(update.get("normalizedVersion")) or ())
         indexed[key] = {"known": True, "latest": updates[-1].get("version") if updates else None}
-    return indexed, None
+    error = "; ".join(dict.fromkeys(failures)) if failures else None
+    return indexed, error
+
+
+def _bundled_zwave_firmware(
+    device: dict[str, Any], catalog: dict[str, Any]
+) -> dict[str, Any] | None:
+    block = _protocol_block(device, "ZWAVE")
+    code = _manufacturer_code(device, block)
+    current = _firmware(device)["version"]
+    current_key = _version_key(current)
+    if not code:
+        return None
+    records = catalog.get("zwaveFirmware", {}).get(code, [])
+    different_fingerprint = False
+    if not isinstance(records, list) or not records:
+        models = {
+            str(record.get("model") or "").strip().casefold()
+            for record in catalog.get("zwaveJs", {}).get(code, [])
+            if isinstance(record, dict) and record.get("model")
+        }
+        manufacturer_id = block.get("manufacturerId")
+        if len(models) != 1 or not isinstance(manufacturer_id, int):
+            return None
+        model = models.pop()
+        records = catalog.get("zwaveFirmwareByModel", {}).get(
+            f"{manufacturer_id:04X}\0{model}", []
+        )
+        if not isinstance(records, list) or not records:
+            return None
+        different_fingerprint = True
+
+    compatible: list[dict[str, Any]] = []
+    all_updates: list[dict[str, Any]] = []
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        updates = [
+            update for update in record.get("updates", [])
+            if isinstance(update, dict)
+            and update.get("channel", "stable") == "stable"
+            and update.get("region") in (None, "usa")
+            and isinstance(update.get("version"), str)
+        ]
+        all_updates.extend(updates)
+        minimum = _version_key(record.get("minVersion"))
+        maximum = _version_key(record.get("maxVersion"))
+        if (
+            not different_fingerprint
+            and current_key is not None
+            and minimum is not None
+            and maximum is not None
+            and minimum <= current_key <= maximum
+        ):
+            compatible.extend(updates)
+
+    def latest(items: list[dict[str, Any]]) -> dict[str, Any] | None:
+        if not items:
+            return None
+        return max(items, key=lambda item: _version_key(item.get("version")) or ())
+
+    if compatible:
+        selected = latest(compatible)
+        return {
+            "compatible": True,
+            "differentFingerprint": different_fingerprint,
+            "latest": selected.get("version") if selected else None,
+        }
+    selected = latest(all_updates)
+    return {
+        "compatible": None if current_key is None else False,
+        "differentFingerprint": different_fingerprint,
+        "latest": selected.get("version") if selected else None,
+    }
 
 
 def lookup_zigbee_updates(
@@ -337,17 +431,45 @@ def normalize_device(
     latest_status = "SMARTTHINGS_REPORTED" if latest not in (None, "") else "UNKNOWN"
     source = "SMARTTHINGS_FIRMWARE_CAPABILITY" if latest_status != "UNKNOWN" else None
     source_url = "https://developer.smartthings.com/docs/devices/capabilities/capabilities-reference#firmwareUpdate" if source else None
+    update_status_override: str | None = None
 
     if latest in (None, "") and protocol == "ZWAVE":
         key = _zwave_key(device)
         match = zwave_updates.get(tuple(part.casefold() for part in key)) if key else None
+        bundled = _bundled_zwave_firmware(device, catalog)
         if match and match.get("latest"):
             latest, latest_status = match["latest"], "CATALOG_UPDATE_AVAILABLE"
             source, source_url = "ZWAVE_JS_FIRMWARE_UPDATE_SERVICE", ZWAVE_FIRMWARE_URL
         elif match:
             latest_status, source, source_url = "CATALOG_NO_NEWER_VERSION", "ZWAVE_JS_FIRMWARE_UPDATE_SERVICE", ZWAVE_FIRMWARE_URL
+        elif bundled and bundled.get("latest") and bundled.get("compatible"):
+            latest, latest_status = bundled["latest"], "CATALOG_LATEST"
+            source = "BUNDLED_ZWAVE_JS_FIRMWARE_CATALOG"
+            source_url = "https://github.com/zwave-js/firmware-updates"
+        elif bundled and bundled.get("latest") and bundled.get("differentFingerprint"):
+            latest = bundled["latest"]
+            latest_status = "CATALOG_LATEST_DIFFERENT_HARDWARE_FINGERPRINT"
+            update_status_override = "NOT_COMPATIBLE_WITH_DEVICE_FINGERPRINT"
+            source = "BUNDLED_ZWAVE_JS_FIRMWARE_CATALOG"
+            source_url = "https://github.com/zwave-js/firmware-updates"
+        elif bundled and bundled.get("latest") and bundled.get("compatible") is None:
+            latest = bundled["latest"]
+            latest_status = "CATALOG_LATEST_COMPATIBILITY_UNKNOWN"
+            update_status_override = "CURRENT_FIRMWARE_REQUIRED_FOR_COMPATIBILITY"
+            source = "BUNDLED_ZWAVE_JS_FIRMWARE_CATALOG"
+            source_url = "https://github.com/zwave-js/firmware-updates"
+        elif bundled and bundled.get("latest"):
+            latest = bundled["latest"]
+            latest_status = "CATALOG_LATEST_INCOMPATIBLE_BRANCH"
+            update_status_override = "NOT_COMPATIBLE_WITH_CURRENT_FIRMWARE_BRANCH"
+            source = "BUNDLED_ZWAVE_JS_FIRMWARE_CATALOG"
+            source_url = "https://github.com/zwave-js/firmware-updates"
         elif "zwave" in lookup_errors:
-            latest_status = "LOOKUP_FAILED"
+            latest_status = (
+                "ONLINE_LOOKUP_SKIPPED_NOT_IN_BUNDLED_CATALOG"
+                if lookup_errors["zwave"].startswith("offline and no cached response")
+                else "LOOKUP_FAILED"
+            )
         elif key is None:
             latest_status = "CURRENT_VERSION_OR_FINGERPRINT_REQUIRED"
         else:
@@ -384,7 +506,9 @@ def normalize_device(
         "matterVendorId": _hex16(matter.get("vendorId")), "matterProductId": _hex16(matter.get("productId")),
         "currentFirmware": current, "currentFirmwareStatus": firmware["status"],
         "latestFirmware": latest, "latestFirmwareStatus": latest_status,
-        "updateStatus": _update_status(current, latest, firmware["updateAvailable"]),
+        "updateStatus": update_status_override or _update_status(
+            current, latest, firmware["updateAvailable"]
+        ),
         "firmwareSource": source, "firmwareSourceUrl": source_url,
         "health": health.get("state"), "healthLastUpdated": health.get("lastUpdatedDate"),
         "location": device.get("location"), "room": device.get("room"),
@@ -424,7 +548,8 @@ def build_inventory(
             "deviceNames": {
                 key: catalog.get(key) for key in (
                     "source", "sourceRevision", "zwaveJsSource",
-                    "zwaveJsSourceRevision", "generatedAt",
+                    "zwaveJsSourceRevision", "firmwareUpdatesSource",
+                    "firmwareUpdatesSourceRevision", "generatedAt",
                 )
             },
             "zwaveFirmware": ZWAVE_FIRMWARE_URL, "zigbeeFirmware": ZIGBEE_OTA_URL,
