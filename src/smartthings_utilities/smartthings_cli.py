@@ -30,7 +30,11 @@ def load_devices_file(path: Path) -> list[dict[str, Any]]:
     return payload
 
 
-def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
+def fetch_devices(
+    profile: str = "default",
+    *,
+    device_types: list[str] | None = None,
+) -> list[dict[str, Any]]:
     executable = shutil.which("smartthings")
     if executable is None:
         raise SmartThingsCLIError(
@@ -40,7 +44,7 @@ def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
     temporary_path: Path | None = None
     try:
         with tempfile.NamedTemporaryFile(
-            prefix="smartthings-zwave-",
+            prefix="smartthings-devices-",
             suffix=".json",
             delete=False,
         ) as temporary_file:
@@ -49,8 +53,6 @@ def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
         command = [
             executable,
             "devices",
-            "--type",
-            "zwave",
             "--verbose",
             "--status",
             "--health",
@@ -58,6 +60,8 @@ def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
             "--output",
             str(temporary_path),
         ]
+        if device_types:
+            command.extend(["--type", *device_types])
         if profile != "default":
             command.extend(["--profile", profile])
 
@@ -81,3 +85,8 @@ def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
     finally:
         if temporary_path is not None:
             temporary_path.unlink(missing_ok=True)
+
+
+def fetch_zwave_devices(profile: str = "default") -> list[dict[str, Any]]:
+    """Backward-compatible Z-Wave-only wrapper."""
+    return fetch_devices(profile=profile, device_types=["zwave"])
